@@ -41,3 +41,19 @@
     "vendor/font-awesome/brands",
     "vendor/magnific-popup/magnific-popup"
 ;
+
+/* ===== Custom styles by Yuanru Tan ===== */
+
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&family=Open+Sans&display=swap');
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 17px;
+  line-height: 1.25;
+  color: #333; /* 你可以暂时设成 #c78e5b 测试 */
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Merriweather', serif;
+  font-weight: 600;
+}
