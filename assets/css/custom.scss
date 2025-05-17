@@ -1,0 +1,16 @@
+/* Use Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&family=Open+Sans&display=swap');
+
+/* Apply font to all text */
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 17px;
+  line-height: 1.7;
+  color: #333;
+}
+
+/* Apply to headings */
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Merriweather', serif;
+  font-weight: 600;
+}
