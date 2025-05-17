@@ -23,9 +23,11 @@ repository               : "academicpages/academicpages.github.io"
 author:
   # Biographic information
   avatar           : "YT.png"
-  name             : "Yuanru Tan 谭远儒"
+  name             : "Yuanru Tan"
   pronouns         : # example: "she/her"  
-  bio              : "Ph.D Candidate at UW-Madison"
+  bio              : |
+  "Ph.D. Candidate at UW-Madison"
+  [yuanru.tan@wisc.edu](mailto:yuanru.tan@wisc.edu)
  #location         : "Earth"
   #employer         : "University of Wisconsin Madison"
   uri              : # URL
