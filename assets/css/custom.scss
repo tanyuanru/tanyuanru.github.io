@@ -33,4 +33,17 @@ h1, h2, h3, h4, h5, h6 {
   margin: 0 auto;
 }
 
+.author__avatar-img {
+  max-width: 140px;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+  border-radius: 8px; /* 稍微圆润 */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* 柔和下投影 */
+  transition: transform 0.2s ease;
+}
+
+.author__avatar-img:hover {
+  transform: scale(1.03); /* 鼠标悬停微微放大 */
+}
 
