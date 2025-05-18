@@ -30,11 +30,11 @@ a {
   text-decoration: underline;
 }
 
-/* ✅ 首页头像：正方形 + 阴影 + hover 动效 */
-div.author__avatar img.author__avatar-img {
-  width: 140px;
-  height: 140px;
-  object-fit: cover;
+/* 强制覆盖 sidebar 头像圆角样式 */
+.sidebar .author__avatar img.author__avatar-img {
+  width: 140px !important;
+  height: 140px !important;
+  object-fit: cover !important;
   border-radius: 0 !important;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
   transition: transform 0.2s ease;
@@ -42,7 +42,7 @@ div.author__avatar img.author__avatar-img {
   margin: 0 auto;
 }
 
-div.author__avatar img.author__avatar-img:hover {
+.sidebar .author__avatar img.author__avatar-img:hover {
   transform: scale(1.03);
 }
 
@@ -52,3 +52,20 @@ div.author__avatar img.author__avatar-img:hover {
   margin: 0 auto 1em;
   text-align: center;
 }
+
+/* ✅ fallback 头像样式，防止没有 sidebar 类时失效 */
+img.author__avatar-img {
+  width: 140px !important;
+  height: 140px !important;
+  object-fit: cover !important;
+  border-radius: 0 !important;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease;
+  display: block;
+  margin: 0 auto;
+}
+
+img.author__avatar-img:hover {
+  transform: scale(1.03);
+}
+
