@@ -1,5 +1,5 @@
 ---
-layout: home
+layout: single
 permalink: /
 title: "About Me"
 author_profile: true
@@ -8,13 +8,9 @@ redirect_from:
   - /about.html
 ---
 
-I’m <span class="keyword">**Yuanru Tan**</span>, a Ph.D. candidate in the <span class="keyword">**Learning Sciences**</span> program at the University of Wisconsin–Madison. 
+I’m <span class="keyword">**Yuanru Tan**</span>, a Ph.D. candidate in the <span class="keyword">**Learning Sciences**</span> program at the University of Wisconsin–Madison. I’m advised by [Professor David Williamson Shaffer](https://edpsych.education.wisc.edu/fac-staff/williamson-shaffer-david/) in the [Epistemic Analytics Lab](https://epistemicanalytics.org/), part of the [Center for Research on Complex Thinking](https://www.crct.center/).
 
-I’m advised by [Professor David Williamson Shaffer](https://edpsych.education.wisc.edu/fac-staff/williamson-shaffer-david/) in the [Epistemic Analytics Lab](https://epistemicanalytics.org/), part of the [Center for Research on Complex Thinking](https://www.crct.center/).
-
-I’m trained as a methodologist. I design methods and build tools to support educational research. 
-
-What excites me most about my work is <span class="keyword">storytelling</span>: finding both _mathematical_ and _visual_ representations of how people learn, and aligning them to tell faithful, meaningful stories of learning.
+I’m trained as a methodologist. I design methods and build tools to support educational research. What excites me most about my work is <span class="keyword">storytelling</span>: finding both _mathematical_ and _visual_ representations of how people learn, and aligning them to tell faithful, meaningful stories of learning.
 
 In recent years, I’ve led the development of methods like [<span class="keyword">Ordered Network Analysis</span>](https://link.springer.com/chapter/10.1007/978-3-031-31726-2_8), which have been adopted in studies across Quantitative Ethnography, Learning Analytics, and Educational Data Mining. 
 
