@@ -22,16 +22,16 @@ repository               : "academicpages/academicpages.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "images/YT.JPG"
-  name             : "Yuanru Tan"
-  pronouns         : # example: "she/her"  
-  bio              : |
-  "Ph.D. Candidate at UW-Madison"
-  [yuanru.tan@wisc.edu](mailto:yuanru.tan@wisc.edu)
- #location         : "Earth"
-  #employer         : "University of Wisconsin Madison"
-  uri              : # URL
-  email            : "yuanru.tan@wisc.edu" 
+  avatar: "images/YT.JPG"
+  name: "Yuanru Tan"
+  #pronouns: "she/her"
+  bio: |
+    Ph.D. Candidate at UW–Madison  
+    [yuanru.tan@wisc.edu](mailto:yuanru.tan@wisc.edu)
+# location: "Earth"
+# employer: "University of Wisconsin Madison"
+# uri:
+email: "yuanru.tan@wisc.edu"
 
   # Academic websites
   #academia         : # URL
