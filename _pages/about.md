@@ -43,3 +43,6 @@ Currently, I’m developing methods to model and visualize **high-dimensional ti
 Before starting my Ph.D., I worked as a Learning Experience Designer for Accessibility at the [Center for Academic Innovation](https://ai.umich.edu/), where I created inclusive learning designs under the supervision of [Professor Rebecca Quintana](https://marsal.umich.edu/directory/faculty-staff/rebecca-quintana).
 
 I earned my Master’s degree in Education from the University of Michigan–Ann Arbor, advised by [Professor Chris Quintana](https://soe.umich.edu/directory/christopher-quintana) at the [Marsal Family School of Education](https://marsal.umich.edu/), and received my Bachelor’s degree in Information Management Systems from [Tianjin University of Technology](https://www.tjut.edu.cn/) in China.
+
+![测试头像](/images/avatar.jpg)
+
