@@ -33,3 +33,14 @@ h1, h2, h3, h4, h5, h6 {
   display: block;
   margin: 0 auto;
 }
+
+.author__avatar img {
+  aspect-ratio: 1 / 1 !important;
+  object-fit: cover !important;
+  width: 120px !important;
+  height: 120px !important;
+  border-radius: 50% !important;
+  display: block;
+  margin: 0 auto;
+}
+
