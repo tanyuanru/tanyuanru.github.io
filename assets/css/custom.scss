@@ -1,10 +1,7 @@
----
----
-
-/* ✅ 引入 Google Fonts */
+/* 引入 Google Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Merriweather&family=Open+Sans&display=swap');
 
-/* ✅ 全站基础字体样式 */
+/* 全站基础字体样式 */
 body {
   font-family: 'Open Sans', sans-serif;
   font-size: 17px;
@@ -12,19 +9,13 @@ body {
   color: #c78e5b;
 }
 
-/* ✅ 标题使用另一种字体 */
+/* 标题使用另一种字体 */
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Merriweather', serif;
   font-weight: 600;
 }
 
-/* ✅ keyword 类高亮颜色（不加粗）*/
-.keyword {
-  color: #df536b; /* 粉红/红色调，可自行替换 */
-  font-weight: normal;
-}
-
-/* ✅ 链接样式：正文颜色 + 下划线 */
+/* 链接样式：正文颜色 + 下划线 */
 a {
   color: inherit;
   text-decoration: underline;
@@ -36,36 +27,12 @@ a {
   height: 140px !important;
   object-fit: cover !important;
   border-radius: 0 !important;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-  transition: transform 0.2s ease;
-  display: block;
-  margin: 0 auto;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1) !important;
+  transition: transform 0.2s ease !important;
+  display: block !important;
+  margin: 0 auto !important;
 }
 
 .sidebar .author__avatar img.author__avatar-img:hover {
-  transform: scale(1.03);
+  transform: scale(1.03) !important;
 }
-
-/* ✅ 控制 avatar 区块对齐和间距 */
-.author__avatar {
-  display: block;
-  margin: 0 auto 1em;
-  text-align: center;
-}
-
-/* ✅ fallback 头像样式，防止没有 sidebar 类时失效 */
-img.author__avatar-img {
-  width: 140px !important;
-  height: 140px !important;
-  object-fit: cover !important;
-  border-radius: 0 !important;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-  transition: transform 0.2s ease;
-  display: block;
-  margin: 0 auto;
-}
-
-img.author__avatar-img:hover {
-  transform: scale(1.03);
-}
-
