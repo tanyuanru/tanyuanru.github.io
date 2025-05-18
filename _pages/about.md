@@ -17,30 +17,57 @@ I’m a methodologist-in-training. My work focuses on developing tools and techn
 
 ## Projects I’m Excited About
 
-### <img src="/images/ona-logo.png" alt="ONA Icon" width="20" style="margin-right: 6px;" /> **Ordered Network Analysis (ONA)**  
-I led the development of ONA, an extension of Epistemic Network Analysis (ENA) that allows researchers to model, visualize, and statistically compare temporal structures in discourse data.
+<table style="margin-top: 1em;">
+  <tr>
+    <td style="width: 160px; vertical-align: top;">
+      <img src="/images/ona-logo.png" alt="ONA Icon" style="width: 140px; border-radius: 8px;" />
+    </td>
+    <td style="vertical-align: top;">
+      ### **Ordered Network Analysis (ONA)**  
+      I led the development of ONA, an extension of Epistemic Network Analysis (ENA) that allows users to model, visualize, and statistically compare temporal structures in discourse data.
 
-- 📄 *Ordered Network Analysis.*  
-Tan, Y., Ruis, A. R., Marquart, C., Cai, Z., Knowles, M. A., & Shaffer, D. W. (2022). *International Conference on Quantitative Ethnography*, 101–116. *(Best Student Paper Award)*
+      - 📄 *Ordered Network Analysis.*  
+      Tan, Y., Ruis, A. R., Marquart, C., Cai, Z., Knowles, M. A., & Shaffer, D. W. (2022). *International Conference on Quantitative Ethnography*, 101–116. *(Best Student Paper Award)*
 
-- 📘 *Tutorial chapter on ENA and ONA in R*  
-Tan, Y., Swiecki, Z., Ruis, A. R., & Shaffer, D. (2024). In *Learning Analytics Methods and Tutorials: A Practical Guide Using R*, 569–636.
+      - 📘 *Tutorial chapter on ENA and ONA in R*  
+      Tan, Y., Swiecki, Z., Ruis, A. R., & Shaffer, D. (2024). In *Learning Analytics Methods and Tutorials: A Practical Guide Using R*, 569–636.
 
-➡️ Try the [ONA web tool](https://epistemicanalytics.org/tools/) or build your own model in R with our tutorial.
+      Try the [ONA web tool](https://epistemicanalytics.org/tools/) or build your own model in R with our tutorial.
+    </td>
+  </tr>
+</table>
 
 ---
 
-### <img src="/images/iplan-logo.png" alt="iPlan Icon" width="20" style="margin-right: 6px;" /> **iPlan**  
-*iPlan* is a customizable simulation for socio-environmental planning. To address the complexity of assessing user performance, we proposed a QE-based method that constructs analytic models from log data alone—enabling rich analysis even when no predefined rubrics are available.
+<table style="margin-top: 1em;">
+  <tr>
+    <td style="width: 160px; vertical-align: top;">
+      <img src="/images/iplan-logo.png" alt="iPlan Icon" style="width: 140px; border-radius: 8px;" />
+    </td>
+    <td style="vertical-align: top;">
+      ### **iPlan**  
+      *iPlan* is a customizable simulation for socio-environmental planning. To address the complexity of assessing user performance, we proposed a QE-based method that constructs analytic models from log data alone—enabling rich analysis even when no predefined rubrics are available.
 
-- 📄 Ruis, A. R., Tan, Y., et al. (2023). *Thin data, thick description*. *International Conference on Quantitative Ethnography*, 349–364.
+      - 📄 Ruis, A. R., Tan, Y., et al. (2023). *Thin data, thick description*. *International Conference on Quantitative Ethnography*, 349–364.
+    </td>
+  </tr>
+</table>
 
 ---
 
-### <img src="/images/trajectory-logo.png" alt="Trajectory Icon" width="20" style="margin-right: 6px;" /> **Learning Trajectories**  
-I’m developing methods to model and visualize high-dimensional time series data to capture how learning unfolds over time. This work brings together dimensionality reduction, smoothing, and trajectory comparison techniques to identify meaningful patterns in complex learning data.
+<table style="margin-top: 1em;">
+  <tr>
+    <td style="width: 160px; vertical-align: top;">
+      <img src="/images/trajectory-logo.png" alt="Trajectory Icon" style="width: 140px; border-radius: 8px;" />
+    </td>
+    <td style="vertical-align: top;">
+      ### **Learning Trajectories**  
+      I’m developing methods to model and visualize high-dimensional time series data to capture how learning unfolds over time. This work brings together dimensionality reduction, smoothing, and trajectory comparison techniques to identify meaningful patterns in complex learning data.
 
-🧠 Have interesting time series data? I’d love to collaborate—feel free to [reach out](mailto:yuanru.tan@wisc.edu)!
+      🧠 Have interesting time series data? I’d love to collaborate—feel free to [reach out](mailto:yuanru.tan@wisc.edu)!
+    </td>
+  </tr>
+</table>
 
 ---
 
