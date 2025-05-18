@@ -25,19 +25,17 @@ h1, h2, h3, h4, h5, h6 {
   text-align: center;
 }
 
-.author__avatar-img {
+.author__avatar-img:hover {
+  transform: scale(1.03); /* 鼠标悬停微微放大 */
+}
+
+div.author__avatar img.author__avatar-img {
   max-width: 140px;
   height: auto;
   display: block;
   margin: 0 auto;
-  border-radius: 8px !important; /* ← 用 !important 强制覆盖 */
+  border-radius: 8px !important; /* ← 强制微圆角而非椭圆 */
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
   transition: transform 0.2s ease;
-  background: lightblue;
-}
-
-
-.author__avatar-img:hover {
-  transform: scale(1.03); /* 鼠标悬停微微放大 */
 }
 
