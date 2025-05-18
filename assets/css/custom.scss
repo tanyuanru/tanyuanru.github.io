@@ -14,3 +14,17 @@ h1, h2, h3, h4, h5, h6 {
   font-family: 'Merriweather', serif;
   font-weight: 600;
 }
+
+.author__avatar {
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.author__avatar img {
+  display: block;
+  max-width: 120px;
+  border-radius: 50%;
+  margin: 0 auto;
+}
+
