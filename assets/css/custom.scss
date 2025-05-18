@@ -1,7 +1,10 @@
-/* 引入 Google Fonts */
-@import url('https://fonts.googleapis.com/css2?family=Merriweather&family=Open+Sans&display=swap');
+---
+---
 
-/* 全站基础字体样式 */
+/* ✅ 引入 IBM Plex 字体 */
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans&family=IBM+Plex+Serif&display=swap');
+
+/* ✅ 全站基础字体样式 */
 body {
   font-family: 'IBM Plex Sans', sans-serif;
   font-size: 16px;
@@ -9,23 +12,24 @@ body {
   color: #c78e5b;
 }
 
-/* 标题使用另一种字体 */
+/* ✅ 标题使用 Serif 字体 */
 h1, h2, h3, h4, h5, h6 {
   font-family: 'IBM Plex Serif', serif;
   font-weight: 600;
 }
 
-/* 链接样式：正文颜色 + 下划线 */
+/* ✅ 链接样式 */
 a {
   color: inherit;
   text-decoration: underline;
 }
 
+/* ✅ 头像设置：方形 + 投影 */
 .sidebar .author__avatar img.author__avatar-img {
   width: 140px !important;
   height: 140px !important;
   object-fit: cover !important;
-  border-radius: 0 !important; /* 强制方形 */
+  border-radius: 0 !important;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
   display: block;
   margin: 0 auto;
@@ -36,7 +40,7 @@ a {
   transform: scale(1.03) !important;
 }
 
-/* 统一 sidebar 内容的居中样式 */
+/* ✅ sidebar 字体居中 */
 .sidebar .author__content,
 .sidebar .author__urls-wrapper {
   text-align: center;
