@@ -21,24 +21,24 @@ repository               : "academicpages/academicpages.github.io"
 #               If a field is blank the icon and link will not appear, otherwise it will be shown.
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
-  # Biographic information
   avatar: "images/YT.JPG"
   name: "Yuanru Tan"
   #pronouns: "she/her"
   bio: |
     Ph.D. Candidate at UW–Madison  
     [yuanru.tan@wisc.edu](mailto:yuanru.tan@wisc.edu)
-# location: "Earth"
-# employer: "University of Wisconsin Madison"
-# uri:
-email: "yuanru.tan@wisc.edu"
+  #location: "Earth"
+  #employer: "University of Wisconsin Madison"
+  #uri:
+  email: "yuanru.tan@wisc.edu"
 
   # Academic websites
-  #academia         : # URL
-  #arxiv            : # URL - Update with the correct link to your profile
-  googlescholar    : "https://scholar.google.com/citations?user=qb-mwrAAAAAJ&hl=en"
-  impactstory      : # URL
-  orcid            : "https://orcid.org/0000-0001-5154-9667"
+  #academia: 
+  #arxiv: 
+  googlescholar: "https://scholar.google.com/citations?user=qb-mwrAAAAAJ&hl=en"
+  impactstory: 
+  orcid: "https://orcid.org/0000-0001-5154-9667"
+
   #semantic         : # URL
   #pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
   #researchgate     : # URL
