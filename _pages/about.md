@@ -1,5 +1,4 @@
 ---
-layout: single
 permalink: /
 title: "About Me"
 author_profile: true
@@ -10,39 +9,43 @@ redirect_from:
 
 ## About Me
 
-I’m **Yuanru Tan**, a Ph.D. candidate in the *Learning Sciences* program at the University of Wisconsin–Madison. I’m advised by [Professor David Williamson Shaffer](https://edpsych.education.wisc.edu/fac-staff/williamson-shaffer-david/) in the [Epistemic Analytics Lab](https://epistemicanalytics.org/), part of the [Center for Research on Complex Thinking](https://www.crct.center/).
+I’m **Yuanru Tan**, a Ph.D. candidate in the **Learning Sciences** program at the University of Wisconsin–Madison. I’m advised by [Professor David Williamson Shaffer](https://edpsych.education.wisc.edu/fac-staff/williamson-shaffer-david/) in the [Epistemic Analytics Lab](https://epistemicanalytics.org/), part of the Center for Research on Complex Thinking.
 
-I’m a methodologist-in-training, focused on designing tools and techniques to study learning. My work explores how to model complex learning processes—both mathematically and visually—to tell faithful, meaningful stories of how people learn.
+I’m a methodologist-in-training. My work focuses on developing tools and techniques to model complex learning processes—both mathematically and visually—to tell faithful, meaningful stories of how people learn.
 
 ---
 
 ## Projects I’m Excited About
 
-### 📊 Ordered Network Analysis
+### <img src="/images/ona-logo.png" alt="ONA Icon" width="20" style="margin-right: 6px;" /> **Ordered Network Analysis (ONA)**  
+I led the development of ONA, an extension of Epistemic Network Analysis (ENA) that allows researchers to model, visualize, and statistically compare temporal structures in discourse data.
 
-We developed **Ordered Network Analysis (ONA)** to model, visualize, and statistically compare temporal structures in discourse. Built on Epistemic Network Analysis (ENA), ONA allows researchers to capture how connections among coded elements evolve over time, and to represent those changes as dynamic network trajectories.
+- 📄 *Ordered Network Analysis.*  
+Tan, Y., Ruis, A. R., Marquart, C., Cai, Z., Knowles, M. A., & Shaffer, D. W. (2022). *International Conference on Quantitative Ethnography*, 101–116. *(Best Student Paper Award)*
 
-> *ONA is designed to bridge the gap between qualitative structure and quantitative temporal modeling.*
+- 📘 *Tutorial chapter on ENA and ONA in R*  
+Tan, Y., Swiecki, Z., Ruis, A. R., & Shaffer, D. (2024). In *Learning Analytics Methods and Tutorials: A Practical Guide Using R*, 569–636.
 
-### 🗺️ iPlan
+➡️ Try the [ONA web tool](https://epistemicanalytics.org/tools/) or build your own model in R with our tutorial.
 
-**iPlan** is a simulation tool for exploring socio-environmental planning. We proposed a novel QE-based method that automatically generates a learning analytic model using only system log data. This enables rich analysis of learners' problem-solving strategies—even when normative criteria or detailed qualitative codes are unavailable.
+---
 
-> *This project explores how data simulation and network analysis can support adaptive feedback in customizable environments.*
+### <img src="/images/iplan-logo.png" alt="iPlan Icon" width="20" style="margin-right: 6px;" /> **iPlan**  
+*iPlan* is a customizable simulation for socio-environmental planning. To address the complexity of assessing user performance, we proposed a QE-based method that constructs analytic models from log data alone—enabling rich analysis even when no predefined rubrics are available.
 
-### ⏳ Learning Trajectories
+- 📄 Ruis, A. R., Tan, Y., et al. (2023). *Thin data, thick description*. *International Conference on Quantitative Ethnography*, 349–364.
 
-Currently, I’m developing methods to model and visualize **high-dimensional time series data** to understand how learning unfolds over time. My goal is to preserve meaningful temporal structures while making the trajectories interpretable, both statistically and visually.
+---
 
-> *This work combines dimensionality reduction, smoothing, and trajectory comparison techniques to surface patterns in complex learning processes.*
+### <img src="/images/trajectory-logo.png" alt="Trajectory Icon" width="20" style="margin-right: 6px;" /> **Learning Trajectories**  
+I’m developing methods to model and visualize high-dimensional time series data to capture how learning unfolds over time. This work brings together dimensionality reduction, smoothing, and trajectory comparison techniques to identify meaningful patterns in complex learning data.
+
+🧠 Have interesting time series data? I’d love to collaborate—feel free to [reach out](mailto:yuanru.tan@wisc.edu)!
 
 ---
 
 ## Before the Ph.D.
 
-Before starting my Ph.D., I worked as a Learning Experience Designer for Accessibility at the [Center for Academic Innovation](https://ai.umich.edu/), where I created inclusive learning designs under the supervision of [Professor Rebecca Quintana](https://marsal.umich.edu/directory/faculty-staff/rebecca-quintana).
+Before starting my Ph.D., I worked as a Learning Experience Designer for Accessibility at the [Center for Academic Innovation](https://ai.umich.edu/) under [Professor Rebecca Quintana](https://marsal.umich.edu/directory/faculty-staff/rebecca-quintana). I designed online learning experiences and conducted qualitative research.  
 
-I earned my Master’s degree in Education from the University of Michigan–Ann Arbor, advised by [Professor Chris Quintana](https://soe.umich.edu/directory/christopher-quintana) at the [Marsal Family School of Education](https://marsal.umich.edu/), and received my Bachelor’s degree in Information Management Systems from [Tianjin University of Technology](https://www.tjut.edu.cn/) in China.
-
-![测试头像](/images/avatar.jpg)
-
+I hold an M.A. in Education from the University of Michigan–Ann Arbor (advised by [Professor Chris Quintana](https://soe.umich.edu/directory/christopher-quintana)) and a B.S. in Information Management Systems from Tianjin University of Technology in China.
