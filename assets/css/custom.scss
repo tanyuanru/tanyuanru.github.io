@@ -1,10 +1,10 @@
 ---
 ---
 
-/* Use Google Fonts */
+/* ✅ 引入 Google Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Merriweather&family=Open+Sans&display=swap');
 
-/* Apply font to all text */
+/* ✅ 全站基础字体样式 */
 body {
   font-family: 'Open Sans', sans-serif;
   font-size: 17px;
@@ -12,30 +12,43 @@ body {
   color: #c78e5b;
 }
 
-/* Apply to headings */
+/* ✅ 标题使用另一种字体 */
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Merriweather', serif;
   font-weight: 600;
 }
 
-.author__avatar {
-  display: block;
-  margin: 0 auto;
-  margin-bottom: 1em;
-  text-align: center;
+/* ✅ keyword 类高亮颜色（不加粗）*/
+.keyword {
+  color: #df536b; /* 粉红/红色调，可自行替换 */
+  font-weight: normal;
 }
 
-.author__avatar-img:hover {
-  transform: scale(1.03); /* 鼠标悬停微微放大 */
+/* ✅ 链接样式：正文颜色 + 下划线 */
+a {
+  color: inherit;
+  text-decoration: underline;
 }
 
+/* ✅ 首页头像：正方形 + 阴影 + hover 动效 */
 div.author__avatar img.author__avatar-img {
-  max-width: 140px;
-  height: auto;
-  display: block;
-  margin: 0 auto;
-  border-radius: 8px !important; /* ← 强制微圆角而非椭圆 */
+  width: 140px;
+  height: 140px;
+  object-fit: cover;
+  border-radius: 0 !important;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
   transition: transform 0.2s ease;
+  display: block;
+  margin: 0 auto;
 }
 
+div.author__avatar img.author__avatar-img:hover {
+  transform: scale(1.03);
+}
+
+/* ✅ 控制 avatar 区块对齐和间距 */
+.author__avatar {
+  display: block;
+  margin: 0 auto 1em;
+  text-align: center;
+}
