@@ -21,26 +21,16 @@ h1, h2, h3, h4, h5, h6 {
 .author__avatar {
   display: block;
   margin: 0 auto;
+  margin-bottom: 1em;
   text-align: center;
 }
 
 .author__avatar img {
-  aspect-ratio: 1 / 1;
-  object-fit: cover;
-  width: 120px;
-  height: 120px;
-  border-radius: 50%;
+  max-width: 140px;
+  height: auto;
+  border-radius: 0;
   display: block;
   margin: 0 auto;
 }
 
-.author__avatar img {
-  aspect-ratio: 1 / 1 !important;
-  object-fit: cover !important;
-  width: 120px !important;
-  height: 120px !important;
-  border-radius: 50% !important;
-  display: block;
-  margin: 0 auto;
-}
 
