@@ -22,9 +22,11 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .author__avatar img {
-  display: block;
-  max-width: 120px;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+  width: 120px;
+  height: 120px;
   border-radius: 50%;
+  display: block;
   margin: 0 auto;
 }
-
