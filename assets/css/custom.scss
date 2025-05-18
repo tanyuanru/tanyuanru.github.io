@@ -21,16 +21,15 @@ a {
   text-decoration: underline;
 }
 
-/* 强制覆盖 sidebar 头像圆角样式 */
 .sidebar .author__avatar img.author__avatar-img {
   width: 140px !important;
   height: 140px !important;
   object-fit: cover !important;
-  border-radius: 0 !important;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1) !important;
-  transition: transform 0.2s ease !important;
-  display: block !important;
-  margin: 0 auto !important;
+  border-radius: 0 !important; /* 强制方形 */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  display: block;
+  margin: 0 auto;
+  transition: transform 0.2s ease;
 }
 
 .sidebar .author__avatar img.author__avatar-img:hover {
