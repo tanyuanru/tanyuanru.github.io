@@ -9,7 +9,7 @@ redirect_from:
 
 I’m **Yuanru Tan** (“Yoo-en-roo” — close to Mandarin pinyin *Yuǎnrú*), a Ph.D. candidate in the Learning Sciences program at the University of Wisconsin–Madison. I’m advised by [Professor David Williamson Shaffer](https://edpsych.education.wisc.edu/fac-staff/williamson-shaffer-david/) in the [Epistemic Analytics Lab](https://www.epistemicanalytics.org/), part of the [Center for Research on Complex Thinking](https://www.crct.center/).
 
-I’m a **methodologist-in-training**. My work focuses on developing analytical tools and statistical techniques to model complex learning processes—both mathematically and visually—to tell faithful, meaningful stories about how people learn. I follow an iterative cycle: identifying mathematical structures behind complex learning phenomena, empirically testing those structures, and ultimately designing tools and interfaces that researchers can use in their own domains.
+I’m a **methodologist-in-training**. My work focuses on developing analytical tools and statistical techniques to model complex learning processes—both _mathematically_ and _visually_—to tell faithful, meaningful stories about how people learn. I follow an iterative cycle: identifying mathematical structures behind complex learning phenomena, empirically testing those structures, and ultimately designing tools and interfaces that researchers can use in their own domains.
 
 ---
 
@@ -70,7 +70,7 @@ I’m a **methodologist-in-training**. My work focuses on developing analytical 
   <div class="project-text">
     <h3><strong>iPlan</strong></h3>
 
-    iPlan is a mobile simulation game where users create land-use models and explore the effects of planning decisions on environmental and socio-economic outcomes. Its open-ended design poses challenges for assessment. We developed a novel approach that builds learning analytics models directly from system log data without rubrics or hand-coded features.
+    iPlan is a mobile simulation game where users create land-use models and explore the effects of planning decisions on environmental and socio-economic outcomes. Its open-ended design poses challenges for assessment. We developed a novel approach that builds learning analytics models directly from system log data to provide thick descriptions to thin data.
 
     <ul style="margin-top: 0.8em; padding-left: 1.2em;">
       <li>🕹️ <a href="https://www.i-plan.us/">Explore the iPlan simulation</a></li>
