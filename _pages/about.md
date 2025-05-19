@@ -15,59 +15,63 @@ I’m a methodologist-in-training. My work focuses on developing tools and techn
 
 ## Projects I’m Excited About
 
+<style>
+.project-row {
+  display: flex;
+  align-items: flex-start;
+  gap: 20px;
+  margin-bottom: 2.5em;
+}
+
+.project-image {
+  width: 110px;
+  flex-shrink: 0;
+  margin-top: 4px;
+}
+
+.project-text {
+  line-height: 1.5;
+}
+</style>
+
 <!-- ONA -->
-<img src="/images/ona-logo.png" alt="ONA Icon" width="90" style="float: left; margin-right: 20px; margin-top: 6px;" />
+<div class="project-row">
+  <img src="/images/ona-logo.png" alt="ONA Icon" class="project-image" />
+  <div class="project-text">
+    <h3><strong>Ordered Network Analysis (ONA)</strong></h3>
 
-<div class="project-block" style="line-height: 1.5;">
+    ONA extends Epistemic Network Analysis (ENA) to model how ideas unfold over time in discourse. I led its development to help researchers visualize and compare temporal patterns in learning and communication. It has been used in education, healthcare, and other domains.
 
-### **Ordered Network Analysis (ONA)**
+    We describe the method in <a href="https://doi.org/10.1007/978-3-031-22319-1_8">this paper</a>, and walk through implementation in <a href="https://doi.org/10.4324/9781003371300-37">this tutorial</a>.
 
-ONA extends Epistemic Network Analysis (ENA) to model how ideas unfold over time in discourse. I led its development to help researchers visualize and compare temporal patterns in learning and communication. It has been used in education, healthcare, and other domains.
-
-We describe the method in [this paper](https://doi.org/10.1007/978-3-031-22319-1_8), and walk through implementation in [this tutorial](https://doi.org/10.4324/9781003371300-37).
-
-Use ONA via [this web tool](https://epistemicanalytics.org/tools/).
-
+    Use ONA via <a href="https://epistemicanalytics.org/tools/">this web tool</a>.
+  </div>
 </div>
-
-<br clear="all" />
-<p>&nbsp;</p>
-
----
 
 <!-- iPlan -->
-<img src="/images/iplan-logo.png" alt="iPlan Icon" width="90" style="float: left; margin-right: 20px; margin-top: 6px;" />
+<div class="project-row">
+  <img src="/images/iplan-logo.png" alt="iPlan Icon" class="project-image" />
+  <div class="project-text">
+    <h3><strong>iPlan</strong></h3>
 
-<div class="project-block" style="line-height: 1.5;">
+    iPlan is a customizable simulation for socio-environmental planning. We designed it to assess user performance using only log data—enabling rich analysis even without predefined rubrics.
 
-### **iPlan**
-
-iPlan is a customizable simulation for socio-environmental planning. We designed it to assess user performance using only log data—enabling rich analysis even without predefined rubrics.
-
-Our approach is explained in [this study](https://doi.org/10.1007/978-3-031-22319-1_20).
-
+    Our approach is explained in <a href="https://doi.org/10.1007/978-3-031-22319-1_20">this study</a>.
+  </div>
 </div>
-
-<br clear="all" />
-<p>&nbsp;</p>
-
----
 
 <!-- Learning Trajectories -->
-<img src="/images/trajectory-logo.png" alt="Trajectory Icon" width="90" style="float: left; margin-right: 20px; margin-top: 6px;" />
+<div class="project-row">
+  <img src="/images/trajectory-logo.png" alt="Trajectory Icon" class="project-image" />
+  <div class="project-text">
+    <h3><strong>Learning Trajectories</strong></h3>
 
-<div class="project-block" style="line-height: 1.5;">
+    I’m developing methods to model and visualize high-dimensional time series data to understand how learning unfolds. This work combines dimensionality reduction, smoothing, and trajectory comparison techniques to detect meaningful patterns in learning processes.
 
-### **Learning Trajectories**
-
-I’m developing methods to model and visualize high-dimensional time series data to understand how learning unfolds. This work combines dimensionality reduction, smoothing, and trajectory comparison techniques to detect meaningful patterns in learning processes.
-
-Want to explore your own time series data? [Reach out](mailto:yuanru.tan@wisc.edu)—I'd love to collaborate.
-
+    Want to explore your own time series data? <a href="mailto:yuanru.tan@wisc.edu">Reach out</a>—I'd love to collaborate.
+  </div>
 </div>
 
-<br clear="all" />
-<p>&nbsp;</p>
 
 
 ---
