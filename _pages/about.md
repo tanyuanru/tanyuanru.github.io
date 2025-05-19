@@ -20,7 +20,7 @@ I’m a methodologist-in-training. My work focuses on developing tools and techn
 <td style="width: 110px; vertical-align: top;">
   <img src="/images/ona-logo.png" width="90" alt="ONA Icon" />
 </td>
-<td style="background-color: #f7f7f7; border-radius: 10px; padding: 16px;">
+<td>
 
 ### **Ordered Network Analysis (ONA)**
 
@@ -40,7 +40,7 @@ Try the [ONA web tool](https://epistemicanalytics.org/tools/) or build your own 
 <td style="width: 110px; vertical-align: top;">
   <img src="/images/iplan-logo.png" width="90" alt="iPlan Icon" />
 </td>
-<td style="background-color: #f7f7f7; border-radius: 10px; padding: 16px;">
+<td>
 
 ### **iPlan**
 
@@ -51,20 +51,23 @@ Try the [ONA web tool](https://epistemicanalytics.org/tools/) or build your own 
 </tr>
 </table>
 
-<!-- Learning Trajectories -->
-<div class="project-container">
-  <div class="project-image">
-    <img src="/images/trajectory-logo.png" alt="Trajectory Icon" />
-  </div>
-  <div class="project-text">
+---
 
-> ### **Learning Trajectories**
-> I’m developing methods to model and visualize high-dimensional time series data to capture how learning unfolds over time. This work brings together dimensionality reduction, smoothing, and trajectory comparison techniques to identify meaningful patterns in complex learning data.  
-> 🍥 Have interesting time series data? I’d love to collaborate—feel free to [reach out](mailto:yuanru.tan@wisc.edu)!
+<table>
+<tr>
+<td style="width: 110px; vertical-align: top;">
+  <img src="/images/trajectory-icon.png" width="90" alt="Trajectory Icon" />
+</td>
+<td>
 
-  </div>
-</div>
+### **Learning Trajectories**
 
+I’m developing methods to model and visualize high-dimensional time series data to capture how learning unfolds over time. This work brings together dimensionality reduction, smoothing, and trajectory comparison techniques to identify meaningful patterns in complex learning data.  
+🍥 Have interesting time series data? I’d love to collaborate—feel free to [reach out](mailto:yuanru.tan@wisc.edu)!
+
+</td>
+</tr>
+</table>
 
 ---
 
