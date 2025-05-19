@@ -15,63 +15,46 @@ I’m a methodologist-in-training. My work focuses on developing tools and techn
 
 ## Projects I’m Excited About
 
-<style>
-.project-container {
-  display: flex;
-  align-items: flex-start;
-  gap: 20px;
-  margin-bottom: 2em;
-  flex-wrap: wrap;
-}
+<table>
+<tr>
+<td style="width: 110px; vertical-align: top;">
+  <img src="/images/ona-logo.png" width="90" alt="ONA Icon" />
+</td>
+<td style="background-color: #f7f7f7; border-radius: 10px; padding: 16px;">
 
-.project-image {
-  width: 100px;
-  flex-shrink: 0;
-  margin-top: 4px;
-}
+### **Ordered Network Analysis (ONA)**
 
-.project-text blockquote {
-  background-color: #f7f7f7;
-  padding: 16px;
-  border-radius: 10px;
-  margin: 0;
-}
-</style>
+I led the development of ONA, an extension of Epistemic Network Analysis (ENA) that allows users to model, visualize, and statistically compare temporal structures in discourse data.  
+📄 *“Ordered Network Analysis.”* Tan, Y., Ruis, A. R., Marquart, C., Cai, Z., Knowles, M. A., & Shaffer, D. W. (2022). *International Conference on Quantitative Ethnography*, 101–116. *(Best Student Paper Award)*  
+📘 *“Tutorial chapter on ENA and ONA in R.”* Tan, Y., Swiecki, Z., Ruis, A. R., & Shaffer, D. (2024). In *Learning Analytics Methods and Tutorials: A Practical Guide Using R*, 569–636.  
+Try the [ONA web tool](https://epistemicanalytics.org/tools/) or build your own model in R with our tutorial.
 
-<!-- ONA -->
-<div class="project-container">
-  <div class="project-image">
-    <img src="/images/ona-logo.png" alt="ONA Icon" />
-  </div>
-  <div class="project-text">
+</td>
+</tr>
+</table>
 
-> ### **Ordered Network Analysis (ONA)**
-> I led the development of ONA, an extension of Epistemic Network Analysis (ENA) that allows users to model, visualize, and statistically compare temporal structures in discourse data.  
-> 📄 *“Ordered Network Analysis.”* Tan, Y., Ruis, A. R., Marquart, C., Cai, Z., Knowles, M. A., & Shaffer, D. W. (2022). *International Conference on Quantitative Ethnography*, 101–116. *(Best Student Paper Award)*  
-> 📘 *“Tutorial chapter on ENA and ONA in R.”* Tan, Y., Swiecki, Z., Ruis, A. R., & Shaffer, D. (2024). In *Learning Analytics Methods and Tutorials: A Practical Guide Using R*, 569–636.  
-> Try the [ONA web tool](https://epistemicanalytics.org/tools/) or build your own model in R with our tutorial.
+---
 
-  </div>
-</div>
+<table>
+<tr>
+<td style="width: 110px; vertical-align: top;">
+  <img src="/images/iplan-logo.png" width="90" alt="iPlan Icon" />
+</td>
+<td style="background-color: #f7f7f7; border-radius: 10px; padding: 16px;">
 
-<!-- iPlan -->
-<div class="project-container">
-  <div class="project-image">
-    <img src="/images/iplan-logo.png" alt="iPlan Icon" />
-  </div>
-  <div class="project-text">
+### **iPlan**
 
-> ### **iPlan**
-> *iPlan* is a customizable simulation for socio-environmental planning. To address the complexity of assessing user performance, we proposed a QE-based method that constructs analytic models from log data alone—enabling rich analysis even when no predefined rubrics are available.  
-> 📄 Ruis, A. R., Tan, Y., et al. (2023). *“Thin data, thick description.”* *International Conference on Quantitative Ethnography*, 349–364.
+*iPlan* is a customizable simulation for socio-environmental planning. To address the complexity of assessing user performance, we proposed a QE-based method that constructs analytic models from log data alone—enabling rich analysis even when no predefined rubrics are available.  
+📄 Ruis, A. R., Tan, Y., et al. (2023). *“Thin data, thick description.”* *International Conference on Quantitative Ethnography*, 349–364.
 
-  </div>
-</div>
+</td>
+</tr>
+</table>
 
 <!-- Learning Trajectories -->
 <div class="project-container">
   <div class="project-image">
-    <img src="/images/trajectory-icon.png" alt="Trajectory Icon" />
+    <img src="/images/trajectory-logo.png" alt="Trajectory Icon" />
   </div>
   <div class="project-text">
 
