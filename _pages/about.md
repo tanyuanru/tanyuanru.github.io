@@ -18,6 +18,25 @@ I’m a methodologist-in-training. My work focuses on developing tools and techn
 <table>
 <tr>
 <td style="width: 110px; vertical-align: top;">
+  <img src="/images/trajectory-icon.png" width="90" alt="Trajectory Icon" />
+</td>
+<td style="background-color: #f7f7f7; border-radius: 10px; padding: 16px;">
+
+### **Trajectory Project Test**
+
+This is a test block. It should render **bold**, *italic*, and [a link](https://example.com).  
+You should also see a rounded light gray background and a table layout with the image on the left.
+
+</td>
+</tr>
+</table>
+
+
+## Projects I’m Excited About
+
+<table>
+<tr>
+<td style="width: 110px; vertical-align: top;">
   <img src="/images/ona-logo.png" width="90" alt="ONA Icon" />
 </td>
 <td>
