@@ -7,9 +7,10 @@ redirect_from:
   - /about.html
 ---
 
-I’m **Yuanru Tan** <span style="font-size: 90%; color: #888;">(“Yoo-en-roo” — close to Mandarin pinyin *Yuǎnrú*)</span>, a Ph.D. candidate in the Learning Sciences program at the University of Wisconsin–Madison. I’m advised by [Professor David Williamson Shaffer](https://edpsych.education.wisc.edu/fac-staff/williamson-shaffer-david/) in the [Epistemic Analytics Lab](https://www.epistemicanalytics.org/), part of the [Center for Research on Complex Thinking](https://www.crct.center/).
+I’m **Yuanru Tan** (“Yoo-en-roo” — close to Mandarin pinyin *Yuǎnrú*), a Ph.D. candidate in the Learning Sciences program at the University of Wisconsin–Madison. I’m advised by [Professor David Williamson Shaffer](https://edpsych.education.wisc.edu/fac-staff/williamson-shaffer-david/) in the [Epistemic Analytics Lab](https://www.epistemicanalytics.org/), part of the [Center for Research on Complex Thinking](https://www.crct.center/).
 
-I’m a **methodologist-in-training**. My work focuses on developing analytical tools and statistical techniques to model complex learning processes—both mathematically and visually—to tell faithful, meaningful stories about how people learn. I follow an iterative cycle: identifying mathematical structures behind complex learning phenomena, empirically testing those structures, and ultimately designing tools and interfaces that researchers can use in their own domains.  
+I’m a **methodologist-in-training**. My work focuses on developing analytical tools and statistical techniques to model complex learning processes—both mathematically and visually—to tell faithful, meaningful stories about how people learn. I follow an iterative cycle: identifying mathematical structures behind complex learning phenomena, empirically testing those structures, and ultimately designing tools and interfaces that researchers can use in their own domains.
+
 ---
 
 <style>
