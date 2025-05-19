@@ -21,6 +21,15 @@ I’m a methodologist-in-training. My work focuses on developing tools and techn
   align-items: center;
   gap: 20px;
   margin-bottom: 2.5em;
+  padding: 16px;
+  border-radius: 12px;
+  transition: background-color 0.2s ease, box-shadow 0.2s ease, transform 0.2s ease;
+}
+
+.project-row:hover {
+  background-color: #f7f7f7;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.06);
+  transform: translateY(-2px);
 }
 
 .project-image {
@@ -71,8 +80,6 @@ I’m a methodologist-in-training. My work focuses on developing tools and techn
     Want to explore your own time series data? <a href="mailto:yuanru.tan@wisc.edu">Reach out</a>—I'd love to collaborate.
   </div>
 </div>
-
-
 
 ---
 
