@@ -17,7 +17,7 @@ I’m a methodologist-in-training. My work focuses on developing tools and techn
 
 ## Projects I’m Excited About
 
-<div style="display: flex; align-items: flex-start; margin-bottom: 2em;">
+<div style="background-color: #f7f7f7; padding: 16px; border-radius: 10px; margin-bottom: 2em; display: flex; align-items: flex-start;">
   <img src="/images/ona-logo.png" alt="ONA Icon" width="70" style="margin-right: 16px;" />
   <div>
     
@@ -30,7 +30,7 @@ Try the [ONA web tool](https://epistemicanalytics.org/tools/) or build your own 
   </div>
 </div>
 
-<div style="display: flex; align-items: flex-start; margin-bottom: 2em;">
+<div style="background-color: #f7f7f7; padding: 16px; border-radius: 10px; margin-bottom: 2em; display: flex; align-items: flex-start;">
   <img src="/images/iplan-logo.png" alt="iPlan Icon" width="70" style="margin-right: 16px;" />
   <div>
 
@@ -41,7 +41,7 @@ Try the [ONA web tool](https://epistemicanalytics.org/tools/) or build your own 
   </div>
 </div>
 
-<div style="display: flex; align-items: flex-start;">
+<div style="background-color: #f7f7f7; padding: 16px; border-radius: 10px; margin-bottom: 2em; display: flex; align-items: flex-start;">
   <img src="/images/trajectory-icon.png" alt="Trajectory Icon" width="70" style="margin-right: 16px;" />
   <div>
 
