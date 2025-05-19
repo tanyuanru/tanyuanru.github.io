@@ -18,7 +18,7 @@ I’m a methodologist-in-training. My work focuses on developing tools and techn
 <style>
 .project-row {
   display: flex;
-  align-items: flex-start;
+  align-items: center;
   gap: 20px;
   margin-bottom: 2.5em;
 }
