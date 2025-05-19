@@ -7,13 +7,13 @@ redirect_from:
   - /about.html
 ---
 
-I’m **Yuanru Tan**, a Ph.D. candidate in the **Learning Sciences** program at the University of Wisconsin–Madison. I’m advised by [Professor David Williamson Shaffer](https://edpsych.education.wisc.edu/fac-staff/williamson-shaffer-david/) in the [Epistemic Analytics Lab](https://epistemicanalytics.org/), part of the Center for Research on Complex Thinking.
+## About Me
 
-I’m a methodologist-in-training. My work focuses on developing tools and techniques to model complex learning processes—both mathematically and visually—to tell faithful, meaningful stories of how people learn.
+I’m **Yuanru Tan**, a Ph.D. candidate in the Learning Sciences program in the Department of Educational Psychology at the University of Wisconsin–Madison. I’m advised by [Professor David Williamson Shaffer](https://edpsych.education.wisc.edu/fac-staff/williamson-shaffer-david/) in the [Epistemic Analytics Lab](https://www.epistemicanalytics.org/), part of the [Center for Research on Complex Thinking](https://www.crct.center/).
+
+I’m a <span class="keyword">methodologist-in-training</span>. My work focuses on developing analytical tools and statistical techniques to model complex learning processes—both mathematically and visually—to tell faithful, meaningful stories of how people learn.
 
 ---
-
-## Projects I’m Excited About
 
 <style>
 .project-row {
@@ -41,19 +41,26 @@ I’m a methodologist-in-training. My work focuses on developing tools and techn
 .project-text {
   line-height: 1.5;
 }
+
+.keyword {
+  color: #61D04F;
+  font-weight: 500;
+}
 </style>
+
+<h2>Projects I’m Excited About</h2>
 
 <!-- ONA -->
 <div class="project-row">
   <img src="/images/ona-logo.png" alt="ONA Icon" class="project-image" />
   <div class="project-text">
-    <h3><strong>Ordered Network Analysis (ONA)</strong></h3>
+    <h3>📈 <strong>Ordered Network Analysis (ONA)</strong></h3>
 
-    ONA extends Epistemic Network Analysis (ENA) to model how ideas unfold over time in discourse. I led its development to help researchers visualize and compare temporal patterns in learning and communication. It has been used in education, healthcare, and other domains.
+    I led the development of ONA, a network technique to model, visualize, and statistically compare temporal structures in discourse data. Built on the widely used Epistemic Network Analysis (ENA), ONA has been applied in education, healthcare, and other domains.
 
-    We describe the method in <a href="https://doi.org/10.1007/978-3-031-22319-1_8">this paper</a>, and walk through implementation in <a href="https://doi.org/10.4324/9781003371300-37">this tutorial</a>.
+    If you're interested in ONA, we introduce the method in <a href="https://link.springer.com/chapter/10.1007/978-3-031-31726-2_8">this paper</a>, and walk through how to use the R package in <a href="https://link.springer.com/chapter/10.1007/978-3-031-54464-4_18">this tutorial</a>.
 
-    Use ONA via <a href="https://epistemicanalytics.org/tools/">this web tool</a>.
+    Not an R user? You can also try ONA via the <a href="https://www.epistemicanalytics.org/our-projects/">ENA web tool</a>.
   </div>
 </div>
 
@@ -61,11 +68,11 @@ I’m a methodologist-in-training. My work focuses on developing tools and techn
 <div class="project-row">
   <img src="/images/iplan-logo.png" alt="iPlan Icon" class="project-image" />
   <div class="project-text">
-    <h3><strong>iPlan</strong></h3>
+    <h3>🌎 <strong>iPlan</strong></h3>
 
-    iPlan is a customizable simulation for socio-environmental planning. We designed it to assess user performance using only log data—enabling rich analysis even without predefined rubrics.
+    <a href="https://www.i-plan.us/">iPlan</a> is a mobile game developed at our lab, where users create land-use models of any location in the contiguous United States and explore the effects of land-use change on environmental and socio-economic issues.
 
-    Our approach is explained in <a href="https://doi.org/10.1007/978-3-031-22319-1_20">this study</a>.
+    Its highly customizable problem space poses challenges for assessing players’ performance. We proposed a <a href="https://link.springer.com/chapter/10.1007/978-3-031-47014-1_24">novel QE-based method</a> that automatically generates learning analytics models from system log data alone—enabling rich analysis of learners’ <span class="keyword">problem-solving strategies</span> even when no rubrics or qualitative data are available.
   </div>
 </div>
 
@@ -73,11 +80,11 @@ I’m a methodologist-in-training. My work focuses on developing tools and techn
 <div class="project-row">
   <img src="/images/trajectory-logo.png" alt="Trajectory Icon" class="project-image" />
   <div class="project-text">
-    <h3><strong>Learning Trajectories</strong></h3>
+    <h3>🧭 <strong>Network Trajectories</strong></h3>
 
-    I’m developing methods to model and visualize high-dimensional time series data to understand how learning unfolds. This work combines dimensionality reduction, smoothing, and trajectory comparison techniques to detect meaningful patterns in learning processes.
+    I’m developing methods to model and visualize <span class="keyword">high-dimensional time series data</span> to understand how learning unfolds over time. This work combines <span class="keyword">dimensionality reduction</span>, <span class="keyword">smoothing</span>, and <span class="keyword">trajectory comparison</span> techniques to identify meaningful patterns in learning processes.
 
-    Want to explore your own time series data? <a href="mailto:yuanru.tan@wisc.edu">Reach out</a>—I'd love to collaborate.
+    Want to explore your own time series data? <a href="mailto:yuanru.tan@wisc.edu">Reach out</a>—I’d love to collaborate.
   </div>
 </div>
 
@@ -85,6 +92,8 @@ I’m a methodologist-in-training. My work focuses on developing tools and techn
 
 ## Before the Ph.D.
 
-Before starting my Ph.D., I worked as a Learning Experience Designer for Accessibility at the [Center for Academic Innovation](https://ai.umich.edu/) under [Professor Rebecca Quintana](https://marsal.umich.edu/directory/faculty-staff/rebecca-quintana). I designed online learning experiences and conducted qualitative research.  
+Before starting my Ph.D., I worked as a Learning Experience Designer for Accessibility at the [Center for Academic Innovation](https://ai.umich.edu/) under [Professor Rebecca Quintana](https://marsal.umich.edu/directory/faculty-staff/rebecca-quintana). I gained valuable experience in educational research from a practitioner’s perspective.
 
-I hold an M.A. in Education from the University of Michigan–Ann Arbor (advised by [Professor Chris Quintana](https://soe.umich.edu/directory/christopher-quintana)) and a B.S. in Information Management Systems from Tianjin University of Technology in China.
+One of my favorite projects with Rebecca explored how we used both [beaded representations](https://dl.acm.org/doi/10.1145/3170427.3188650) and [digital representations](https://link.springer.com/article/10.1007/s11528-021-00592-x) to support reflection on learning design.
+
+I hold an M.A. in Education from the University of Michigan–Ann Arbor, where I was advised by [Professor Chris Quintana](https://marsal.umich.edu/directory/faculty-staff/christopher-quintana), and a B.S. in Information Management Systems from Tianjin University of Technology in China.
