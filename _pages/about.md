@@ -20,12 +20,31 @@ I’m a methodologist-in-training. My work focuses on developing tools and techn
 
 ### **Ordered Network Analysis (ONA)**
 
-I led the development of ONA, an extension of Epistemic Network Analysis (ENA) that allows users to model, visualize, and statistically compare temporal structures in discourse data.  
-📄 *“Ordered Network Analysis.”* Tan, Y., Ruis, A. R., Marquart, C., Cai, Z., Knowles, M. A., & Shaffer, D. W. (2022). *International Conference on Quantitative Ethnography*, 101–116. *(Best Student Paper Award)*  
-📘 *“Tutorial chapter on ENA and ONA in R.”* Tan, Y., Swiecki, Z., Ruis, A. R., & Shaffer, D. (2024). In *Learning Analytics Methods and Tutorials: A Practical Guide Using R*, 569–636.  
-Try the [ONA web tool](https://epistemicanalytics.org/tools/) or build your own model in R with our tutorial.
+I led the development of ONA, an extension of Epistemic Network Analysis (ENA) that allows users to model, visualize, and statistically compare temporal structures in discourse data. ONA has been widely used by researchers in various fields such as education, healthcare.
+
+We wrote this paper to explain ONA's theoretical background and methodological affordances.
+
+<div style="font-size: 90%; color: #666; margin-left: 1.2em;">
+📄 *“Ordered Network Analysis.”* Tan, Y., Ruis, A. R., Marquart, C., Cai, Z., Knowles, M. A., & Shaffer, D. W. (2022). <br/>
+*International Conference on Quantitative Ethnography*, 101–116. *(Best Student Paper Award)*
+</div>
+
+<br />
+
+We wrote this paper to walk you through how to do ONA and ENA in R.
+
+<div style="font-size: 90%; color: #666; margin-left: 1.2em;">
+📘 *“Tutorial chapter on ENA and ONA in R.”* Tan, Y., Swiecki, Z., Ruis, A. R., & Shaffer, D. (2024). <br/>
+In *Learning Analytics Methods and Tutorials: A Practical Guide Using R*, 569–636.
+</div>
+
+<br />
+
+You can also use ONA via [web tool](https://epistemicanalytics.org/tools/).
 
 <br clear="all" />
+<p>&nbsp;</p>
+
 
 ---
 
