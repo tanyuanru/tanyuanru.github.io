@@ -17,12 +17,13 @@ I’m a methodologist-in-training. My work focuses on developing tools and techn
 
 <table>
   <tr>
-    <td style="width:100px; vertical-align: top;">
-      <img src="/images/ona-logo.png" alt="ONA Icon" width="100" />
+    <td style="width: 120px; vertical-align: top;">
+      <img src="/images/ona-logo.png" alt="ONA Icon" width="110" />
     </td>
     <td>
-      <div style="background-color: #f7f7f7; padding: 16px; border-radius: 10px;">
-        
+
+<div class="project-box">
+
 ### **Ordered Network Analysis (ONA)**
 
 I led the development of ONA, an extension of Epistemic Network Analysis (ENA) that allows users to model, visualize, and statistically compare temporal structures in discourse data.  
@@ -30,18 +31,11 @@ I led the development of ONA, an extension of Epistemic Network Analysis (ENA) t
 📘 *“Tutorial chapter on ENA and ONA in R.”* Tan, Y., Swiecki, Z., Ruis, A. R., & Shaffer, D. (2024). In *Learning Analytics Methods and Tutorials: A Practical Guide Using R*, 569–636.  
 Try the [ONA web tool](https://epistemicanalytics.org/tools/) or build your own model in R with our tutorial.
 
-      </div>
+</div>
+
     </td>
   </tr>
 </table>
-
-<table>
-  <tr>
-    <td style="width:100px; vertical-align: top;">
-      <img src="/images/iplan-logo.png" alt="iPlan Icon" width="100" />
-    </td>
-    <td>
-      <div style="background-color: #f7f7f7; padding: 16px; border-radius: 10px;">
         
 ### **iPlan**
 
