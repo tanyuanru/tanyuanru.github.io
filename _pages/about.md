@@ -16,73 +16,58 @@ I’m a methodologist-in-training. My work focuses on developing tools and techn
 ## Projects I’m Excited About
 
 <!-- ONA -->
-<style>
-.project-block {
-  margin-left: 110px; /* 图片宽度90px + 间距20px */
-  margin-bottom: 2em;
-}
-.project-cite {
-  font-size: 90%;
-  color: #666;
-  margin-left: 1em;
-}
-</style>
-
 <img src="/images/ona-logo.png" alt="ONA Icon" width="90" style="float: left; margin-right: 20px; margin-top: 6px;" />
 
 <div class="project-block" style="line-height: 1.5;">
 
 ### **Ordered Network Analysis (ONA)**
 
-ONA is an extension of Epistemic Network Analysis (ENA) that models temporal structures in discourse data. I led its development to help researchers visualize and statistically compare how ideas unfold over time. It has been applied in fields such as education and healthcare.
+ONA extends Epistemic Network Analysis (ENA) to model how ideas unfold over time in discourse. I led its development to help researchers visualize and compare temporal patterns in learning and communication. It has been used in education, healthcare, and other domains.
 
-We wrote this paper to explain the theory and methodological design of ONA:
-
-<div class="project-cite">
-📄 *“Ordered Network Analysis.”* Tan, Y., Ruis, A. R., Marquart, C., Cai, Z., Knowles, M. A., & Shaffer, D. W. (2022). <br/>
-*International Conference on Quantitative Ethnography*, 101–116. *(Best Student Paper Award)*
-</div>
-
-<br/>
-
-This tutorial chapter walks through how to implement ONA and ENA in R:
-
-<div class="project-cite">
-📘 *“Tutorial chapter on ENA and ONA in R.”* Tan, Y., Swiecki, Z., Ruis, A. R., & Shaffer, D. (2024). <br/>
-In *Learning Analytics Methods and Tutorials: A Practical Guide Using R*, 569–636.
-</div>
-
-<br/>
+We describe the method in [this paper](https://doi.org/10.1007/978-3-031-22319-1_8), and walk through implementation in [this tutorial](https://doi.org/10.4324/9781003371300-37).
 
 Use ONA via [this web tool](https://epistemicanalytics.org/tools/).
 
 </div>
 
 <br clear="all" />
+<p>&nbsp;</p>
 
 ---
 
 <!-- iPlan -->
 <img src="/images/iplan-logo.png" alt="iPlan Icon" width="90" style="float: left; margin-right: 20px; margin-top: 6px;" />
 
+<div class="project-block" style="line-height: 1.5;">
+
 ### **iPlan**
 
-*iPlan* is a customizable simulation for socio-environmental planning. To address the complexity of assessing user performance, we proposed a QE-based method that constructs analytic models from log data alone—enabling rich analysis even when no predefined rubrics are available.  
-📄 Ruis, A. R., Tan, Y., et al. (2023). *“Thin data, thick description.”* *International Conference on Quantitative Ethnography*, 349–364.
+iPlan is a customizable simulation for socio-environmental planning. We designed it to assess user performance using only log data—enabling rich analysis even without predefined rubrics.
+
+Our approach is explained in [this study](https://doi.org/10.1007/978-3-031-22319-1_20).
+
+</div>
 
 <br clear="all" />
+<p>&nbsp;</p>
 
 ---
 
-<!-- Trajectory -->
+<!-- Learning Trajectories -->
 <img src="/images/trajectory-logo.png" alt="Trajectory Icon" width="90" style="float: left; margin-right: 20px; margin-top: 6px;" />
+
+<div class="project-block" style="line-height: 1.5;">
 
 ### **Learning Trajectories**
 
-I’m developing methods to model and visualize high-dimensional time series data to capture how learning unfolds over time. This work brings together dimensionality reduction, smoothing, and trajectory comparison techniques to identify meaningful patterns in complex learning data.  
-🍥 Have interesting time series data? I’d love to collaborate—feel free to [reach out](mailto:yuanru.tan@wisc.edu)!
+I’m developing methods to model and visualize high-dimensional time series data to understand how learning unfolds. This work combines dimensionality reduction, smoothing, and trajectory comparison techniques to detect meaningful patterns in learning processes.
+
+Want to explore your own time series data? [Reach out](mailto:yuanru.tan@wisc.edu)—I'd love to collaborate.
+
+</div>
 
 <br clear="all" />
+<p>&nbsp;</p>
 
 
 ---
