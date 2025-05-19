@@ -15,21 +15,15 @@ I’m a methodologist-in-training. My work focuses on developing tools and techn
 
 ## Projects I’m Excited About
 
-<table>
-<tr>
-<td style="width: 110px; vertical-align: top;">
-  <img src="/images/trajectory-icon.png" width="90" alt="Trajectory Icon" />
-</td>
-<td style="background-color: #f7f7f7; border-radius: 10px; padding: 16px;">
+<img src="/images/trajectory-logo.png" alt="Trajectory Icon" width="90" style="float: left; margin-right: 20px; margin-top: 8px;" />
 
 ### **Trajectory Project Test**
 
 This is a test block. It should render **bold**, *italic*, and [a link](https://example.com).  
-You should also see a rounded light gray background and a table layout with the image on the left.
+It uses pure Markdown for layout and inline HTML for the image.
 
-</td>
-</tr>
-</table>
+<br clear="all" />
+
 
 
 ## Projects I’m Excited About
