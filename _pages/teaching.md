@@ -8,9 +8,8 @@ author_profile: true
 ## Lecturer
 
 **ED PSYCH 301: How People Learn**  
-Spring & Fall 2025  
-Large undergraduate lecture class  
-University of Wisconsin–Madison  
+Spring & Fall 2025    
+_University of Wisconsin–Madison_  
 
 ---
 
