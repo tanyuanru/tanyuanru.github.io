@@ -8,8 +8,10 @@ author_profile: true
 ## Lecturer
 
 **ED PSYCH 301: How People Learn**  
-Spring & Fall 2025    
-_University of Wisconsin–Madison_  
+Spring & Fall 2025  
+_UW–Madison_
+
+In this class, we put together a [shared resource spreadsheet](https://docs.google.com/spreadsheets/d/1kuxEOxmBrjQ17s2QKsQpeB_zjSFWkTfxCUxl_NLQfwo/edit?gid=0#gid=0){:target="_blank"} that includes not just study tips and tools, but also music, quotes, and favorite campus spots that help with focus and mental health. It was a way for us to support one another. We’re keeping this public, and with permission, we’ll keep adding to it in future semesters. Feel free to take a look, it might lift your day too.
 
 ---
 
@@ -17,37 +19,42 @@ _University of Wisconsin–Madison_
 
 **ED PSYCH 695: Capstone in Learning Analytics**  
 Spring 2023 & 2024  
-_Learning Analytics M.S. Program, University of Wisconsin–Madison_
+_Learning Analytics M.S. Program, UW–Madison_
 
 **ED PSYCH 615: Conversations and Visualizations**  
 Fall 2022, 2023, 2024  
-_Learning Analytics M.S. Program, University of Wisconsin–Madison_
+_Learning Analytics M.S. Program, UW–Madison_
 
 **ED PSYCH 575: Instructional Design for Learning Analytics**  
 Fall 2022, 2023, 2024  
-_Learning Analytics M.S. Program, University of Wisconsin–Madison_
+_Learning Analytics M.S. Program, UW–Madison_
 
 **ED PSYCH 301: How People Learn**  
 Fall 2021 & Spring 2022  
-_Undergraduate course, University of Wisconsin–Madison_
+_Undergraduate course, UW–Madison_
 
 ---
 
-## Undergraduate Research Mentoring
+## Undergraduate Research Mentoring  
+_Epistemic Analytics Lab, UW–Madison_
 
-_Epistemic Analytics Lab_
+I enjoy mentoring undergraduates who are interested in applying data science, statistics, or computer science to educational contexts. Many of the students I’ve worked with have gone on to graduate programs or data-related roles. During our time together, we tackled real data problems and co-authored papers. If you're an undergraduate at UW–Madison, check out the [UW Student Jobs page](https://studentjobs.wisc.edu/){:target="_blank"} and search for *Epistemic Analytics*—we’re often hiring, and it’s a fun place to work!
 
 - **2025–Present**  
-  Joy Hong — Data Analytics Intern  
+  **Joy Hong** — Data Analytics Intern  
+  UW–Madison undergraduate, majoring in Statistics and Computer Science
 
 - **2024–2025**  
-  Yahan Chen — Data Analytics Intern  
-  → M.S. in Bioinformatics, University of Washington  
+  **Yahan Chen** — Data Analytics Intern  
+  UW–Madison undergraduate, majored in Statistics and Data Science  
+  → Now pursuing M.S. in Bioinformatics, University of Washington
 
 - **2023–2024**  
-  Krirk Nirunwiroj — Data Analytics Intern  
-  → M.S. in Computer Science, Johns Hopkins University  
+  **Krirk Nirunwiroj** — Data Analytics Intern  
+  UW–Madison undergraduate, majored in Computer Science, Data Science, and Mathematics  
+  → Now pursuing M.S. in Computer Science, Johns Hopkins University
 
 - **2022–2023**  
-  Binrui Yang — Data Analytics Intern  
-  → M.S. in Statistics, Columbia University
+  **Binrui Yang** — Data Analytics Intern  
+  UW–Madison undergraduate, majored in Mathematics and Statistics  
+  → Now Associate Data Scientist, Travelers
