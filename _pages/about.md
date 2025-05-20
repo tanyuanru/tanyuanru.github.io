@@ -7,9 +7,9 @@ redirect_from:
   - /about.html
 ---
 
-I’m **Yuanru Tan** (“Yoo-en-roo”, close to Mandarin pinyin *Yuǎnrú*), a Ph.D. candidate in the Learning Sciences program at the University of Wisconsin–Madison. I’m advised by [Professor David Williamson Shaffer](https://edpsych.education.wisc.edu/fac-staff/williamson-shaffer-david/) in the [Epistemic Analytics Lab](https://www.epistemicanalytics.org/), part of the [Center for Research on Complex Thinking](https://www.crct.center/).
+I’m **Yuanru Tan** (“Yoo-en-roo”, close to Mandarin pinyin *Yuǎnrú*), a Ph.D. candidate in the Learning Sciences program at the University of Wisconsin–Madison. I’m advised by <a href="https://edpsych.education.wisc.edu/fac-staff/williamson-shaffer-david/" target="_blank" rel="noopener noreferrer">Professor David Williamson Shaffer</a> in the <a href="https://www.epistemicanalytics.org/" target="_blank" rel="noopener noreferrer">Epistemic Analytics Lab</a>, part of the <a href="https://www.crct.center/" target="_blank" rel="noopener noreferrer">Center for Research on Complex Thinking</a>.
 
-I’m a **methodologist-in-training**, working at the intersection of analytics and design. My research focuses on developing analytical tools and visualization techniques to model complex learning processes—both _mathematically_ and _visually_—and to tell faithful, meaningful stories about how people learn.
+I’m a **methodologist-in-training**, working at the intersection of analytics and design. My research focuses on developing analytical tools and visualization techniques to model and represent complex learning processes—both _mathematically_ and _visually_—and to tell faithful, meaningful stories about how people learn.
 
 I think of my work as an iterative cycle: identifying mathematical structures underlying learning phenomena, empirically testing those structures, and ultimately designing tools and interfaces that researchers can use in their own domains. Along the way, I collaborate with and learn from talented colleagues, while contributing my own perspective to advance the field.
 
@@ -87,7 +87,7 @@ I think of my work as an iterative cycle: identifying mathematical structures un
   <div class="project-text">
     <h3><strong>Network Trajectories</strong></h3>
 
-    I’m currently developing a method to model, visualize, and compare high-dimensional time series data to better understand how learning unfolds over time. This work explores dimensionality reduction, smoothing techniques, and trajectory comparison to uncover meaningful patterns in complex educational datasets. What excites me most is adapting and expanding time series analysis—traditionally used in finance or sensor data—for the unique challenges of learning analytics.
+    I’m currently developing a method to model, visualize, and compare high-dimensional time series data to better understand how learning unfolds over time. This work explores dimensionality reduction, smoothing techniques, and trajectory comparison to explain meaningful patterns in complex educational datasets. What excites me most is adapting and expanding time series analysis—traditionally used in finance or sensor data—for the unique challenges of learning analytics.
 
     <ul style="margin-top: 0.8em; padding-left: 1.2em;">
       <li>📬 <a target="_blank" rel="noopener noreferrer" href="mailto:yuanru.tan@wisc.edu">Interested in working with me?</a></li>
@@ -99,10 +99,10 @@ I think of my work as an iterative cycle: identifying mathematical structures un
 
 ## Before the Ph.D.
 
-Before starting my Ph.D., I worked as a _Learning Experience Designer for Accessibility_ at the [Center for Academic Innovation](https://ai.umich.edu/) at the University of Michigan–Ann Arbor, under the mentorship of [Professor Rebecca Quintana](https://marsal.umich.edu/directory/faculty-staff/rebecca-quintana). It was my first full-time role after graduate school, and a place where I grew as both a designer and a researcher.
+Before starting my Ph.D., I worked as a _Learning Experience Designer for Accessibility_ at the <a href="https://ai.umich.edu/" target="_blank" rel="noopener noreferrer">Center for Academic Innovation</a> at the University of Michigan–Ann Arbor, under the mentorship of <a href="https://marsal.umich.edu/directory/faculty-staff/rebecca-quintana" target="_blank" rel="noopener noreferrer">Professor Rebecca Quintana</a>. It was my first full-time role after graduate school, and a place where I grew as both a designer and a researcher.
 
-In this role, I worked with [instructors](https://www.youtube.com/watch?v=KDKdWDTVEzE&t=94s&ab_channel=CenterforAcademicInnovation) who were passionate about making online learning more inclusive and accessible. I also contributed to research projects focused on understanding learning experience design. One of my favorite projects with Rebecca explored how different forms of representation—both [beaded artifacts](https://dl.acm.org/doi/10.1145/3170427.3188650) and [digital visualizations](https://link.springer.com/article/10.1007/s11528-021-00592-x)—can shape the way designers think. (P.S. We ended up decorating our desks with those beaded artifacts, and it remains one of my favorite memories.)
+In this role, I worked with <a href="https://www.youtube.com/watch?v=KDKdWDTVEzE&t=94s&ab_channel=CenterforAcademicInnovation" target="_blank" rel="noopener noreferrer">instructors</a> who were passionate about making online learning more inclusive and accessible. I also contributed to research projects focused on understanding learning experience design. One of my favorite projects with Rebecca explored how different forms of representation—both <a href="https://dl.acm.org/doi/10.1145/3170427.3188650" target="_blank" rel="noopener noreferrer">beaded artifacts</a> and <a href="https://link.springer.com/article/10.1007/s11528-021-00592-x" target="_blank" rel="noopener noreferrer">digital visualizations</a>—can shape the way designers think. (P.S. We ended up decorating our desks with those beaded artifacts, and it remains one of my favorite memories.)
 
-I hold an M.A. in Education from the University of Michigan–Ann Arbor advised by [Professor Chris Quintana](https://marsal.umich.edu/directory/faculty-staff/christopher-quintana), and a B.S. in Information Management Systems from Tianjin University of Technology in China.
+I hold an M.A. in Education from the University of Michigan–Ann Arbor advised by <a href="https://marsal.umich.edu/directory/faculty-staff/christopher-quintana" target="_blank" rel="noopener noreferrer">Professor Chris Quintana</a>, and a B.S. in Information Management Systems from Tianjin University of Technology in China.
 
 These educational and professional experiences—and the people I’ve been lucky to work with—continue to shape how I approach problems: creatively, collaboratively, and with care.
