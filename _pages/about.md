@@ -9,7 +9,7 @@ redirect_from:
 
 I’m **Yuanru Tan** (“Yoo-en-roo”, close to Mandarin pinyin *Yuǎnrú*), a Ph.D. candidate in the Learning Sciences program at the University of Wisconsin–Madison. I’m advised by [Professor David Williamson Shaffer](https://edpsych.education.wisc.edu/fac-staff/williamson-shaffer-david/) in the [Epistemic Analytics Lab](https://www.epistemicanalytics.org/), part of the [Center for Research on Complex Thinking](https://www.crct.center/).
 
-I’m a **methodologist-in-training**, working at the intersection of analytics and design. My research focuses on developing analytical tools and visualization techniques to understand complex learning processes—both _mathematically_ and _visually_—and to tell more faithful, meaningful stories about how people learn.
+I’m a **methodologist-in-training**, working at the intersection of analytics and design. My research focuses on developing analytical tools and visualization techniques to model complex learning processes—both _mathematically_ and _visually_—and to tell faithful, meaningful stories about how people learn.
 
 I think of my work as an iterative cycle: identifying mathematical structures underlying learning phenomena, empirically testing those structures, and ultimately designing tools and interfaces that researchers can use in their own domains. Along the way, I collaborate with and learn from talented colleagues, while contributing my own perspective to advance the field.
 
@@ -75,8 +75,8 @@ I think of my work as an iterative cycle: identifying mathematical structures un
     iPlan is a simulation game where users design urban land-use models and explore the effects of planning decisions on environmental and social outcomes. Its open-ended structure poses unique challenges for assessment. We developed a novel approach to generate simulated learning analytics models directly from system log data, offering “thick descriptions” for otherwise “thin” clickstream data. We're also exploring how these models can help us better understand real learner behaviors.
 
     <ul style="margin-top: 0.8em; padding-left: 1.2em;">
-      <li>🕹️ <a href="https://www.i-plan.us/">Explore the iPlan simulation</a></li>
       <li>📄 <a href="https://link.springer.com/chapter/10.1007/978-3-031-47014-1_24">Read the analytics method paper</a></li>
+      <li>🕹️ <a href="https://www.i-plan.us/">Explore the iPlan simulation</a></li>
     </ul>
   </div>
 </div>
@@ -90,8 +90,8 @@ I think of my work as an iterative cycle: identifying mathematical structures un
     I’m currently developing a method to model, visualize, and compare high-dimensional time series data to better understand how learning unfolds over time. This work explores dimensionality reduction, smoothing techniques, and trajectory comparison to uncover meaningful patterns in complex educational datasets. What excites me most is adapting and expanding time series analysis—traditionally used in finance or sensor data—for the unique challenges of learning analytics.
 
     <ul style="margin-top: 0.8em; padding-left: 1.2em;">
-      <li>📬 <a href="mailto:yuanru.tan@wisc.edu">Collaborate on time series data?</a></li>
-      <li>🛠️ <a href="#trajectory-tools-coming-soon">Trajectory tools (coming soon)</a></li>
+      <li>📬 <a href="mailto:yuanru.tan@wisc.edu">Interested in working with me?</a></li>
+      <li>🛠️ Trajectory tools (coming soon) </li>
     </ul>
   </div>
 </div>
