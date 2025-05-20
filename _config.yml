@@ -12,7 +12,7 @@ site_theme               : "default"
 title                    : "Yuanru Tan"
 title_separator          : "-"
 name                     : "Yuanru Tan"
-description              : "Ph.D. Candidate in Learning Sciences at UW-Madison"
+description              : "Personal website of Yuanru Tan, Ph.D. candidate in Learning Sciences at UW–Madison"
 url                      : https://tanyuanru.github.io # the base hostname & protocol for your site e.g. "https://[your GitHub username].github.io" or if you already have some other page hosted on Github then use "https://[your GitHub username].github.io/[Your Repo Name]"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "academicpages/academicpages.github.io"
@@ -27,7 +27,7 @@ author:
   bio: |
     Ph.D. Candidate at UW–Madison  
     yuanru.tan@wisc.edu
-  #location: "Madison, WI"
+  location: "Madison, WI, USA"
   #employer: "University of Wisconsin Madison"
   #uri:
   email: "yuanru.tan@wisc.edu"
@@ -45,12 +45,12 @@ author:
   #scopus           : # URL
 
   # Repositories and software development
-  bitbucket        : # Username - Update with your username on the site
-  codepen          : # Username
-  dribbble         : # Username
-  # github           : "academicpages"
-  kaggle           : # Username  
-  stackoverflow    : # User number or user number and name (i.e., use "1" or "1/jeff-atwood")    
+  #bitbucket        : # Username - Update with your username on the site
+  #codepen          : # Username
+  #dribbble         : # Username
+  github           : "https://github.com/tanyuanru"
+  #kaggle           : # Username  
+  #stackoverflow    : # User number or user number and name (i.e., use "1" or "1/jeff-atwood")    
 
   # Social media
   #bluesky          : "bsky.app" # Replace this with you Bluesky username
@@ -62,7 +62,7 @@ author:
   #keybase          : # Username
   #instagram        : # Username
   #lastfm           : # Username
-  #linkedin         : # Username
+  linkedin         : "https://www.linkedin.com/in/yuanrutan/"
   #mastodon         : # URL
   #medium           : # URL
   #pinterest        : # Username
