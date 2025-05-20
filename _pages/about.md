@@ -61,7 +61,7 @@ I think of my work as an iterative cycle: identifying mathematical structures un
     <ul style="margin-top: 0.8em; padding-left: 1.2em;">
       <li>📄 <a href="https://link.springer.com/chapter/10.1007/978-3-031-31726-2_8">Read the method paper</a></li>
       <li>💻 <a href="https://link.springer.com/chapter/10.1007/978-3-031-54464-4_18">Use the R tutorial</a></li>
-      <li>🧪 <a href="https://www.epistemicanalytics.org/our-projects/">Try it in the web tool</a></li>
+      <li>🕹️ <a href="https://www.epistemicanalytics.org/our-projects/">Try it in the web tool</a></li>
     </ul>
   </div>
 </div>
@@ -76,7 +76,7 @@ I think of my work as an iterative cycle: identifying mathematical structures un
 
     <ul style="margin-top: 0.8em; padding-left: 1.2em;">
       <li>🕹️ <a href="https://www.i-plan.us/">Explore the iPlan simulation</a></li>
-      <li>🧠 <a href="https://link.springer.com/chapter/10.1007/978-3-031-47014-1_24">Read the analytics method paper</a></li>
+      <li>📄 <a href="https://link.springer.com/chapter/10.1007/978-3-031-47014-1_24">Read the analytics method paper</a></li>
     </ul>
   </div>
 </div>
@@ -90,7 +90,7 @@ I think of my work as an iterative cycle: identifying mathematical structures un
     I’m currently developing a method to model, visualize, and compare high-dimensional time series data to better understand how learning unfolds over time. This work explores dimensionality reduction, smoothing techniques, and trajectory comparison to uncover meaningful patterns in complex educational datasets. What excites me most is adapting and expanding time series analysis—traditionally used in finance or sensor data—for the unique challenges of learning analytics.
 
     <ul style="margin-top: 0.8em; padding-left: 1.2em;">
-      <li>📈 <a href="mailto:yuanru.tan@wisc.edu">Collaborate on time series data?</a></li>
+      <li>📬 <a href="mailto:yuanru.tan@wisc.edu">Collaborate on time series data?</a></li>
       <li>🛠️ <a href="#trajectory-tools-coming-soon">Trajectory tools (coming soon)</a></li>
     </ul>
   </div>
@@ -101,7 +101,7 @@ I think of my work as an iterative cycle: identifying mathematical structures un
 
 Before starting my Ph.D., I worked as a _Learning Experience Designer for Accessibility_ at the [Center for Academic Innovation](https://ai.umich.edu/) at the University of Michigan–Ann Arbor, under the mentorship of [Professor Rebecca Quintana](https://marsal.umich.edu/directory/faculty-staff/rebecca-quintana). It was my first full-time role after graduate school, and a place where I grew as both a designer and a researcher.
 
-In this role, I worked with [instructors](https://www.youtube.com/watch?v=KDKdWDTVEzE&t=94s&ab_channel=CenterforAcademicInnovation) who were passionate about making online learning more inclusive and accessible. I also contributed to research projects focused on understanding learning experience design. One of my favorite projects with Rebecca explored how different forms of representation—both [tangible artifacts](https://dl.acm.org/doi/10.1145/3170427.3188650) and [digital tools](https://link.springer.com/article/10.1007/s11528-021-00592-x)—can shape the way designers think. (P.S. We ended up decorating our desks with those beaded artifacts, and it remains one of my favorite memories.)
+In this role, I worked with [instructors](https://www.youtube.com/watch?v=KDKdWDTVEzE&t=94s&ab_channel=CenterforAcademicInnovation) who were passionate about making online learning more inclusive and accessible. I also contributed to research projects focused on understanding learning experience design. One of my favorite projects with Rebecca explored how different forms of representation—both [beaded artifacts](https://dl.acm.org/doi/10.1145/3170427.3188650) and [digital visualizations](https://link.springer.com/article/10.1007/s11528-021-00592-x)—can shape the way designers think. (P.S. We ended up decorating our desks with those beaded artifacts, and it remains one of my favorite memories.)
 
 I hold an M.A. in Education from the University of Michigan–Ann Arbor advised by [Professor Chris Quintana](https://marsal.umich.edu/directory/faculty-staff/christopher-quintana), and a B.S. in Information Management Systems from Tianjin University of Technology in China.
 

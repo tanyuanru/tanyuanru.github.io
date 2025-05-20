@@ -61,3 +61,20 @@ h1, h2, h3, h4, h5, h6 {
 .site-footer span:last-child {
   display: none !important;
 }
+
+@media (prefers-color-scheme: dark) {
+  body {
+    background-color: white !important;
+    color: black !important;
+  }
+
+  a {
+    color: #1650FF !important;
+  }
+
+  .page__content,
+  .archive__item {
+    background-color: white !important;
+    color: black !important;
+  }
+}
