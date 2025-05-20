@@ -27,3 +27,15 @@
   {% endcomment %}
 </div>
 
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    document.querySelectorAll("a[href^='http']").forEach(function (el) {
+      // 如果不是本站内链接
+      if (!el.href.includes(window.location.hostname)) {
+        el.setAttribute("target", "_blank");
+        el.setAttribute("rel", "noopener noreferrer");
+      }
+    });
+  });
+</script>
+
