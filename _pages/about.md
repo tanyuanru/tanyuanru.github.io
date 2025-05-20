@@ -7,11 +7,17 @@ redirect_from:
   - /about.html
 ---
 
-I’m **Yuanru Tan** (“Yoo-en-roo”, close to Mandarin pinyin *Yuǎnrú*), a Ph.D. candidate in the Learning Sciences program at the University of Wisconsin–Madison. I’m advised by <a href="https://edpsych.education.wisc.edu/fac-staff/williamson-shaffer-david/" target="_blank" rel="noopener noreferrer">Professor David Williamson Shaffer</a> in the <a href="https://www.epistemicanalytics.org/" target="_blank" rel="noopener noreferrer">Epistemic Analytics Lab</a>, part of the <a href="https://www.crct.center/" target="_blank" rel="noopener noreferrer">Center for Research on Complex Thinking</a>.
+<p>
+I’m <strong>Yuanru Tan</strong> (“Yoo-en-roo”, close to Mandarin pinyin <em>Yuǎnrú</em>), a Ph.D. candidate in the Learning Sciences program at the University of Wisconsin–Madison. I’m advised by <a href="https://edpsych.education.wisc.edu/fac-staff/williamson-shaffer-david/" target="_blank" rel="noopener noreferrer">Professor David Williamson Shaffer</a> in the <a href="https://www.epistemicanalytics.org/" target="_blank" rel="noopener noreferrer">Epistemic Analytics Lab</a>, part of the <a href="https://www.crct.center/" target="_blank" rel="noopener noreferrer">Center for Research on Complex Thinking</a>.
+</p>
 
-I’m a **methodologist-in-training**, working at the intersection of analytics and design. My research focuses on developing analytical tools and visualization techniques to model and represent complex learning processes—both _mathematically_ and _visually_—and to tell faithful, meaningful stories about how people learn.
+<p>
+I’m a <strong>methodologist-in-training</strong>, working at the intersection of analytics and design. I develop computational and visual techniques to build quantitative models of qualitative data—especially in education—with the goal of capturing the complexity of learning processes in ways that are both <em>mathematically rigorous</em> and <em>visually expressive</em>.
+</p>
 
-I think of my work as an iterative cycle: identifying mathematical structures underlying learning phenomena, empirically testing those structures, and ultimately designing tools and interfaces that researchers can use in their own domains. Along the way, I collaborate with and learn from talented colleagues, while contributing my own perspective to advance the field.
+<p>
+I think of my work as an iterative cycle: identifying mathematical structures underlying learning phenomena, empirically testing those structures, and ultimately designing tools and interfaces that researchers can use in their own domains to tell faithful and meaningful stories of how people learn. Along the way, I collaborate with and learn from talented colleagues, while contributing my own perspective to advance the field.
+</p>
 
 ---
 
