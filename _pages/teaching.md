@@ -12,7 +12,6 @@ Spring & Fall 2025
 _UW–Madison_
 
 In this class, I invited students to co-create a [shared resource spreadsheet](https://docs.google.com/spreadsheets/d/1kuxEOxmBrjQ17s2QKsQpeB_zjSFWkTfxCUxl_NLQfwo/edit?gid=0#gid=0){:target="_blank"}, including everything from study tools to playlists, quotes, and favorite campus corners that help with focus or just feeling better. It became a small way for us to support one another, and to recognize that learning is not just academic, but also emotional and human. With students’ permission, we’ll keep adding to it in future semesters. You're welcome to take a look—something in there might brighten your day too.
-
 ---
 
 ## Teaching Assistant
