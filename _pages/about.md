@@ -12,11 +12,11 @@ I’m <strong>Yuanru Tan</strong> (“Yoo-en-roo”, close to Mandarin pinyin <e
 </p>
 
 <p>
-I’m a methodologist-in-training, working at the intersection of analytics and design. I develop methods and tools to build quantitative models of large qualitative data—especially in education—with the goal of interpreting complex learning processes in ways that are both <em>mathematically rigorous</em> and <em>visually expressive</em>.
+I’m a methodologist-in-training, working at the intersection of learning theories, statistics, and design. I develop methods and tools to build quantitative models of large qualitative data—especially in education—with the goal of interpreting complex learning processes in ways that are both <em>mathematically rigorous</em> and <em>visually expressive</em>.
 </p>
 
 <p>
-I think of my work as an iterative cycle: identifying mathematical structures underlying learning phenomena, empirically testing those structures, and ultimately designing tools and interfaces that researchers can use to tell faithful and meaningful stories about how people learn. Along the way, I collaborate with and learn from talented colleagues, while contributing my own perspective to advance the field.
+I think of my work as an iterative cycle: identifying mathematical structures underlying learning phenomena, empirically testing those structures, and ultimately developing tools that researchers can use to tell faithful and meaningful stories about how people learn. Along the way, I learn from talented colleagues, while contributing my own perspective to advance the field.
 </p>
 
 
