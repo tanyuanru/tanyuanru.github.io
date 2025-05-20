@@ -13,7 +13,7 @@ _UW–Madison_
 
 <div style="font-size: 0.9em; color: #666; background-color: #f9f9f9; padding: 0.8em 1em; border-left: 4px solid #ccc; margin-top: 1em; margin-bottom: 1em;">
 
-In this class, I invited students to co-create a <a href="https://docs.google.com/spreadsheets/d/1kuxEOxmBrjQ17s2QKsQpeB_zjSFWkTfxCUxl_NLQfwo/edit?gid=0#gid=0" target="_blank">shared resource spreadsheet</a>, including everything from study tools to playlists, quotes, and favorite campus corners that help with focus or just feeling better. It became a small way for us to support one another, and to recognize that learning is not just academic, but also emotional and human. With students’ permission, we’ll keep adding to it in future semesters. You're welcome to take a look—something in there might brighten your day too.
+In this class, I invited students to co-create a <a href="https://docs.google.com/spreadsheets/d/1kuxEOxmBrjQ17s2QKsQpeB_zjSFWkTfxCUxl_NLQfwo/edit?gid=0#gid=0" target="_blank">shared resource spreadsheet</a>, including everything from study tools to playlists, quotes, and favorite campus corners that help with focus or just feeling better. It became a small way for us to support one another, and to recognize that learning is not just academic, but also emotional and human. With students’ permission, we’ll keep adding to it in future semesters. You're welcome to take a look—something in there might brighten your day too. 
 
 </div>
 
