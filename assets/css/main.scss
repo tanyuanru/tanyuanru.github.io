@@ -78,3 +78,18 @@ h1, h2, h3, h4, h5, h6 {
     color: black !important;
   }
 }
+
+@import "minimal-mistakes"; // or whatever your main theme SCSS is
+
+/* Make text white in dark mode */
+html[data-theme="dark"] {
+  body,
+  p,
+  li,
+  h1, h2, h3, h4, h5, h6,
+  a,
+  .archive__item-title,
+  .page__content {
+    color: #ffffff !important;
+  }
+}
