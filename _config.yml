@@ -16,6 +16,7 @@ description              : "Personal website of Yuanru Tan, Ph.D. candidate in L
 url                      : https://tanyuanru.github.io # the base hostname & protocol for your site e.g. "https://[your GitHub username].github.io" or if you already have some other page hosted on Github then use "https://[your GitHub username].github.io/[Your Repo Name]"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "academicpages/academicpages.github.io"
+author: Yuanru Tan
 
 # Site Author - The following control what appear as part of the author content on the side bar.
 #               If a field is blank the icon and link will not appear, otherwise it will be shown.
@@ -24,11 +25,7 @@ author:
   avatar: "images/avatar.jpg"
   name: "Yuanru Tan 谭远儒"
   #pronouns: "she/her"
-  bio: |
-    Ph.D. Candidate 
-    Learning Sciences at UW-Madison
-    Department of Educational Psychology  
-    yuanru.tan@wisc.edu
+  bio: "Ph.D. Candidate <br> Learning Sciences at UW–Madison <br> Department of Educational Psychology <br> yuanru.tan@wisc.edu"
   location: "Madison, WI, USA"
   #employer: "University of Wisconsin Madison"
   #uri:

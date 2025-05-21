@@ -1,18 +1,8 @@
-# Authors
-
-Name Name:
-  name        : "Name Name"
-  uri         : "http://name.com"
-  email       : "name@name.com"
-  bio         : "This is the first name."
-  avatar      : "bio-photo-2.jpg"
-  twitter     : "name"
-  google_plus : "Name"
-
-Name2 Name2:
-  name        : "Name2 Name2"
-  email       : "name2@name2.com"
-  bio         : "I ordered what?"
-  avatar      : "bio-photo.jpg"
-  twitter     : "name2"
-  google_plus : "Name"
+Yuanru Tan:
+  name        : "Yuanru Tan 谭远儒"
+  email       : "yuanru.tan@wisc.edu"
+  bio         : "Ph.D. Candidate <br> Learning Sciences at UW–Madison <br> Department of Educational Psychology <br> yuanru.tan@wisc.edu"
+  avatar      : "images/avatar.jpg"
+  location    : "Madison, WI, USA"
+  googlescholar: "https://scholar.google.com/citations?user=qb-mwrAAAAAJ&hl=en"
+  orcid       : "https://orcid.org/0000-0001-5154-9667"
