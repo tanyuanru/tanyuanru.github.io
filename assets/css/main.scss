@@ -81,16 +81,23 @@ html[data-theme="dark"] {
   }
 }
 
-.note-box {
-  background-color: #fcfcfc;
-  padding: 1.4em 1.6em;
-  border-left: 5px solid #a0a0a0;
-  font-family: 'IBM Plex Serif', serif;
-  font-size: 1.1em;
-  color: #444;
-  line-height: 1.75;
-  font-style: italic;
+.note-box::before {
+  content: "💡 ";
+  font-size: 1.2em;
+  margin-right: 0.25em;
 }
+
+.note-box {
+  background-color: #fdfdfd;
+  padding: 1.2em 1.6em;
+  border-left: 4px solid #cccccc;
+  border-radius: 8px;
+  font-size: 1.05em;
+  line-height: 1.7;
+  color: #444;
+  font-family: 'IBM Plex Sans', sans-serif;
+}
+
 
 
 
