@@ -81,22 +81,17 @@ html[data-theme="dark"] {
   }
 }
 
-.note-box::before {
-  content: "💡 ";
-  font-size: 1.2em;
-  margin-right: 0.25em;
+.note-box {
+  background-color: #f8f8f8;
+  padding: 1.2em 1.5em;
+  border-radius: 12px;
+  font-size: 0.8em;
+  line-height: 1.75;
+  color: #333;
+  box-shadow: none;
+  border: none;
 }
 
-.note-box {
-  background-color: #fdfdfd;
-  padding: 1.2em 1.6em;
-  border-left: 4px solid #cccccc;
-  border-radius: 8px;
-  font-size: 1.05em;
-  line-height: 1.7;
-  color: #444;
-  font-family: 'IBM Plex Sans', sans-serif;
-}
 
 
 
