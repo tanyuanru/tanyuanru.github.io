@@ -34,10 +34,8 @@
 
 /* ===== Custom styles by Yuanru Tan ===== */
 
-/* ✅ 引入 IBM Plex 字体 */
 @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans&family=IBM+Plex+Serif&display=swap');
 
-/* ✅ 全站文字使用 Sans，标题使用 Serif */
 body {
   font-family: 'IBM Plex Sans', sans-serif !important;
   font-size: 17px;
@@ -54,7 +52,6 @@ h1, h2, h3, h4, h5, h6 {
   display: none !important;
 }
 
-/* ✅ 暂时保留原有 dark mode 逻辑（后面再处理） */
 @media (prefers-color-scheme: dark) {
   body {
     background-color: white !important;
@@ -72,7 +69,6 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 
-/* ✅ 保留 dark mode toggle 支持的白字逻辑（第二步再优化） */
 html[data-theme="dark"] {
   body,
   p,
@@ -84,6 +80,3 @@ html[data-theme="dark"] {
     color: #ffffff !important;
   }
 }
-
-/* ✅ minimal mistakes fallback */
-@import "minimal-mistakes";
