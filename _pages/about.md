@@ -19,7 +19,6 @@ I’m a methodologist-in-training, working at the intersection of learning theor
 I think of my work as an iterative cycle: identifying mathematical structures underlying learning phenomena, empirically testing those structures, and ultimately developing tools that researchers can use to tell faithful and meaningful stories about how people learn. Along the way, I learn from talented colleagues, while contributing my own perspective to advance the field.
 </p>
 
-
 ---
 
 <style>
@@ -63,9 +62,7 @@ I think of my work as an iterative cycle: identifying mathematical structures un
   <img src="/images/ona-logo.png" alt="ONA logo" class="project-image" />
   <div class="project-text">
     <h3><strong>Ordered Network Analysis (ONA)</strong></h3>
-
     I led the development of ONA, a network technique to model, visualize, and statistically compare temporal structures in discourse data. Built on the widely used Epistemic Network Analysis (ENA), ONA has been applied in education, healthcare, and other domains.
-
     <ul style="margin-top: 0.8em; padding-left: 1.2em;">
       <li>📄 <a target="_blank" rel="noopener noreferrer" href="https://link.springer.com/chapter/10.1007/978-3-031-31726-2_8">Read the method paper</a></li>
       <li>💻 <a target="_blank" rel="noopener noreferrer" href="https://link.springer.com/chapter/10.1007/978-3-031-54464-4_18">Use the R tutorial</a></li>
@@ -79,9 +76,7 @@ I think of my work as an iterative cycle: identifying mathematical structures un
   <img src="/images/iplan-logo.png" alt="iPlan logo" class="project-image" />
   <div class="project-text">
     <h3><strong>iPlan</strong></h3>
-
     iPlan is a simulation game where users design urban land-use models and explore the effects of planning decisions on environmental and social outcomes. Its open-ended structure poses unique challenges for assessment. We developed a novel approach to generate simulated learning analytics models directly from system log data, offering “thick descriptions” for otherwise “thin” clickstream data. We're also exploring how these models can help us better understand real learner behaviors.
-
     <ul style="margin-top: 0.8em; padding-left: 1.2em;">
       <li>📄 <a target="_blank" rel="noopener noreferrer" href="https://link.springer.com/chapter/10.1007/978-3-031-47014-1_24">Read the analytics method paper</a></li>
       <li>🕹️ <a target="_blank" rel="noopener noreferrer" href="https://www.i-plan.us/">Explore the iPlan simulation</a></li>
@@ -94,17 +89,14 @@ I think of my work as an iterative cycle: identifying mathematical structures un
   <img src="/images/trajectory-logo.png" alt="Trajectory logo" class="project-image" />
   <div class="project-text">
     <h3><strong>Network Trajectories</strong></h3>
-
     I’m currently developing a method to model, visualize, and compare high-dimensional time series data to better understand how learning unfolds over time. This work explores dimensionality reduction, smoothing techniques, and trajectory comparison to explain meaningful patterns in complex educational datasets. What excites me most is adapting and expanding time series analysis—traditionally used in finance or sensor data—for the unique challenges of learning analytics.
-
     <ul style="margin-top: 0.8em; padding-left: 1.2em;">
       <li>📬 <a target="_blank" rel="noopener noreferrer" href="mailto:yuanru.tan@wisc.edu">Interested in working with me?</a></li>
-      <li>🛠️ Trajectory tools (coming soon) </li>
+      <li>🛠️ Trajectory tools (coming soon)</li>
     </ul>
   </div>
 </div>
 {% endraw %}
-
 
 ## Before the Ph.D.
 
