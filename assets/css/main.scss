@@ -82,13 +82,13 @@ html[data-theme="dark"] {
 }
 
 .note-box {
-  background-color: #f9f9f9;
+  background-color: #f7f7f7;
   padding: 1.25em 1.5em;
-  border-radius: 10px;
+  border-left: 4px solid #ccc;
+  border-radius: 6px;
   font-size: 1em;
-  line-height: 1.75;
+  line-height: 1.7;
   color: #333;
-  box-shadow: 0 1px 4px rgba(0,0,0,0.06);
-  border: none;
 }
+
 
