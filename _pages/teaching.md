@@ -42,7 +42,7 @@ I enjoy mentoring undergraduates who are interested in applying data science, st
 If you're an undergraduate at UW–Madison, check out the [UW Student Jobs page](https://studentjobs.wisc.edu/){:target="_blank"} and search for *Epistemic Analytics*—we’re often hiring, and it’s a fun place to work!
 
 - **2025–Present**  
-  **Seungchae (Joy) Hong** — Data Analytics Intern  
+  **Seungchae (Joy) Hong** — Data Analytics Intern   
   UW–Madison undergraduate, majoring in Statistics and Computer Science
 
 - **2024–2025**  
