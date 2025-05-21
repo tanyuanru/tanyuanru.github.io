@@ -57,6 +57,7 @@ I think of my work as an iterative cycle: identifying mathematical structures un
 
 <h2>Projects I’m Excited About</h2>
 
+{% raw %}
 <!-- ONA -->
 <div class="project-row">
   <img src="/images/ona-logo.png" alt="ONA logo" class="project-image" />
@@ -102,6 +103,7 @@ I think of my work as an iterative cycle: identifying mathematical structures un
     </ul>
   </div>
 </div>
+{% endraw %}
 
 
 ## Before the Ph.D.
