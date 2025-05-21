@@ -12,9 +12,9 @@ Spring & Fall 2025
 _UW–Madison_
 
 <p class="note-box">
-In this class, I invited students to co-create a 
+This course explores how people learn—not just cognitively, but also emotionally and socially. Learning isn’t only about what happens in the brain; it’s also shaped by our environment, routines, and relationships. One small practice we started was a 
 <a href="https://docs.google.com/spreadsheets/d/1kuxEOxmBrjQ17s2QKsQpeB_zjSFWkTfxCUxl_NLQfwo/edit?gid=0#gid=0" target="_blank">
-shared resource spreadsheet</a>, including everything from study tools to playlists, quotes, and favorite campus corners that help with focus or just feeling better. It became a small way for us to support one another, and to recognize that learning is not just academic, but also emotional and human. With students’ permission, we’ll keep adding to it in future semesters. You're welcome to take a look—something in there might brighten your day too.
+shared resource spreadsheet</a>, where students could add anything that helps them focus or feel better,including study tools, playlists, favorite campus corners, even quotes that kept them going. It’s a simple way to support and remind each other that learning is deeply human. With students’ permission, we’ll keep growing it in future semesters. You’re welcome to take a look—something in there might brighten your day too.
 </p>
 
 ---
@@ -42,10 +42,12 @@ _Undergraduate course, UW–Madison_
 ## Undergraduate Research Mentoring  
 _Epistemic Analytics Lab, UW–Madison_
 
-<p class="note-box">
-I enjoy mentoring undergraduates who are interested in applying data science, statistics, or computer science to educational contexts. Many of the students I’ve worked with have gone on to graduate programs or data-related roles. During our time together, we tackled real data problems and co-authored papers.
+<p class="note-box"> Mentorship in our lab is all about **learning by doing and thinking together**. That’s how I’ve been mentored, and it’s how I now work with undergraduate research interns.
 
-If you're an undergraduate at UW–Madison, check out the <a href="https://studentjobs.wisc.edu/" target="_blank">UW Student Jobs page</a> and search for <em>Epistemic Analytics</em>—we’re often hiring, and it’s a fun place to work!
+I enjoy working with students who are curious about education, data, and how people learn. We take on real research problems side by side, ask good questions, and learn as we go. Many of the students I’ve mentored have gone on to graduate school or data-related roles, and they’ve contributed great ideas to our projects along the way.
+
+If you're an undergraduate at UW–Madison, check out the <a href="https://studentjobs.wisc.edu/" target="_blank">UW Student Jobs page</a> and search for <em>Epistemic Analytics</em>—we’re often hiring, and it’s a great place to learn and grow!
+
 </p>
 
 - **2025–Present**  

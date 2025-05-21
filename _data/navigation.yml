@@ -12,13 +12,13 @@ main:
   # - title: "About Me"
   #  url: /
 
-  - title: "Publications"
+  - title: "Research"
     url: /publications/
 
   #- title: "Talks"
   #  url: /talks/    
 
-  - title: "Teaching"
+  - title: "Teaching & Mentoring"
     url: /teaching/    
     
  # - title: "Portfolio"
