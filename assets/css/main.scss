@@ -83,12 +83,15 @@ html[data-theme="dark"] {
 
 .note-box {
   background-color: #f7f7f7;
-  padding: 1.25em 1.5em;
-  border-left: 4px solid #ccc;
-  border-radius: 6px;
-  font-size: 1em;
-  line-height: 1.7;
-  color: #333;
+  border: none;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.04);
+  border-radius: 10px;
+  padding: 1.4em 1.6em;
+  font-size: 1.05em;
+  font-family: 'IBM Plex Serif', serif;
+  line-height: 1.75;
+  color: #2b2b2b;
 }
+
 
 
