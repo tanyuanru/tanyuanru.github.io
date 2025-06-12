@@ -17,10 +17,14 @@
     >
   </div>
 
-  <div class="author__content" style="text-align: center;">
-  <h3 class="author__name">{{ author.name }}</h3>
-  {% if author.pronouns %}<p class="author__pronouns">{{ author.pronouns }}</p>{% endif %}
-  {% if author.bio %}<p class="author__bio">{{ author.bio }}</p>{% endif %}
+  <div class="author__content">
+  <h3 class="author__name" style="text-align: center;">{{ author.name }}</h3>
+  {% if author.pronouns %}
+    <p class="author__pronouns" style="text-align: center;">{{ author.pronouns }}</p>
+  {% endif %}
+  {% if author.bio %}
+    <p class="author__bio" style="text-align: center;">{{ author.bio }}</p>
+  {% endif %}
   </div>
 
 
