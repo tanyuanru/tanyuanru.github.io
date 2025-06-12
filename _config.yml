@@ -25,10 +25,10 @@ author:
   avatar: "images/avatar.jpg"
   name: "Yuanru Tan 谭远儒"
   #pronouns: "she/her"
-  bio: "Ph.D. Candidate <br> Learning Sciences at UW–Madison <br> Department of Educational Psychology <br> yuanru.tan@wisc.edu"
+  bio: "Ph.D. Candidate <br> Learning Sciences at UW–Madison <br> Department of Educational Psychology <br> yuanru.tan@wisc.edu <br> <a href='https://www.crct.center/' target='_blank'>CRCT</a>"
   location: "Madison, WI, USA"
-  employer: CRCT
-  uri: https://www.crct.center/
+  # employer: CRCT
+  # uri: https://www.crct.center/
   email: "yuanru.tan@wisc.edu"
 
   # Academic websites
