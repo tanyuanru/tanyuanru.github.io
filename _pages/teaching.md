@@ -40,11 +40,11 @@ _Undergraduate course, UW–Madison_
 ---
 
 ## Undergraduate Research Mentoring  
-_Epistemic Analytics Lab<a href="https://www.epistemicanalytics.org/" target="_blank">, UW–Madison_
+<a href="https://www.epistemicanalytics.org/" target="_blank">_Epistemic Analytics Lab_</a>, _UW–Madison_
 
 <p class="note-box"> Mentorship in our lab is all about **learning by doing and thinking together**. That’s how I’ve been mentored, and it’s how I now work with undergraduate research interns.
 
-I enjoy working with students who are curious about education, data, and how people learn. We take on real research problems side by side, ask good questions, and learn as we go. 
+I enjoy working with students who are curious about education, data, and how people learn. 
 
 If you're an undergraduate at UW–Madison, check out the <a href="https://studentjobs.wisc.edu/" target="_blank">UW Student Jobs page</a> and search for <em>Epistemic Analytics</em>—we’re often hiring, and it’s a great place to learn and grow!
 
