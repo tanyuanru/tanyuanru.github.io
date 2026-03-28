@@ -8,7 +8,7 @@ redirect_from:
 ---
 
 <p>
-I'm <strong>Yuanru Tan</strong> ("Yoo-en-roo", close to Mandarin pinyin <em>Yuǎnrú</em>), a Ph.D. candidate in the Learning Sciences program at the University of Wisconsin–Madison. I'm advised by <a href="https://edpsych.education.wisc.edu/fac-staff/williamson-shaffer-david/" target="_blank" rel="noopener noreferrer">Professor David Williamson Shaffer</a> in the <a href="https://www.epistemicanalytics.org/" target="_blank" rel="noopener noreferrer">Epistemic Analytics Lab</a>, part of the <a href="https://www.crct.center/" target="_blank" rel="noopener noreferrer">Center for Research on Complex Thinking</a>.
+I'm 
 </p>
 <p>
 I'm a methodologist-in-training, working at the intersection of learning theories, data, and design. I led the development of <strong>Ordered Network Analysis (ONA)</strong>, a method available in R and as a web tool for quantifying directed connections in coded data and visualizing them as weighted directed networks. For my dissertation, I'm developing a new method that goes beyond ONA's capacity to summarize learning processes by describing learning processes as trajectories instead.
