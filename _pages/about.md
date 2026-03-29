@@ -18,11 +18,6 @@ redirect_from:
   Hi! I’m <strong>Yuanru Tan</strong> (“Yoo-en-roo”, close to Mandarin pinyin <em>Yuǎnrú</em>), a Ph.D. candidate in the Learning Sciences program at the University of Wisconsin–Madison, advised by <a href="https://edpsych.education.wisc.edu/fac-staff/williamson-shaffer-david/" target="_blank" rel="noopener noreferrer">Professor David Williamson Shaffer</a> in the <a href="https://www.epistemicanalytics.org/" target="_blank" rel="noopener noreferrer">Epistemic Analytics Lab</a>, part of the <a href="https://www.crct.center/" target="_blank" rel="noopener noreferrer">Center for Research on Complex Thinking</a>. Prior to this, I worked as a Learning Experience Designer for Accessibility at the <a href="https://ai.umich.edu/" target="_blank" rel="noopener noreferrer">Center for Academic Innovation</a> at the University of Michigan–Ann Arbor, under the mentorship of <a href="https://marsal.umich.edu/directory/faculty-staff/rebecca-quintana" target="_blank" rel="noopener noreferrer">Professor Rebecca Quintana</a>. I hold an M.A. in Educational Studies from the University of Michigan–Ann Arbor (advised by <a href="https://marsal.umich.edu/directory/faculty-staff/christopher-quintana" target="_blank" rel="noopener noreferrer">Professor Chris Quintana</a>) and a B.S. in Information Management Systems from Tianjin University of Technology in China.
 </p>
 
-<p class="home-where" aria-label="Profile links">
-  <strong>Where to find me:</strong>
-  <a href="{{ site.author.googlescholar }}" target="_blank" rel="noopener noreferrer">Google Scholar</a><span class="home-dot" aria-hidden="true"> · </span><a href="{{ site.author.orcid }}" target="_blank" rel="noopener noreferrer">ORCID</a><span class="home-dot" aria-hidden="true"> · </span><a href="https://github.com/{{ site.author.github }}" target="_blank" rel="noopener noreferrer">GitHub</a><span class="home-dot" aria-hidden="true"> · </span><a href="https://www.linkedin.com/in/{{ site.author.linkedin }}" target="_blank" rel="noopener noreferrer">LinkedIn</a>
-</p>
-
 <div class="about-body">
 
 <h2>My Research</h2>
@@ -31,13 +26,23 @@ redirect_from:
   I develop methods! Specifically, I design and develop computational methods for educational research, with a focus on modeling learning processes. I believe that studying how people learn requires methods that are not only computationally rigorous and visually expressive, but also grounded in theories of learning. That’s why I situate my research at the intersection of learning sciences, statistics, and data visualization. Here are some highlights:
 </p>
 
-<p>
-  My first signature method, <strong>Ordered Network Analysis (ONA)</strong>, has been employed in 100+ published works across quantitative ethnography, learning analytics, AI in education, healthcare, and nursing education — since my colleagues and I introduced it in 2023 (<a href="https://link.springer.com/chapter/10.1007/978-3-031-31726-2_8" target="_blank" rel="noopener noreferrer">ONA method paper</a>).
-</p>
+<div class="research-highlight-row">
+  <div class="research-highlight-thumb">
+    <img src="{{ base_path }}/images/ona-logo.png" alt="Ordered Network Analysis" loading="lazy" decoding="async">
+  </div>
+  <p class="research-highlight-text">
+    My first signature method, <strong>Ordered Network Analysis (ONA)</strong>, has been employed in <a href="https://scholar.google.com/scholar?cites=10712429113643550992&amp;as_sdt=5,50&amp;sciodt=0,50&amp;hl=en" target="_blank" rel="noopener noreferrer">100+ published works</a> across quantitative ethnography, learning analytics, AI in education, healthcare, and nursing education — since my colleagues and I introduced it in 2023 (<a href="https://link.springer.com/chapter/10.1007/978-3-031-31726-2_8" target="_blank" rel="noopener noreferrer">ONA method paper</a>).
+  </p>
+</div>
 
-<p>
-  My current work focuses on developing a new method for modeling learning trajectories. Try my prototype app here! <em>(link coming soon)</em>
-</p>
+<div class="research-highlight-row">
+  <div class="research-highlight-thumb">
+    <img src="{{ base_path }}/images/trajectory-logo.png" alt="Learning trajectories" loading="lazy" decoding="async">
+  </div>
+  <p class="research-highlight-text">
+    My current work focuses on developing a new method for modeling learning trajectories. Try my prototype app here! <em>(link coming soon)</em>
+  </p>
+</div>
 
 <p>
   I’m driven by the goal of developing methods that turn complex learning data into representations that help researchers tell faithful and meaningful stories about how people learn.
