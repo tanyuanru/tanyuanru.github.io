@@ -14,40 +14,27 @@
 <!-- Academicons -->
 <link rel="stylesheet" href="{{ base_path }}/assets/css/academicons.css"/>
 
-<!-- Google Fonts -->
-<link href="https://fonts.googleapis.com/css2?family=Lato&family=Merriweather&display=swap" rel="stylesheet">
+<!-- Typography: IBM Plex is loaded in assets/css/main.scss (do not override with other fonts here) -->
 
-
-<!-- Custom font and layout overrides -->
 <style>
+  /* Layout: offset below fixed masthead */
   body {
-    font-family: 'Lato', sans-serif !important;
-    font-size: 17px;
-    line-height: 1.8;
-    color: #333;
     padding-top: 60px;
   }
 
-  h1, h2, h3, h4, h5, h6 {
-    font-family: 'Merriweather', serif !important;
-    font-weight: 600;
-  }
-
   .keyword {
-    color: #889E19;  /* 你喜欢的颜色 */
+    color: #889E19;
     font-weight: normal;
   }
 
   a {
-  color: #333 !important;       /* 跟正文一样 */
-  text-decoration: underline;   /* 加下划线 */
-}
+    color: #333 !important;
+    text-decoration: underline;
+  }
 
-a:hover {
-  color: #c78e5b !important;    /* 可选：鼠标悬停时变成米色或你喜欢的颜色 */
-}
-
-  
+  a:hover {
+    color: #c78e5b !important;
+  }
 </style>
 
 <!-- Support for MathJax -->
