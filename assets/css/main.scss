@@ -92,6 +92,22 @@ html[data-theme="dark"] {
   border: none;
 }
 
+/* Sidebar avatar: fixed square + circle crop (avoids oval from non-square images) */
+.sidebar .author__avatar img.author__avatar-img {
+  width: 140px !important;
+  height: 140px !important;
+  object-fit: cover !important;
+  border-radius: 50% !important;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  display: block;
+  margin: 0 auto;
+  transition: transform 0.2s ease;
+}
+
+.sidebar .author__avatar img.author__avatar-img:hover {
+  transform: scale(1.03) !important;
+}
+
 
 
 
