@@ -24,12 +24,13 @@ a {
   text-decoration: underline;
 }
 
-/* ✅ 头像设置：圆形 + 投影 */
+/* ✅ 头像：圆角矩形（与 main.scss 同步） */
 .sidebar .author__avatar img.author__avatar-img {
-  width: 140px !important;
-  height: 140px !important;
+  width: 148px !important;
+  height: 186px !important;
   object-fit: cover !important;
-  border-radius: 50% !important;
+  object-position: center top;
+  border-radius: 8px !important;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
   display: block;
   margin: 0 auto;

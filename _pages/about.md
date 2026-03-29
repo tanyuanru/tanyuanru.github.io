@@ -2,7 +2,7 @@
 permalink: /
 title: "Yuanru Tan"
 show_news: true
-show_latest_posts: true
+show_latest_posts: false
 selected_publications_limit: 2
 author_profile: true
 redirect_from: 
@@ -13,14 +13,19 @@ redirect_from:
 {% include base_path %}
 
 <style>
-.home-landing .home-subtitle {
-  font-size: 1.05rem;
-  color: #555;
-  margin: -0.25rem 0 1.25rem;
-  line-height: 1.45;
+.home-landing .about-body > h2 {
+  font-size: 1.15rem;
+  font-weight: 600;
+  margin: 1.75rem 0 0.65rem;
+  padding-bottom: 0.35em;
+  border-bottom: 1px solid var(--global-border-color, #ddd);
+  font-family: 'IBM Plex Serif', serif !important;
+}
+.home-landing .about-body > h2:first-of-type {
+  margin-top: 0;
 }
 .about-body {
-  line-height: 1.5;
+  line-height: 1.55;
   font-size: 1em;
 }
 .about-body p {
@@ -65,27 +70,6 @@ redirect_from:
 .home-news-table tr:last-child td {
   border-bottom: none;
 }
-.home-post-list {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-  font-size: 0.95em;
-}
-.home-post-list li {
-  margin-bottom: 0.5rem;
-  padding-bottom: 0.5rem;
-  border-bottom: 1px solid rgba(0,0,0,0.06);
-}
-.home-post-list li:last-child {
-  border-bottom: none;
-  margin-bottom: 0;
-  padding-bottom: 0;
-}
-.home-post-list .post-date {
-  color: #666;
-  font-size: 0.9em;
-  margin-right: 0.5rem;
-}
 .home-pub-card {
   border: 1px solid rgba(0,0,0,0.08);
   border-radius: 8px;
@@ -121,24 +105,22 @@ redirect_from:
 
 <div class="home-landing">
 
-<p class="home-subtitle">Ph.D. candidate in Learning Sciences · University of Wisconsin–Madison</p>
-
 <div class="about-body">
 
+<h2>About Me</h2>
+
 <p>
-I’m <strong>Yuanru Tan</strong> (“Yoo-en-roo”, close to Mandarin pinyin <em>Yuǎnrú</em>). I believe that studying how people learn requires methods that are not only computationally rigorous and visually expressive, but also grounded in theories of learning. That’s why, as a methodologist-in-training, my research sits at the intersection of learning sciences, statistics, and data visualization. I develop methods that turn complex learning data into representations that tell faithful and meaningful stories about how people learn.
+I’m <strong>Yuanru Tan</strong> (“Yoo-en-roo”, close to Mandarin pinyin <em>Yuǎnrú</em>), a Ph.D. candidate in the Learning Sciences program at the University of Wisconsin–Madison, advised by <a href="https://edpsych.education.wisc.edu/fac-staff/williamson-shaffer-david/" target="_blank" rel="noopener noreferrer">Professor David Williamson Shaffer</a> in the <a href="https://www.epistemicanalytics.org/" target="_blank" rel="noopener noreferrer">Epistemic Analytics Lab</a>, part of the <a href="https://www.crct.center/" target="_blank" rel="noopener noreferrer">Center for Research on Complex Thinking</a>. Prior to this, I worked as a Learning Experience Designer for Accessibility at the <a href="https://ai.umich.edu/" target="_blank" rel="noopener noreferrer">Center for Academic Innovation</a> at the University of Michigan–Ann Arbor, under the mentorship of <a href="https://marsal.umich.edu/directory/faculty-staff/rebecca-quintana" target="_blank" rel="noopener noreferrer">Professor Rebecca Quintana</a>. I hold an M.A. in Educational Studies from the University of Michigan–Ann Arbor (advised by <a href="https://marsal.umich.edu/directory/faculty-staff/christopher-quintana" target="_blank" rel="noopener noreferrer">Professor Chris Quintana</a>) and a B.S. in Information Management Systems from Tianjin University of Technology in China.
+</p>
+
+<h2>My Research</h2>
+
+<p>
+My research focuses on designing and developing computational methods for education, with a focus on modeling learning processes. My first signature method, <strong>Ordered Network Analysis (ONA)</strong>, has — since its introduction in 2023 — been employed in 100+ published works across quantitative ethnography, learning analytics, AI in education, healthcare, and nursing education (<a href="https://scholar.google.com/scholar?oi=bibs&amp;hl=en&amp;cites=10712429113643550992&amp;as_sdt=5" target="_blank" rel="noopener noreferrer">Google Scholar citation graph</a>). My dissertation project takes this further: a new method for modeling learning trajectories. More to come!
 </p>
 
 <p>
-In my first three years as a Ph.D. student, I led the development of <strong>Ordered Network Analysis (ONA)</strong>, a method for quantifying how concepts co-occur in coded data and visualizing those relationships as weighted directed networks that support both visual and statistical comparison. Since its introduction, ONA has been adopted by researchers in various fields such as quantitative ethnography, learning analytics, AI in education, healthcare, and nursing education.
-</p>
-
-<p>
-In my current work, I’m extending ONA to develop a new method that constructs learning trajectories from process data. Learning is a process of change over time, we can see behavior change, but not the underlying mechanisms that drive it. The method I’m developing traces those mechanisms from moment to moment, to recover learning as it actually unfolds.
-</p>
-
-<p>
-I’m advised by <a href="https://edpsych.education.wisc.edu/fac-staff/williamson-shaffer-david/" target="_blank" rel="noopener noreferrer">Professor David Williamson Shaffer</a> in the <a href="https://www.epistemicanalytics.org/" target="_blank" rel="noopener noreferrer">Epistemic Analytics Lab</a>, part of the <a href="https://www.crct.center/" target="_blank" rel="noopener noreferrer">Center for Research on Complex Thinking</a>. Before my Ph.D., I worked as a Learning Experience Designer for Accessibility at the <a href="https://ai.umich.edu/" target="_blank" rel="noopener noreferrer">Center for Academic Innovation</a> at the University of Michigan–Ann Arbor, under the mentorship of <a href="https://marsal.umich.edu/directory/faculty-staff/rebecca-quintana" target="_blank" rel="noopener noreferrer">Professor Rebecca Quintana</a>. I hold an M.A. in Education from the University of Michigan–Ann Arbor (advised by <a href="https://marsal.umich.edu/directory/faculty-staff/christopher-quintana" target="_blank" rel="noopener noreferrer">Professor Chris Quintana</a>) and a B.S. in Information Management Systems from Tianjin University of Technology in China.
+As a methodologist-in-training, I believe that studying how people learn requires methods that are not only computationally rigorous and visually expressive, but also grounded in theories of learning. That’s why I situate my research at the intersection of learning sciences, statistics, and data visualization. I’m driven by the goal of developing methods that turn complex learning data into representations that help researchers tell faithful and meaningful stories about how people learn.
 </p>
 
 </div>
@@ -157,24 +139,6 @@ I’m advised by <a href="https://edpsych.education.wisc.edu/fac-staff/williamso
     </tbody>
   </table>
 </section>
-{% endif %}
-
-{% if page.show_latest_posts != false %}
-  {% assign post_limit = 3 %}
-  {% assign recent_posts = site.posts | where_exp: "post", "post.date <= site.time" | sort: "date" | reverse %}
-  {% if recent_posts.size > 0 %}
-<section class="home-section" aria-labelledby="home-posts-heading">
-  <h2 id="home-posts-heading">Latest posts</h2>
-  <ul class="home-post-list">
-    {% for post in recent_posts limit: post_limit %}
-    <li>
-      <span class="post-date">{{ post.date | date: "%b %d, %Y" }}</span>
-      <a href="{{ base_path }}{{ post.url }}">{{ post.title }}</a>
-    </li>
-    {% endfor %}
-  </ul>
-</section>
-  {% endif %}
 {% endif %}
 
 {% if site.publications.size > 0 %}
