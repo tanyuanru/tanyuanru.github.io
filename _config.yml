@@ -10,6 +10,8 @@
 locale                   : "en-US"
 site_theme               : "default"
 title                    : "Yuanru Tan"
+# First nav link (home); browser title still uses `title` above.
+masthead_home_label      : "About Me"
 title_separator          : "-"
 name                     : "Yuanru Tan"
 description              : "Yuanru Tan — Ph.D. candidate in Learning Sciences (UW–Madison). Computational methods for learning processes; developer of Ordered Network Analysis (ONA)."
@@ -29,8 +31,7 @@ author:
   name_zh: "谭远儒"
   #pronouns: "she/her"
   bio: ""
-  sidebar_affiliation: "UW–Madison"
-  # location: omitted — affiliation shown in sidebar instead
+  # location:
   # employer: CRCT
   # uri: https://www.crct.center/
   email: "yuanru.tan@wisc.edu"
