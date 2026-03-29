@@ -17,7 +17,7 @@ url                      : https://tanyuanru.github.io # the base hostname & pro
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "academicpages/academicpages.github.io"
 
-# Full CV PDF (sidebar “Curriculum Vitae” link; update when the file URL changes)
+# Full CV PDF (use same URL as the “CV” item in _data/navigation.yml)
 cv_pdf_url: "https://drive.google.com/file/d/1Y5bp-jOBVNWTuNv6ifLZnUwiwYlGQ3vp/view?usp=sharing"
 
 # Site Author - The following control what appear as part of the author content on the side bar.

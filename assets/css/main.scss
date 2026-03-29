@@ -131,12 +131,14 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 
+/* Sidebar: one left edge for avatar, name block, and social icons */
 .sidebar .author__content {
-  text-align: center !important;
+  text-align: left !important;
 }
 
 .sidebar .author__urls-wrapper {
   text-align: left !important;
+  width: 100%;
 }
 
 .sidebar .author__urls,
@@ -145,13 +147,13 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .sidebar .author__name {
-  text-align: center !important;
+  text-align: left !important;
   color: var(--site-navy) !important;
   font-family: 'IBM Plex Serif', Georgia, serif !important;
 }
 
 .sidebar .author__name-zh {
-  text-align: center !important;
+  text-align: left !important;
   margin: 0.25rem 0 0.6rem !important;
   font-size: 1rem !important;
   font-weight: 500 !important;
@@ -160,7 +162,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .sidebar .author__sidebar-line {
-  text-align: center !important;
+  text-align: left !important;
   margin: 0 0 0.4rem !important;
   font-size: 0.8125rem !important;
   line-height: 1.45 !important;
@@ -171,12 +173,32 @@ h1, h2, h3, h4, h5, h6 {
   letter-spacing: 0.03em !important;
 }
 
-.sidebar .author__sidebar-cv {
-  margin: 0 0 0.45rem !important;
-}
+@media screen and (min-width: 64em) {
+  .sidebar .author__urls.social-icons {
+    display: flex !important;
+    flex-wrap: wrap;
+    gap: 0.5rem 0.85rem;
+    align-items: center;
+    justify-content: flex-start;
+    list-style: none !important;
+    padding-left: 0 !important;
+    margin: 0.65rem 0 0 !important;
+  }
 
-.sidebar .author__sidebar-cv a {
-  font-weight: 500 !important;
+  .sidebar .author__urls.social-icons li {
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+
+  .sidebar .author__urls.social-icons a {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 1.5rem;
+    min-height: 1.5rem;
+    font-size: 1.2rem;
+    line-height: 1;
+  }
 }
 
 .sidebar p,
@@ -238,16 +260,23 @@ html[data-theme="dark"] {
   border: none;
 }
 
-/* Sidebar avatar: rounded rectangle, aligned with centered text block */
+/* Sidebar avatar: square, left-aligned with name + icon row */
+.sidebar .author__avatar {
+  display: block !important;
+  width: 100% !important;
+  margin-top: 0.5rem;
+}
+
 .sidebar .author__avatar img.author__avatar-img {
-  width: 148px !important;
-  height: 186px !important;
+  width: 160px !important;
+  height: 160px !important;
+  max-width: 100%;
   object-fit: cover !important;
   object-position: center top;
   border-radius: 8px !important;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
   display: block;
-  margin: 0 auto;
+  margin: 0 0 0.65rem !important;
   transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
 
