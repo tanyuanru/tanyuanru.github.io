@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "Yuanru Tan"
+title: ""
 show_news: true
 show_latest_posts: false
 selected_publications_limit: 2
@@ -14,42 +14,34 @@ redirect_from:
 
 <div class="home-landing">
 
-<p class="home-open">
-  Welcome! I work at the intersection of <strong>learning sciences</strong>, <strong>computational methods</strong>, and <strong>data visualization</strong> — building tools to model <strong>learning processes</strong> and <strong>process data</strong>. Ph.D. candidate at the <a href="https://www.wisc.edu/" target="_blank" rel="noopener noreferrer">University of Wisconsin–Madison</a>, advised by <a href="https://edpsych.education.wisc.edu/fac-staff/williamson-shaffer-david/" target="_blank" rel="noopener noreferrer">David Williamson Shaffer</a> (<a href="https://www.epistemicanalytics.org/" target="_blank" rel="noopener noreferrer">Epistemic Analytics Lab</a>, <a href="https://www.crct.center/" target="_blank" rel="noopener noreferrer">CRCT</a>).
+<p class="home-intro">
+  Hi! I’m <strong>Yuanru Tan</strong> (“Yoo-en-roo”, close to Mandarin pinyin <em>Yuǎnrú</em>), a Ph.D. candidate in the Learning Sciences program at the University of Wisconsin–Madison, advised by <a href="https://edpsych.education.wisc.edu/fac-staff/williamson-shaffer-david/" target="_blank" rel="noopener noreferrer">Professor David Williamson Shaffer</a> in the <a href="https://www.epistemicanalytics.org/" target="_blank" rel="noopener noreferrer">Epistemic Analytics Lab</a>, part of the <a href="https://www.crct.center/" target="_blank" rel="noopener noreferrer">Center for Research on Complex Thinking</a>. Prior to this, I worked as a Learning Experience Designer for Accessibility at the <a href="https://ai.umich.edu/" target="_blank" rel="noopener noreferrer">Center for Academic Innovation</a> at the University of Michigan–Ann Arbor, under the mentorship of <a href="https://marsal.umich.edu/directory/faculty-staff/rebecca-quintana" target="_blank" rel="noopener noreferrer">Professor Rebecca Quintana</a>. I hold an M.A. in Educational Studies from the University of Michigan–Ann Arbor (advised by <a href="https://marsal.umich.edu/directory/faculty-staff/christopher-quintana" target="_blank" rel="noopener noreferrer">Professor Chris Quintana</a>) and a B.S. in Information Management Systems from Tianjin University of Technology in China.
 </p>
 
 <p class="home-where" aria-label="Profile links">
   <strong>Where to find me:</strong>
-  <a href="{{ site.author.googlescholar }}" target="_blank" rel="noopener noreferrer">Google Scholar</a><span class="home-dot" aria-hidden="true"> · </span><a href="{{ site.author.orcid }}" target="_blank" rel="noopener noreferrer">ORCID</a><span class="home-dot" aria-hidden="true"> · </span><a href="https://github.com/{{ site.author.github }}" target="_blank" rel="noopener noreferrer">GitHub</a><span class="home-dot" aria-hidden="true"> · </span><a href="https://www.linkedin.com/in/{{ site.author.linkedin }}" target="_blank" rel="noopener noreferrer">LinkedIn</a><span class="home-dot" aria-hidden="true"> · </span><a href="mailto:{{ site.author.email }}">Email</a>
+  <a href="{{ site.author.googlescholar }}" target="_blank" rel="noopener noreferrer">Google Scholar</a><span class="home-dot" aria-hidden="true"> · </span><a href="{{ site.author.orcid }}" target="_blank" rel="noopener noreferrer">ORCID</a><span class="home-dot" aria-hidden="true"> · </span><a href="https://github.com/{{ site.author.github }}" target="_blank" rel="noopener noreferrer">GitHub</a><span class="home-dot" aria-hidden="true"> · </span><a href="https://www.linkedin.com/in/{{ site.author.linkedin }}" target="_blank" rel="noopener noreferrer">LinkedIn</a>
 </p>
-
-<p class="home-market-note">On the academic job market (2025–26).</p>
-
-<div class="home-actions" role="navigation" aria-label="Documents">
-  <a class="home-btn home-btn--primary" href="{{ site.cv_pdf_url }}" target="_blank" rel="noopener noreferrer">Download CV (PDF)</a>
-  <a class="home-btn" href="{{ base_path }}/research/">Research</a>
-  <a class="home-btn" href="{{ base_path }}/teaching/">Teaching &amp; mentoring</a>
-</div>
 
 <div class="about-body">
 
-<h2 class="home-theme-head">Learning, methods, representation</h2>
+<h2>My Research</h2>
 
 <p>
-<strong>Yuanru Tan</strong> (“Yoo-en-roo”; Mandarin <em>Yuǎnrú</em>). My training bridges learning sciences, statistics, and visualization — with prior experience as a Learning Experience Designer for Accessibility at the <a href="https://ai.umich.edu/" target="_blank" rel="noopener noreferrer">Center for Academic Innovation</a>, University of Michigan–Ann Arbor (<a href="https://marsal.umich.edu/directory/faculty-staff/rebecca-quintana" target="_blank" rel="noopener noreferrer">Rebecca Quintana</a>). M.A. in Educational Studies, Michigan (advisor <a href="https://marsal.umich.edu/directory/faculty-staff/christopher-quintana" target="_blank" rel="noopener noreferrer">Chris Quintana</a>); B.S. in Information Management Systems, Tianjin University of Technology.
+  I develop methods! Specifically, I design and develop computational methods for educational research, with a focus on modeling learning processes. I believe that studying how people learn requires methods that are not only computationally rigorous and visually expressive, but also grounded in theories of learning. That’s why I situate my research at the intersection of learning sciences, statistics, and data visualization. Here are some highlights:
 </p>
 
-<h2>Research</h2>
-
-<p class="home-section-lead">
-  I develop methods that help researchers represent and reason about learning from complex qualitative and process data — work that should be <em>computationally sound</em>, <em>visually clear</em>, and <em>theoretically grounded</em>.
+<p>
+  My first signature method, <strong>Ordered Network Analysis (ONA)</strong>, has been employed in 100+ published works across quantitative ethnography, learning analytics, AI in education, healthcare, and nursing education — since my colleagues and I introduced it in 2023 (<a href="https://link.springer.com/chapter/10.1007/978-3-031-31726-2_8" target="_blank" rel="noopener noreferrer">ONA method paper</a>).
 </p>
 
-<ul class="research-highlights">
-  <li><strong>Ordered Network Analysis (ONA).</strong> A signature method for temporal network structure in coded data; in use across quantitative ethnography, learning analytics, AI in education, healthcare, and nursing education since 2023 (<a href="https://scholar.google.com/scholar?oi=bibs&amp;hl=en&amp;cites=10712429113643550992&amp;as_sdt=5" target="_blank" rel="noopener noreferrer">citing works</a>).</li>
-  <li><strong>Dissertation.</strong> Extending this line of work toward methods for <strong>learning trajectories</strong> from process data — more soon.</li>
-  <li><strong>Goal.</strong> Representations that support faithful, meaningful accounts of how people learn — not only summaries of behavior.</li>
-</ul>
+<p>
+  My current work focuses on developing a new method for modeling learning trajectories. Try my prototype app here! <em>(link coming soon)</em>
+</p>
+
+<p>
+  I’m driven by the goal of developing methods that turn complex learning data into representations that help researchers tell faithful and meaningful stories about how people learn.
+</p>
 
 </div>
 

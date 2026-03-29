@@ -25,10 +25,12 @@ cv_pdf_url: "https://drive.google.com/file/d/1Y5bp-jOBVNWTuNv6ifLZnUwiwYlGQ3vp/v
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   avatar: "images/avatar.jpg"
-  name: "Yuanru Tan 谭远儒"
+  name: "Yuanru Tan"
+  name_zh: "谭远儒"
   #pronouns: "she/her"
-  bio: "Ph.D. Candidate · Learning Sciences, UW–Madison <br> <a href='https://www.crct.center/' target='_blank'>Center for Research on Complex Thinking</a>"
-  location: "Madison, WI, USA"
+  bio: ""
+  sidebar_affiliation: "UW–Madison"
+  # location: omitted — affiliation shown in sidebar instead
   # employer: CRCT
   # uri: https://www.crct.center/
   email: "yuanru.tan@wisc.edu"
