@@ -12,13 +12,22 @@
   <div class="author__avatar">
     <img 
       src="{{ author.avatar | default: '/images/avatar.jpg' | relative_url }}" 
-      alt="{{ author.name }}" 
+      alt="{{ author.name }}{% if author.name_zh %} {{ author.name_zh }}{% endif %}" 
       class="author__avatar-img"
     >
   </div>
 
 <div class="author__content">
   <h3 class="author__name">{{ author.name }}</h3>
+  {% if author.name_zh %}
+  <p class="author__name-zh" lang="zh">{{ author.name_zh }}</p>
+  {% if author.email %}
+  <p class="author__sidebar-line author__sidebar-email">{{ author.email }}</p>
+  {% endif %}
+  {% if author.sidebar_affiliation %}
+  <p class="author__sidebar-line author__sidebar-affil">{{ author.sidebar_affiliation }}</p>
+  {% endif %}
+  {% endif %}
   {% if author.pronouns %}<p class="author__pronouns">{{ author.pronouns }}</p>{% endif %}
   {% if author.bio %}<p class="author__bio">{{ author.bio }}</p>{% endif %}
   </div>
@@ -35,7 +44,9 @@
        </li>
       {% endif %}
       {% if author.email %}
+        {% unless author.name_zh %}
         <li><a href="mailto:{{ author.email }}"><i class="fas fa-fw fa-envelope icon-pad-right" aria-hidden="true"></i>{{ site.data.ui-text[site.locale].email_label | default: "Email" }}</a></li>
+        {% endunless %}
       {% endif %}
 
       {% if author.academia %}

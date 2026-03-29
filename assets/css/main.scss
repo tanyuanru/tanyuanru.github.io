@@ -142,6 +142,27 @@ h1, h2, h3, h4, h5, h6 {
   font-family: 'IBM Plex Serif', Georgia, serif !important;
 }
 
+.sidebar .author__name-zh {
+  text-align: center !important;
+  margin: 0.25rem 0 0.6rem !important;
+  font-size: 1rem !important;
+  font-weight: 500 !important;
+  color: var(--site-navy) !important;
+  line-height: 1.35 !important;
+}
+
+.sidebar .author__sidebar-line {
+  text-align: center !important;
+  margin: 0 0 0.4rem !important;
+  font-size: 0.8125rem !important;
+  line-height: 1.45 !important;
+  color: var(--site-body) !important;
+}
+
+.sidebar .author__sidebar-email {
+  letter-spacing: 0.03em !important;
+}
+
 .sidebar p,
 .sidebar li,
 .sidebar .author__bio {
@@ -274,7 +295,8 @@ html[data-theme="dark"] {
 }
 
 /* Welcoming opener + profile strip (Kamšek-style clarity on same MM stack) */
-.home-open {
+.home-open,
+.home-intro {
   font-size: 1.05rem;
   line-height: 1.68;
   color: var(--site-body);
@@ -357,19 +379,7 @@ html[data-theme="dark"] {
   color: #fff !important;
 }
 
-.page__content .home-landing .about-body > h2.home-theme-head {
-  font-size: 1.35rem;
-  font-weight: 600;
-  margin: 0 0 0.85rem;
-  padding-bottom: 0;
-  border-bottom: none;
-  font-family: 'IBM Plex Serif', serif !important;
-  line-height: 1.28;
-  color: var(--site-navy) !important;
-  letter-spacing: 0.01em;
-}
-
-.page__content .home-landing .about-body > h2:not(.home-theme-head),
+.page__content .home-landing .about-body > h2,
 .page__content .home-landing .home-section > h2 {
   font-size: 1.125rem;
   font-weight: 600;
