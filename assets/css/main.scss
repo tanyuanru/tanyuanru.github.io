@@ -131,9 +131,17 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 
-.sidebar .author__content,
-.sidebar .author__urls-wrapper {
+.sidebar .author__content {
   text-align: center !important;
+}
+
+.sidebar .author__urls-wrapper {
+  text-align: left !important;
+}
+
+.sidebar .author__urls,
+.sidebar .author__urls li {
+  text-align: left !important;
 }
 
 .sidebar .author__name {
@@ -161,6 +169,14 @@ h1, h2, h3, h4, h5, h6 {
 
 .sidebar .author__sidebar-email {
   letter-spacing: 0.03em !important;
+}
+
+.sidebar .author__sidebar-cv {
+  margin: 0 0 0.45rem !important;
+}
+
+.sidebar .author__sidebar-cv a {
+  font-weight: 500 !important;
 }
 
 .sidebar p,
@@ -381,7 +397,7 @@ html[data-theme="dark"] {
   color: #333;
 }
 
-.page__content .home-landing .about-body > h2:first-child {
+.page__content .home-landing .about-body > h2:first-of-type {
   margin-top: 0.35rem;
 }
 

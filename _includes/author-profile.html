@@ -21,6 +21,9 @@
   <h3 class="author__name">{{ author.name }}</h3>
   {% if author.name_zh %}
   <p class="author__name-zh" lang="zh">{{ author.name_zh }}</p>
+  {% if site.cv_pdf_url %}
+  <p class="author__sidebar-line author__sidebar-cv"><a href="{{ site.cv_pdf_url }}" target="_blank" rel="noopener noreferrer">Curriculum Vitae</a></p>
+  {% endif %}
   {% if author.email %}
   <p class="author__sidebar-line author__sidebar-email">{{ author.email }}</p>
   {% endif %}
