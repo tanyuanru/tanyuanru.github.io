@@ -12,116 +12,38 @@ redirect_from:
 
 {% include base_path %}
 
-<style>
-.home-landing .about-body > h2 {
-  font-size: 1.15rem;
-  font-weight: 600;
-  margin: 1.75rem 0 0.65rem;
-  padding-bottom: 0.35em;
-  border-bottom: 1px solid var(--global-border-color, #ddd);
-  font-family: 'IBM Plex Serif', serif !important;
-}
-.home-landing .about-body > h2:first-of-type {
-  margin-top: 0;
-}
-.about-body {
-  line-height: 1.55;
-  font-size: 1em;
-}
-.about-body p {
-  margin-bottom: 0.9em;
-}
-.about-body p:last-child {
-  margin-bottom: 0;
-}
-.home-landing .home-section {
-  margin-top: 2.25rem;
-}
-.home-landing .home-section:first-of-type {
-  margin-top: 1.75rem;
-}
-.home-landing .home-section h2 {
-  font-size: 1.2rem;
-  font-weight: 600;
-  margin: 0 0 0.75rem;
-  padding-bottom: 0.35em;
-  border-bottom: 1px solid var(--global-border-color, #ddd);
-  font-family: 'IBM Plex Serif', serif !important;
-}
-.home-news-table {
-  width: 100%;
-  border-collapse: collapse;
-  font-size: 0.92em;
-}
-.home-news-table th,
-.home-news-table td {
-  text-align: left;
-  vertical-align: top;
-  padding: 0.45rem 0.65rem 0.45rem 0;
-  border-bottom: 1px solid rgba(0,0,0,0.06);
-}
-.home-news-table th {
-  width: 6.5rem;
-  color: #666;
-  font-weight: 500;
-  white-space: nowrap;
-}
-.home-news-table tr:last-child th,
-.home-news-table tr:last-child td {
-  border-bottom: none;
-}
-.home-pub-card {
-  border: 1px solid rgba(0,0,0,0.08);
-  border-radius: 8px;
-  padding: 1rem 1.15rem;
-  background: #fafafa;
-  margin-bottom: 0.85rem;
-  font-size: 0.95em;
-  line-height: 1.5;
-}
-.home-pub-card:last-of-type {
-  margin-bottom: 0.5rem;
-}
-.home-pub-card .home-pub-title {
-  font-size: 1.05rem;
-  font-weight: 600;
-  margin: 0 0 0.35rem;
-  font-family: 'IBM Plex Serif', serif !important;
-}
-.home-pub-card .home-pub-meta {
-  color: #555;
-  font-size: 0.9em;
-  margin: 0 0 0.5rem;
-}
-.home-pub-card .home-pub-excerpt {
-  margin: 0 0 0.5rem;
-  font-size: 0.92em;
-}
-.home-landing .home-more {
-  margin: 0.75rem 0 0;
-  font-size: 0.95em;
-}
-</style>
-
 <div class="home-landing">
+
+<p class="home-lead">
+  Ph.D. candidate in Learning Sciences, <a href="https://www.wisc.edu/" target="_blank" rel="noopener noreferrer">University of Wisconsin–Madison</a>. I build computational methods to model learning processes and process data — advised by <a href="https://edpsych.education.wisc.edu/fac-staff/williamson-shaffer-david/" target="_blank" rel="noopener noreferrer">David Williamson Shaffer</a> (<a href="https://www.epistemicanalytics.org/" target="_blank" rel="noopener noreferrer">Epistemic Analytics Lab</a>, <a href="https://www.crct.center/" target="_blank" rel="noopener noreferrer">CRCT</a>).
+</p>
+<p class="home-market-note">On the academic job market (2025–26).</p>
+
+<div class="home-actions" role="navigation" aria-label="Primary links">
+  <a class="home-btn home-btn--primary" href="{{ site.cv_pdf_url }}" target="_blank" rel="noopener noreferrer">Download CV (PDF)</a>
+  <a class="home-btn" href="mailto:{{ site.author.email }}">Email</a>
+  <a class="home-btn" href="{{ site.author.googlescholar }}" target="_blank" rel="noopener noreferrer">Google Scholar</a>
+</div>
 
 <div class="about-body">
 
-<h2>About Me</h2>
+<h2>About</h2>
 
 <p>
-I’m <strong>Yuanru Tan</strong> (“Yoo-en-roo”, close to Mandarin pinyin <em>Yuǎnrú</em>), a Ph.D. candidate in the Learning Sciences program at the University of Wisconsin–Madison, advised by <a href="https://edpsych.education.wisc.edu/fac-staff/williamson-shaffer-david/" target="_blank" rel="noopener noreferrer">Professor David Williamson Shaffer</a> in the <a href="https://www.epistemicanalytics.org/" target="_blank" rel="noopener noreferrer">Epistemic Analytics Lab</a>, part of the <a href="https://www.crct.center/" target="_blank" rel="noopener noreferrer">Center for Research on Complex Thinking</a>. Prior to this, I worked as a Learning Experience Designer for Accessibility at the <a href="https://ai.umich.edu/" target="_blank" rel="noopener noreferrer">Center for Academic Innovation</a> at the University of Michigan–Ann Arbor, under the mentorship of <a href="https://marsal.umich.edu/directory/faculty-staff/rebecca-quintana" target="_blank" rel="noopener noreferrer">Professor Rebecca Quintana</a>. I hold an M.A. in Educational Studies from the University of Michigan–Ann Arbor (advised by <a href="https://marsal.umich.edu/directory/faculty-staff/christopher-quintana" target="_blank" rel="noopener noreferrer">Professor Chris Quintana</a>) and a B.S. in Information Management Systems from Tianjin University of Technology in China.
+<strong>Yuanru Tan</strong> (“Yoo-en-roo”; Mandarin <em>Yuǎnrú</em>). My training bridges learning sciences, statistics, and visualization — with prior experience as a Learning Experience Designer for Accessibility at the <a href="https://ai.umich.edu/" target="_blank" rel="noopener noreferrer">Center for Academic Innovation</a>, University of Michigan–Ann Arbor (<a href="https://marsal.umich.edu/directory/faculty-staff/rebecca-quintana" target="_blank" rel="noopener noreferrer">Rebecca Quintana</a>). M.A. in Educational Studies, Michigan (advisor <a href="https://marsal.umich.edu/directory/faculty-staff/christopher-quintana" target="_blank" rel="noopener noreferrer">Chris Quintana</a>); B.S. in Information Management Systems, Tianjin University of Technology.
 </p>
 
-<h2>My Research</h2>
+<h2>Research</h2>
 
-<p>
-My research focuses on designing and developing computational methods for education, with a focus on modeling learning processes. My first signature method, <strong>Ordered Network Analysis (ONA)</strong>, has — since its introduction in 2023 — been employed in 100+ published works across quantitative ethnography, learning analytics, AI in education, healthcare, and nursing education (<a href="https://scholar.google.com/scholar?oi=bibs&amp;hl=en&amp;cites=10712429113643550992&amp;as_sdt=5" target="_blank" rel="noopener noreferrer">Google Scholar citation graph</a>). My dissertation project takes this further: a new method for modeling learning trajectories. More to come!
+<p class="home-section-lead">
+  I develop methods that help researchers represent and reason about learning from complex qualitative and process data — work that should be <em>computationally sound</em>, <em>visually clear</em>, and <em>theoretically grounded</em>.
 </p>
 
-<p>
-As a methodologist-in-training, I believe that studying how people learn requires methods that are not only computationally rigorous and visually expressive, but also grounded in theories of learning. That’s why I situate my research at the intersection of learning sciences, statistics, and data visualization. I’m driven by the goal of developing methods that turn complex learning data into representations that help researchers tell faithful and meaningful stories about how people learn.
-</p>
+<ul class="research-highlights">
+  <li><strong>Ordered Network Analysis (ONA).</strong> A signature method for temporal network structure in coded data; in use across quantitative ethnography, learning analytics, AI in education, healthcare, and nursing education since 2023 (<a href="https://scholar.google.com/scholar?oi=bibs&amp;hl=en&amp;cites=10712429113643550992&amp;as_sdt=5" target="_blank" rel="noopener noreferrer">citing works</a>).</li>
+  <li><strong>Dissertation.</strong> Extending this line of work toward methods for <strong>learning trajectories</strong> from process data — more soon.</li>
+  <li><strong>Goal.</strong> Representations that support faithful, meaningful accounts of how people learn — not only summaries of behavior.</li>
+</ul>
 
 </div>
 
@@ -141,7 +63,8 @@ As a methodologist-in-training, I believe that studying how people learn require
 </section>
 {% endif %}
 
-{% if site.publications.size > 0 %}
+{% assign pub_count = site.publications | size %}
+{% if pub_count > 0 %}
 <section class="home-section" aria-labelledby="home-pubs-heading">
   <h2 id="home-pubs-heading">Selected publications</h2>
   {% assign pub_limit = page.selected_publications_limit | default: 2 %}
@@ -154,11 +77,11 @@ As a methodologist-in-training, I believe that studying how people learn require
     <p class="home-pub-excerpt">{{ pub.excerpt | markdownify | remove: '<p>' | remove: '</p>' }}</p>
     {% endif %}
     {% if pub.paperurl %}
-    <p class="home-pub-links" style="margin:0;font-size:0.9em;"><a href="{{ pub.paperurl }}" target="_blank" rel="noopener noreferrer">Paper</a></p>
+    <p class="home-pub-links"><a href="{{ pub.paperurl }}" target="_blank" rel="noopener noreferrer">Paper</a></p>
     {% endif %}
   </article>
   {% endfor %}
-  <p class="home-more"><a href="{{ base_path }}/research/">View all research →</a></p>
+  <p class="home-more"><a href="{{ base_path }}/research/">All research →</a></p>
 </section>
 {% endif %}
 

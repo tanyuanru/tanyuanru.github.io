@@ -12,10 +12,13 @@ site_theme               : "default"
 title                    : "Yuanru Tan"
 title_separator          : "-"
 name                     : "Yuanru Tan"
-description              : "Personal website of Yuanru Tan, Ph.D. candidate in Learning Sciences at UW–Madison"
+description              : "Yuanru Tan — Ph.D. candidate in Learning Sciences (UW–Madison). Computational methods for learning processes; developer of Ordered Network Analysis (ONA)."
 url                      : https://tanyuanru.github.io # the base hostname & protocol for your site e.g. "https://[your GitHub username].github.io" or if you already have some other page hosted on Github then use "https://[your GitHub username].github.io/[Your Repo Name]"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "academicpages/academicpages.github.io"
+
+# Full CV PDF (homepage button; keep aligned with nav “CV” if you change the file)
+cv_pdf_url: "https://drive.google.com/file/d/1Y5bp-jOBVNWTuNv6ifLZnUwiwYlGQ3vp/view?usp=sharing"
 
 # Site Author - The following control what appear as part of the author content on the side bar.
 #               If a field is blank the icon and link will not appear, otherwise it will be shown.
@@ -24,11 +27,11 @@ author:
   avatar: "images/avatar.jpg"
   name: "Yuanru Tan 谭远儒"
   #pronouns: "she/her"
-  bio: "Ph.D. Candidate · Learning Sciences, UW–Madison <br> <a href='https://www.crct.center/' target='_blank'>Center for Research on Complex Thinking</a> <br> 📧 yuanru.tan@wisc.edu"
+  bio: "Ph.D. Candidate · Learning Sciences, UW–Madison <br> <a href='https://www.crct.center/' target='_blank'>Center for Research on Complex Thinking</a>"
   location: "Madison, WI, USA"
   # employer: CRCT
   # uri: https://www.crct.center/
-  # email: "yuanru.tan@wisc.edu"
+  email: "yuanru.tan@wisc.edu"
 
   # Academic websites
   #academia: 
