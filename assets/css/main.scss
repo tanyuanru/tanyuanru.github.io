@@ -63,12 +63,28 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 
-/* Sidebar text scale to match body */
+/* Sidebar: a bit wider so affiliation fits; centered with the photo */
+@media screen and (min-width: 1024px) {
+  .sidebar.sticky {
+    max-width: 300px !important;
+    min-width: 240px !important;
+  }
+}
+
+.sidebar .author__content,
+.sidebar .author__urls-wrapper {
+  text-align: center !important;
+}
+
+.sidebar .author__name {
+  text-align: center !important;
+}
+
 .sidebar p,
 .sidebar li,
 .sidebar .author__bio {
-  font-size: 0.875rem !important;
-  line-height: 1.5 !important;
+  font-size: 0.8125rem !important;
+  line-height: 1.45 !important;
 }
 
 /* Wider content area (al-folio–style breathing room; still respects sidebar layout) */
@@ -127,20 +143,22 @@ html[data-theme="dark"] {
   border: none;
 }
 
-/* Sidebar avatar: fixed square + circle crop (avoids oval from non-square images) */
+/* Sidebar avatar: rounded rectangle, aligned with centered text block */
 .sidebar .author__avatar img.author__avatar-img {
-  width: 140px !important;
-  height: 140px !important;
+  width: 148px !important;
+  height: 186px !important;
   object-fit: cover !important;
-  border-radius: 50% !important;
+  object-position: center top;
+  border-radius: 8px !important;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
   display: block;
   margin: 0 auto;
-  transition: transform 0.2s ease;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
 
 .sidebar .author__avatar img.author__avatar-img:hover {
-  transform: scale(1.03) !important;
+  transform: scale(1.02) !important;
+  box-shadow: 0 6px 14px rgba(0, 0, 0, 0.12) !important;
 }
 
 /* Research / publications: card-style project blocks */
