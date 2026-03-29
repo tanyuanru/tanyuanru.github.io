@@ -84,8 +84,7 @@ h1, h2, h3, h4, h5, h6 {
 /* Running text links (readable blue; not body-colored) */
 .page__content a:not(.home-btn):not(.btn):not(.btn--primary),
 .archive .archive__item-title a,
-.archive a:not(.btn),
-.sidebar .author__urls a {
+.archive a:not(.btn) {
   color: var(--site-link) !important;
   text-decoration: underline;
   text-decoration-thickness: 1px;
@@ -93,7 +92,17 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .page__content a:not(.home-btn):not(.btn):not(.btn--primary):hover,
-.archive .archive__item-title a:hover,
+.archive .archive__item-title a:hover {
+  color: var(--site-link-hover) !important;
+}
+
+/* Sidebar social icons: no underline; icon color only */
+.sidebar .author__urls a {
+  color: var(--site-link) !important;
+  text-decoration: none !important;
+  border-bottom: none !important;
+}
+
 .sidebar .author__urls a:hover {
   color: var(--site-link-hover) !important;
 }
@@ -260,23 +269,24 @@ html[data-theme="dark"] {
   border: none;
 }
 
-/* Sidebar avatar: square, left-aligned with name + icon row */
+/* Sidebar avatar: portrait crop (shoulders visible), left-aligned with text + icons */
 .sidebar .author__avatar {
   display: block !important;
   width: 100% !important;
-  margin-top: 0.5rem;
+  margin-top: 0;
 }
 
 .sidebar .author__avatar img.author__avatar-img {
-  width: 160px !important;
-  height: 160px !important;
+  width: 168px !important;
+  height: 208px !important;
   max-width: 100%;
   object-fit: cover !important;
-  object-position: center top;
+  /* Slightly below top so crop includes shoulders, not just face */
+  object-position: center 12%;
   border-radius: 8px !important;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
   display: block;
-  margin: 0 0 0.65rem !important;
+  margin: 0 0 0.75rem !important;
   transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
 
