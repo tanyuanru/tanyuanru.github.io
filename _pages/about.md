@@ -14,20 +14,26 @@ redirect_from:
 
 <div class="home-landing">
 
-<p class="home-lead">
-  Ph.D. candidate in Learning Sciences, <a href="https://www.wisc.edu/" target="_blank" rel="noopener noreferrer">University of Wisconsin–Madison</a>. I build computational methods to model learning processes and process data — advised by <a href="https://edpsych.education.wisc.edu/fac-staff/williamson-shaffer-david/" target="_blank" rel="noopener noreferrer">David Williamson Shaffer</a> (<a href="https://www.epistemicanalytics.org/" target="_blank" rel="noopener noreferrer">Epistemic Analytics Lab</a>, <a href="https://www.crct.center/" target="_blank" rel="noopener noreferrer">CRCT</a>).
+<p class="home-open">
+  Welcome! I work at the intersection of <strong>learning sciences</strong>, <strong>computational methods</strong>, and <strong>data visualization</strong> — building tools to model <strong>learning processes</strong> and <strong>process data</strong>. Ph.D. candidate at the <a href="https://www.wisc.edu/" target="_blank" rel="noopener noreferrer">University of Wisconsin–Madison</a>, advised by <a href="https://edpsych.education.wisc.edu/fac-staff/williamson-shaffer-david/" target="_blank" rel="noopener noreferrer">David Williamson Shaffer</a> (<a href="https://www.epistemicanalytics.org/" target="_blank" rel="noopener noreferrer">Epistemic Analytics Lab</a>, <a href="https://www.crct.center/" target="_blank" rel="noopener noreferrer">CRCT</a>).
 </p>
+
+<p class="home-where" aria-label="Profile links">
+  <strong>Where to find me:</strong>
+  <a href="{{ site.author.googlescholar }}" target="_blank" rel="noopener noreferrer">Google Scholar</a><span class="home-dot" aria-hidden="true"> · </span><a href="{{ site.author.orcid }}" target="_blank" rel="noopener noreferrer">ORCID</a><span class="home-dot" aria-hidden="true"> · </span><a href="https://github.com/{{ site.author.github }}" target="_blank" rel="noopener noreferrer">GitHub</a><span class="home-dot" aria-hidden="true"> · </span><a href="https://www.linkedin.com/in/{{ site.author.linkedin }}" target="_blank" rel="noopener noreferrer">LinkedIn</a><span class="home-dot" aria-hidden="true"> · </span><a href="mailto:{{ site.author.email }}">Email</a>
+</p>
+
 <p class="home-market-note">On the academic job market (2025–26).</p>
 
-<div class="home-actions" role="navigation" aria-label="Primary links">
+<div class="home-actions" role="navigation" aria-label="Documents">
   <a class="home-btn home-btn--primary" href="{{ site.cv_pdf_url }}" target="_blank" rel="noopener noreferrer">Download CV (PDF)</a>
-  <a class="home-btn" href="mailto:{{ site.author.email }}">Email</a>
-  <a class="home-btn" href="{{ site.author.googlescholar }}" target="_blank" rel="noopener noreferrer">Google Scholar</a>
+  <a class="home-btn" href="{{ base_path }}/research/">Research</a>
+  <a class="home-btn" href="{{ base_path }}/teaching/">Teaching &amp; mentoring</a>
 </div>
 
 <div class="about-body">
 
-<h2>About</h2>
+<h2 class="home-theme-head">Learning, methods, representation</h2>
 
 <p>
 <strong>Yuanru Tan</strong> (“Yoo-en-roo”; Mandarin <em>Yuǎnrú</em>). My training bridges learning sciences, statistics, and visualization — with prior experience as a Learning Experience Designer for Accessibility at the <a href="https://ai.umich.edu/" target="_blank" rel="noopener noreferrer">Center for Academic Innovation</a>, University of Michigan–Ann Arbor (<a href="https://marsal.umich.edu/directory/faculty-staff/rebecca-quintana" target="_blank" rel="noopener noreferrer">Rebecca Quintana</a>). M.A. in Educational Studies, Michigan (advisor <a href="https://marsal.umich.edu/directory/faculty-staff/christopher-quintana" target="_blank" rel="noopener noreferrer">Chris Quintana</a>); B.S. in Information Management Systems, Tianjin University of Technology.
