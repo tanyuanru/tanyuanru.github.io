@@ -16,7 +16,6 @@ description              : "Personal website of Yuanru Tan, Ph.D. candidate in L
 url                      : https://tanyuanru.github.io # the base hostname & protocol for your site e.g. "https://[your GitHub username].github.io" or if you already have some other page hosted on Github then use "https://[your GitHub username].github.io/[Your Repo Name]"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "academicpages/academicpages.github.io"
-author: Yuanru Tan
 
 # Site Author - The following control what appear as part of the author content on the side bar.
 #               If a field is blank the icon and link will not appear, otherwise it will be shown.
@@ -78,13 +77,14 @@ author:
   #zhihu            : # Username
 
 # Publication Category - The following the list of publication categories and their headings
+# Each item in _publications/ should set `category` to one of these keys (e.g. category: conferences)
 publication_category:
-  books:
-    title: 'Books'
-  manuscripts:
-    title: 'Journal Articles'    
   conferences:
-    title: 'Conference Papers'
+    title: 'Conference & workshop papers'
+  manuscripts:
+    title: 'Journal articles'
+  books:
+    title: 'Books & chapters'
 
 # Site Settings
 teaser                   :  # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"

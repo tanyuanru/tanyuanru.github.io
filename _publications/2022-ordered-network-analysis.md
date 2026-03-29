@@ -1,6 +1,7 @@
 ---
 title: "Ordered Network Analysis"
 collection: publications
+category: conferences
 permalink: /publication/ona-2022
 excerpt: "This paper introduces Ordered Network Analysis (ONA), a method for analyzing sequences of coded qualitative data as networks to understand the temporal structure of learning processes."
 date: 2022-10-01
