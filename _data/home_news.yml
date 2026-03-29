@@ -1,0 +1,6 @@
+# Short updates for the home page (edit or add rows). Leave `items` empty to hide the News block when show_news is true but you prefer no rows yet.
+items:
+  - date: "Mar 2026"
+    text: "Edit this file (`_data/home_news.yml`) with real announcements — new papers, talks, milestones, etc."
+  - date: "Jan 2026"
+    text: "Site refreshed with a clearer home layout."
