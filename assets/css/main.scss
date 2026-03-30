@@ -230,12 +230,24 @@ h1, h2, h3, h4, h5, h6 {
 
 .sidebar .author__urls.social-icons a {
   display: inline-flex !important;
-  align-items: center;
-  justify-content: center;
+  align-items: center !important;
+  justify-content: center !important;
+  width: 2.125rem !important;
+  height: 2.125rem !important;
   font-size: 1.15rem !important;
   line-height: 1 !important;
-  min-width: 1.5rem;
-  min-height: 1.5rem;
+  box-sizing: border-box !important;
+}
+
+/* Academic Icons + Font Awesome mix: normalize glyph box so LinkedIn aligns with Scholar/ORCID/GitHub */
+.sidebar .author__urls.social-icons a i {
+  display: inline-flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  width: 1.2em !important;
+  height: 1.2em !important;
+  line-height: 1 !important;
+  font-size: 1.15rem !important;
 }
 
 .sidebar p,
@@ -297,22 +309,41 @@ html[data-theme="dark"] {
   border: none;
 }
 
-/* Sidebar avatar: full photo (no shoulder crop), left-aligned with text + icons */
+/* Sidebar avatar: full photo in a slightly wider neutral frame (no stretch) */
 .sidebar .author__avatar {
   display: block !important;
   width: 100% !important;
   margin-top: 0;
 }
 
-.sidebar .author__avatar img.author__avatar-img {
-  width: 168px !important;
+.sidebar .author__avatar-inner {
+  width: 200px;
   max-width: 100%;
+  margin: 0 auto 0.75rem;
+  padding: 12px 14px;
+  box-sizing: border-box;
+  background: linear-gradient(180deg, #f5f5f5 0%, #ebebeb 100%);
+  border-radius: 10px;
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.65), 0 2px 8px rgba(0, 0, 0, 0.06);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: box-shadow 0.2s ease;
+}
+
+.sidebar .author__avatar-inner:hover {
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.65), 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+.sidebar .author__avatar img.author__avatar-img {
+  width: 100% !important;
+  max-width: 176px;
   height: auto !important;
   object-fit: contain !important;
   border-radius: 8px !important;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
   display: block;
-  margin: 0 auto 0.75rem !important;
+  margin: 0 !important;
   transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
 
@@ -411,6 +442,37 @@ html[data-theme="dark"] {
   margin-top: 0.35rem;
 }
 
+.archive .home-landing.teaching-page h2#mentoring-overview {
+  margin-top: 2.35rem;
+}
+
+.archive .home-landing.teaching-page h3.teaching-subhead {
+  font-size: 0.98rem;
+  font-weight: 600;
+  margin: 1.05rem 0 0.4rem;
+  padding: 0;
+  border: none;
+  font-family: -apple-system, BlinkMacSystemFont, system-ui, "Segoe UI", Roboto, sans-serif !important;
+  line-height: 1.35;
+  color: #2c2c2c;
+}
+
+.archive .home-landing.teaching-page h2#teaching-overview + section.teaching-block h3.teaching-subhead {
+  margin-top: 0.55rem;
+}
+
+.archive .home-landing.teaching-page h2#mentoring-overview + h3.teaching-subhead {
+  margin-top: 0.6rem;
+}
+
+.archive .home-landing.teaching-page section.teaching-block + section.teaching-block h3.teaching-subhead {
+  margin-top: 1.25rem;
+}
+
+.archive .home-landing.teaching-page section.teaching-block p:last-child {
+  margin-bottom: 0.5rem;
+}
+
 .archive .home-landing.teaching-page p,
 .archive .home-landing.teaching-page li {
   font-size: 15px;
@@ -471,7 +533,7 @@ html[data-theme="dark"] {
 }
 
 .archive .home-landing.teaching-page .teaching-community {
-  margin-top: 1.35rem !important;
+  margin-top: 0.45rem !important;
   font-size: 15px !important;
   line-height: 25px !important;
   color: #424242 !important;
@@ -695,6 +757,52 @@ html[data-theme="dark"] {
 
 .page__content .home-landing .home-news-list a {
   font-weight: 400;
+}
+
+.page__content .home-landing .home-news-archive {
+  margin-top: 0.7rem;
+}
+
+.page__content .home-landing .home-news-archive__summary {
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 500;
+  color: var(--site-link, #1a5f8a);
+  list-style: none;
+  padding: 0.35rem 0;
+}
+
+.page__content .home-landing .home-news-archive__summary::-webkit-details-marker {
+  display: none;
+}
+
+.page__content .home-landing .home-news-archive__summary::marker {
+  content: "";
+  font-size: 0;
+}
+
+.page__content .home-landing .home-news-archive__summary::before {
+  content: "";
+  display: inline-block;
+  width: 0;
+  height: 0;
+  margin-right: 0.35rem;
+  border-left: 0.35em solid currentColor;
+  border-top: 0.22em solid transparent;
+  border-bottom: 0.22em solid transparent;
+  transform: translateY(-0.05em);
+  transition: transform 0.15s ease;
+  vertical-align: middle;
+}
+
+.page__content .home-landing .home-news-archive[open] .home-news-archive__summary::before {
+  transform: rotate(90deg) translate(0.08em, 0.02em);
+}
+
+.page__content .home-landing .home-news-archive .home-news-list--archive {
+  margin-top: 0.45rem;
+  padding-top: 0.5rem;
+  border-top: 1px solid var(--global-border-color, #e5e5e5);
 }
 
 .page__content .home-landing .home-pub-card {

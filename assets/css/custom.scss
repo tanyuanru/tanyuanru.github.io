@@ -24,22 +24,7 @@ a {
   text-decoration: underline;
 }
 
-/* ✅ 头像：圆角矩形（与 main.scss 同步） */
-.sidebar .author__avatar img.author__avatar-img {
-  width: 148px !important;
-  height: 186px !important;
-  object-fit: cover !important;
-  object-position: center top;
-  border-radius: 8px !important;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-  display: block;
-  margin: 0 auto;
-  transition: transform 0.2s ease;
-}
-
-.sidebar .author__avatar img.author__avatar-img:hover {
-  transform: scale(1.03) !important;
-}
+/* Avatar: framed portrait lives in assets/css/main.scss (.author__avatar-inner + img). */
 
 /* ✅ sidebar 字体居中 */
 .sidebar .author__content,

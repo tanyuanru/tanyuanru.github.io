@@ -9,11 +9,13 @@
 <div itemscope itemtype="http://schema.org/Person">
 
   <div class="author__avatar">
-    <img 
-      src="{{ author.avatar | default: '/images/avatar.jpg' | relative_url }}" 
-      alt="{{ author.name }}{% if author.name_zh %} {{ author.name_zh }}{% endif %}" 
-      class="author__avatar-img"
-    >
+    <div class="author__avatar-inner">
+      <img
+        src="{{ author.avatar | default: '/images/avatar.jpg' | relative_url }}"
+        alt="{{ author.name }}{% if author.name_zh %} {{ author.name_zh }}{% endif %}"
+        class="author__avatar-img"
+      >
+    </div>
   </div>
 
 <div class="author__content">
