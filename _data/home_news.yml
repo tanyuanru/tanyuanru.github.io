@@ -1,5 +1,5 @@
 # Home page News (newest first). Markdown links in `text`.
-# Dates MM/YYYY: year >= 2026 shows in main list; earlier years are under “Earlier news”.
+# Dates MM/YYYY: year >= 2026 shows in main list; earlier years are under “Earlier News”.
 items:
   - date: "04/2026"
     text: "Funding awarded to present my dissertation work at [LAK’26 Doctoral Consortium](https://www.solaresearch.org/events/lak/lak26/)."

@@ -14,19 +14,19 @@
 {% assign news_dp = item.date | split: "/" %}
 {% assign news_item_year = news_dp[1] | plus: 0 %}
 {% if news_item_year >= 2026 %}
-<li><span class="home-news-date">{{ item.date }}</span> {{ item.text | markdownify | remove: '<p>' | remove: '</p>' }}</li>
+<li><span class="home-news-date">{{ item.date }}</span><span class="home-news-text">{{ item.text | markdownify | remove: '<p>' | remove: '</p>' }}</span></li>
 {% endif %}
 {% endfor %}
 </ul>
 {% if news_early_count > 0 %}
 <details class="home-news-archive" markdown="0">
-<summary class="home-news-archive__summary">Earlier news</summary>
+<summary class="home-news-archive__summary">Earlier News</summary>
 <ul class="home-news-list home-news-list--archive">
 {% for item in site.data.home_news.items %}
 {% assign news_dp = item.date | split: "/" %}
 {% assign news_item_year = news_dp[1] | plus: 0 %}
 {% if news_item_year < 2026 %}
-<li><span class="home-news-date">{{ item.date }}</span> {{ item.text | markdownify | remove: '<p>' | remove: '</p>' }}</li>
+<li><span class="home-news-date">{{ item.date }}</span><span class="home-news-text">{{ item.text | markdownify | remove: '<p>' | remove: '</p>' }}</span></li>
 {% endif %}
 {% endfor %}
 </ul>

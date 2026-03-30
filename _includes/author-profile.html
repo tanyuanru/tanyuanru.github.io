@@ -37,8 +37,11 @@
   {% if author.sidebar_unit %}
   <p class="author__sidebar-line author__sidebar-unit">{{ author.sidebar_unit }}</p>
   {% endif %}
-  {% if author.sidebar_campus %}
-  <p class="author__sidebar-line author__sidebar-campus">{{ author.sidebar_campus }}</p>
+  {% if author.sidebar_dept %}
+  <p class="author__sidebar-line author__sidebar-dept">{{ author.sidebar_dept }}</p>
+  {% endif %}
+  {% if author.sidebar_institution %}
+  <p class="author__sidebar-line author__sidebar-institution">{{ author.sidebar_institution }}</p>
   {% endif %}
   {% if author.pronouns %}<p class="author__pronouns">{{ author.pronouns }}</p>{% endif %}
   {% if author.bio %}<p class="author__bio">{{ author.bio }}</p>{% endif %}
