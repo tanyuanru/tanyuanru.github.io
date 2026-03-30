@@ -3,7 +3,7 @@
 {% for item in site.data.home_news.items %}
 {% if item.archived %}{% assign news_archived_count = news_archived_count | plus: 1 %}{% endif %}
 {% endfor %}
-<section class="home-section" aria-labelledby="home-news-heading">
+<section class="home-section" aria-labelledby="home-news-heading" markdown="0">
 <h2 id="home-news-heading">News</h2>
 <ul class="home-news-list">
 {% for item in site.data.home_news.items %}
@@ -13,7 +13,7 @@
 {% endfor %}
 </ul>
 {% if news_archived_count > 0 %}
-<details class="home-news-archive">
+<details class="home-news-archive" markdown="0">
 <summary class="home-news-archive__summary">Earlier news (2020 and before)</summary>
 <ul class="home-news-list home-news-list--archive">
 {% for item in site.data.home_news.items %}

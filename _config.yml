@@ -36,7 +36,8 @@ author:
   # uri: https://www.crct.center/
   email: "yuanru.tan@wisc.edu"
   sidebar_role: "Ph.D. candidate"
-  sidebar_affiliation: "Learning Sciences, UW–Madison"
+  sidebar_unit: "Learning Sciences"
+  sidebar_campus: "UW–Madison"
 
   # Academic websites
   #academia: 
@@ -47,7 +48,7 @@ author:
 
   #semantic         : # URL
   #pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
-  #researchgate     : # URL
+  researchgate     : "https://www.researchgate.net/profile/Yuanru-Tan"
   #scopus           : # URL
 
   # Repositories and software development
