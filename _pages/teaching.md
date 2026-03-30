@@ -1,70 +1,50 @@
 ---
 layout: archive
-title: "Teaching & Mentoring"
+title: ""
 permalink: /teaching/
 author_profile: true
 ---
 
-## Lecturer
+{% include base_path %}
 
-**ED PSYCH 301: How People Learn**  
-Spring & Fall 2025
-_Undergraduate lecture, UW–Madison_
+<div class="home-landing teaching-page">
 
-<p class="note-box">
-This course explores how people learn—not just cognitively, but also emotionally and socially. One small practice we started in this class was a 
-<a href="https://docs.google.com/spreadsheets/d/1kuxEOxmBrjQ17s2QKsQpeB_zjSFWkTfxCUxl_NLQfwo/edit?gid=0#gid=0" target="_blank">
-shared resource spreadsheet</a>, where students could add anything that helps them focus or feel better,including study tools, playlists, favorite campus corners, even quotes that kept them going. It’s a simple way to support and remind each other that learning is deeply human. With students’ permission, we’ll keep growing it in future semesters. You’re welcome to take a look—something in there might brighten your day too.
-</p>
+<h2>Teaching</h2>
 
----
+<p>For undergraduate teaching, I taught <strong>301: How People Learn</strong>, a large undergraduate lecture course, for three semesters (Spring 2025, Fall 2025, Spring 2026). In this course, we explore foundational cognitive and sociocultural learning theories and their applications in educational psychology. In this class we have a <a href="https://docs.google.com/spreadsheets/d/1kuxEOxmBrjQ17s2QKsQpeB_zjSFWkTfxCUxl_NLQfwo/edit?gid=0#gid=0" target="_blank" rel="noopener noreferrer">shared resource spreadsheet</a>, where students contribute study tools, playlists, favorite campus spots, and quotes that kept them going. It’s a simple way to remind each other that learning is deeply human. With students’ permission, we keep it growing each semester. You’re welcome to take a look—something in there might brighten your day.</p>
 
-## Teaching Assistant
+<p>For graduate teaching, I was one of the inaugural teaching assistants for the <strong>Learning Analytics Master’s Program (LAMP)</strong> at the University of Wisconsin–Madison, an online program that trains practitioners in learning analytics. I supported students from design thinking through hands-on projects using tools like Tableau and R.</p>
 
-**ED PSYCH 695: Capstone in Learning Analytics**  
-Spring 2023 & 2024  
-_Learning Analytics M.S. Program, UW–Madison_
+<h2>Undergraduate Mentoring</h2>
 
-**ED PSYCH 615: Conversations and Visualizations**  
-Fall 2022, 2023, 2024  
-_Learning Analytics M.S. Program, UW–Madison_
+<p>Mentorship in our lab is rooted in cognitive apprenticeship. That’s how I’ve been mentored, and it’s how I now work with undergraduate research interns. Watching students grow through that process is one of my favorite parts of this work.</p>
 
-**ED PSYCH 575: Instructional Design for Learning Analytics**  
-Fall 2022, 2023, 2024  
-_Learning Analytics M.S. Program, UW–Madison_
+<p>If you’re an undergraduate at UW–Madison, check out the <a href="https://studentjobs.wisc.edu/" target="_blank" rel="noopener noreferrer">UW Student Jobs page</a> and search for <em>Epistemic Analytics</em>—we’re often hiring, and it’s a great place to learn and grow!</p>
 
-**ED PSYCH 301: How People Learn**  
-Fall 2021 & Spring 2022  
-_Undergraduate course, UW–Madison_
+<ul class="teaching-mentees">
+  <li>
+    <p><strong>2025</strong><br>
+    <strong>Seungchae (Joy) Hong</strong> — Data Analytics Intern<br>
+    UW–Madison undergraduate, majoring in Statistics and Computer Science</p>
+  </li>
+  <li>
+    <p><strong>2024–2025</strong><br>
+    <strong>Yahan Chen</strong> — Data Analytics Intern<br>
+    UW–Madison undergraduate, majored in Statistics and Data Science<br>
+    → Now pursuing M.S. in Bioinformatics, University of Washington</p>
+  </li>
+  <li>
+    <p><strong>2023–2024</strong><br>
+    <strong>Krirk Nirunwiroj</strong> — Data Analytics Intern<br>
+    UW–Madison undergraduate, majored in Computer Science, Data Science, and Mathematics<br>
+    → Now pursuing M.S. in Computer Science, Johns Hopkins University</p>
+  </li>
+  <li>
+    <p><strong>2022–2023</strong><br>
+    <strong>Binrui Yang</strong> — Data Analytics Intern<br>
+    UW–Madison undergraduate, majored in Mathematics and Statistics<br>
+    → Now Associate Data Scientist, Travelers</p>
+  </li>
+</ul>
 
----
-
-## Undergraduate Research Mentoring  
-<a href="https://www.epistemicanalytics.org/" target="_blank">_Epistemic Analytics Lab_</a>, _UW–Madison_
-
-<p class="note-box"> Mentorship in our lab is all about **learning by doing and thinking together**. That’s how I’ve been mentored, and it’s how I now work with undergraduate research interns.
-
-I enjoy working with students who are curious about education, data, and how people learn. 
-
-If you're an undergraduate at UW–Madison, check out the <a href="https://studentjobs.wisc.edu/" target="_blank">UW Student Jobs page</a> and search for <em>Epistemic Analytics</em>—we’re often hiring, and it’s a great place to learn and grow!
-
-</p>
-
-- **2025–Present**  
-  **Seungchae (Joy) Hong** — Data Analytics Intern   
-  UW–Madison undergraduate, majoring in Statistics and Computer Science
-
-- **2024–2025**  
-  **Yahan Chen** — Data Analytics Intern  
-  UW–Madison undergraduate, majored in Statistics and Data Science  
-  → Now pursuing M.S. in Bioinformatics, University of Washington
-
-- **2023–2024**  
-  **Krirk Nirunwiroj** — Data Analytics Intern  
-  UW–Madison undergraduate, majored in Computer Science, Data Science, and Mathematics  
-  → Now pursuing M.S. in Computer Science, Johns Hopkins University
-
-- **2022–2023**  
-  **Binrui Yang** — Data Analytics Intern  
-  UW–Madison undergraduate, majored in Mathematics and Statistics  
-  → Now Associate Data Scientist, Travelers
+</div>
