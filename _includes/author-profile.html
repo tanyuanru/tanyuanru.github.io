@@ -17,6 +17,9 @@
   </div>
 
 <div class="author__content">
+  {% if author.name_zh %}
+  <p class="author__name-zh author__name-zh--first" lang="zh">{{ author.name_zh }}</p>
+  {% endif %}
   <div class="author__name-row">
     <h3 class="author__name">{{ author.name }}</h3>
     {% if author.pronunciation_url %}
@@ -25,9 +28,6 @@
     </a>
     {% endif %}
   </div>
-  {% if author.name_zh %}
-  <p class="author__name-zh" lang="zh">{{ author.name_zh }}</p>
-  {% endif %}
   {% if author.email %}
   <p class="author__sidebar-line author__sidebar-email"><span class="author__email-emoji" aria-hidden="true">📧</span> {{ author.email }}</p>
   {% endif %}
