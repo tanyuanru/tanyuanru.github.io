@@ -297,7 +297,7 @@ html[data-theme="dark"] {
   border: none;
 }
 
-/* Sidebar avatar: portrait crop (shoulders visible), left-aligned with text + icons */
+/* Sidebar avatar: full photo (no shoulder crop), left-aligned with text + icons */
 .sidebar .author__avatar {
   display: block !important;
   width: 100% !important;
@@ -306,11 +306,9 @@ html[data-theme="dark"] {
 
 .sidebar .author__avatar img.author__avatar-img {
   width: 168px !important;
-  height: 208px !important;
   max-width: 100%;
-  object-fit: cover !important;
-  /* Slightly below top so crop includes shoulders, not just face */
-  object-position: center 12%;
+  height: auto !important;
+  object-fit: contain !important;
   border-radius: 8px !important;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
   display: block;
@@ -460,10 +458,10 @@ html[data-theme="dark"] {
 
 .teaching-mentees--subtle li {
   margin-bottom: 0.4rem !important;
-  font-size: 0.88rem !important;
-  line-height: 1.45 !important;
-  color: #555 !important;
-  font-weight: 300 !important;
+  font-size: 15px !important;
+  line-height: 25px !important;
+  color: #424242 !important;
+  font-weight: 200 !important;
 }
 
 .archive .home-landing.teaching-page .mentee-period {
@@ -474,10 +472,10 @@ html[data-theme="dark"] {
 
 .archive .home-landing.teaching-page .teaching-community {
   margin-top: 1.35rem !important;
-  font-size: 0.9rem !important;
-  line-height: 1.55 !important;
-  color: #555 !important;
-  font-weight: 300 !important;
+  font-size: 15px !important;
+  line-height: 25px !important;
+  color: #424242 !important;
+  font-weight: 200 !important;
 }
 
 /* Welcoming opener */
@@ -572,6 +570,23 @@ html[data-theme="dark"] {
   margin-bottom: 0.65rem;
 }
 
+/* ONA / ETM blocks: card lift on hover */
+.research-highlight-row.research-highlight-card {
+  padding: 0.7rem 0.85rem;
+  margin-bottom: 0.35rem;
+  border-radius: 10px;
+  border: 1px solid transparent;
+  background: transparent;
+  transition: background 0.2s ease, box-shadow 0.2s ease, border-color 0.2s ease, transform 0.2s ease;
+}
+
+.research-highlight-row.research-highlight-card:hover {
+  background: #fafafa;
+  border-color: rgba(0, 0, 0, 0.08);
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.07);
+  transform: translateY(-2px);
+}
+
 .research-highlight-thumb {
   flex: 0 0 4.75rem;
   width: 4.75rem;
@@ -651,18 +666,18 @@ html[data-theme="dark"] {
   margin-top: 1.65rem;
 }
 
-/* News: simple list, low-key (no table) */
+/* News: match home column body text */
 .page__content .home-landing .home-news-list {
   margin: 0.35rem 0 0;
   padding: 0;
   list-style: none;
-  font-size: 0.88rem;
-  line-height: 1.45;
-  color: #555;
+  font-size: 15px;
+  line-height: 25px;
+  color: #424242;
 }
 
 .page__content .home-landing .home-news-list li {
-  margin: 0 0 0.4rem;
+  margin: 0 0 0.45rem;
   padding: 0;
   font-weight: 200;
 }
