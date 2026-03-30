@@ -24,6 +24,9 @@
   {% if author.email %}
   <p class="author__sidebar-line author__sidebar-email">{{ author.email }}</p>
   {% endif %}
+  {% if author.sidebar_school %}
+  <p class="author__sidebar-line author__sidebar-school">{{ author.sidebar_school }}</p>
+  {% endif %}
   {% if author.pronouns %}<p class="author__pronouns">{{ author.pronouns }}</p>{% endif %}
   {% if author.bio %}<p class="author__bio">{{ author.bio }}</p>{% endif %}
   </div>

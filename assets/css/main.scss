@@ -42,8 +42,8 @@
   --site-navy-mid: #2a3f63;
   --site-body: #2c2c2c;
   --site-body-muted: #5c5c5c;
-  --site-link: #62766e;
-  --site-link-hover: #4e5f58;
+  --site-link: #1a5f8a;
+  --site-link-hover: #134a6e;
   --site-bg: #ffffff;
 }
 
@@ -132,6 +132,18 @@ h1, h2, h3, h4, h5, h6 {
   padding-right: 1.5rem !important;
 }
 
+/* Extra gap between sidebar and main column (iPad / narrow desktop) */
+@media screen and (min-width: 64em) {
+  #main > .sidebar.sticky {
+    padding-right: clamp(1rem, 2.2vw, 2rem) !important;
+    box-sizing: border-box;
+  }
+
+  #main > .archive {
+    padding-left: clamp(0.75rem, 1.5vw, 1.25rem) !important;
+  }
+}
+
 /* Sidebar: a bit wider so affiliation fits; centered with the photo */
 @media screen and (min-width: 1024px) {
   .sidebar.sticky {
@@ -180,6 +192,15 @@ h1, h2, h3, h4, h5, h6 {
 
 .sidebar .author__sidebar-email {
   letter-spacing: 0.03em !important;
+}
+
+.sidebar .author__sidebar-school {
+  text-align: center !important;
+  margin: 0 0 0.35rem !important;
+  font-size: 0.78rem !important;
+  line-height: 1.35 !important;
+  color: var(--site-body) !important;
+  white-space: nowrap;
 }
 
 @media screen and (min-width: 64em) {
@@ -341,8 +362,9 @@ html[data-theme="dark"] {
   margin-top: 0.5rem;
 }
 
-/* ----- Home page: calm column, readable measure, clear hierarchy ----- */
-.page__content .home-landing {
+/* ----- Home + Research page: calm column, readable measure, clear hierarchy ----- */
+.page__content .home-landing,
+.archive .home-landing {
   max-width: 44rem;
   margin-left: auto;
   margin-right: auto;
@@ -354,16 +376,18 @@ html[data-theme="dark"] {
   color: #424242;
 }
 
-.page__content .home-landing a {
-  color: var(--site-link, #62766e);
-  text-decoration: none;
-  border-bottom: 1px solid rgba(98, 118, 110, 0.4);
+.page__content .home-landing a,
+.archive .home-landing a {
+  color: var(--site-link, #1a5f8a);
+  text-decoration: none !important;
+  border-bottom: 1px solid rgba(26, 95, 138, 0.35);
   font-weight: 400;
 }
 
-.page__content .home-landing a:hover {
-  color: var(--site-link-hover, #4e5f58) !important;
-  border-bottom-color: rgba(78, 95, 88, 0.55);
+.page__content .home-landing a:hover,
+.archive .home-landing a:hover {
+  color: var(--site-link-hover, #134a6e) !important;
+  border-bottom-color: rgba(19, 74, 110, 0.55);
 }
 
 /* Welcoming opener */
@@ -437,7 +461,7 @@ html[data-theme="dark"] {
 }
 
 .page__content .home-landing .about-body > h2:first-of-type {
-  margin-top: 0.35rem;
+  margin-top: 2.15rem;
 }
 
 .page__content .home-landing .about-body > p {
@@ -484,13 +508,31 @@ html[data-theme="dark"] {
   color: #424242;
 }
 
-.page__content .home-landing .research-sublead {
+.research-highlight-main {
+  flex: 1 1 auto;
+  min-width: 0;
+}
+
+.research-more-link {
+  margin: 0.55rem 0 0 !important;
+  font-size: 15px;
+  line-height: 25px;
+  font-weight: 400;
+}
+
+.research-more-link a {
+  font-weight: 500 !important;
+}
+
+.page__content .home-landing .research-sublead,
+.archive .home-landing .research-sublead {
   margin: 0.85rem 0 0.45rem;
   font-size: 15px;
   line-height: 25px;
   font-weight: 200;
   color: #424242;
 }
+
 
 .home-section-lead {
   margin-bottom: 0.8rem !important;
