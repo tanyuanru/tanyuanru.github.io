@@ -578,6 +578,35 @@ html[data-theme="dark"] {
   font-weight: 200 !important;
 }
 
+.archive .home-landing.teaching-page ul.teaching-mentees-dash {
+  list-style: none !important;
+  margin: 0.4rem 0 0.85rem !important;
+  padding: 0 !important;
+}
+
+.archive .home-landing.teaching-page ul.teaching-mentees-dash li {
+  position: relative;
+  margin: 0 0 0.38rem !important;
+  padding-left: 1.05rem !important;
+  font-size: 15px !important;
+  line-height: 1.5 !important;
+  font-weight: 200 !important;
+  color: #424242 !important;
+}
+
+.archive .home-landing.teaching-page ul.teaching-mentees-dash li::before {
+  content: "–";
+  position: absolute;
+  left: 0;
+  top: 0;
+  color: #b8b8b8;
+  font-weight: 300;
+}
+
+.archive .home-landing.teaching-page ul.teaching-mentees-dash li:last-child {
+  margin-bottom: 0 !important;
+}
+
 .archive .home-landing.teaching-page .mentee-period {
   color: #888;
   margin-right: 0.35rem;
@@ -590,6 +619,11 @@ html[data-theme="dark"] {
   line-height: 25px !important;
   color: #424242 !important;
   font-weight: 200 !important;
+}
+
+.archive .home-landing.teaching-page .teaching-community--note {
+  margin-top: 0.35rem !important;
+  margin-bottom: 0.85rem !important;
 }
 
 /* Welcoming opener */
@@ -872,18 +906,6 @@ html[data-theme="dark"] {
 .page__content .home-landing .home-news-archive .home-news-list--archive {
   margin-top: 0.35rem;
   padding-top: 0.15rem;
-}
-
-.archive .home-landing.teaching-page .mentee-entry {
-  margin: 0 0 0.5rem !important;
-  font-size: 15px !important;
-  line-height: 1.5 !important;
-  color: #424242 !important;
-  font-weight: 200 !important;
-}
-
-.archive .home-landing.teaching-page .mentee-entry:last-of-type {
-  margin-bottom: 0.35rem !important;
 }
 
 .page__content .home-landing .home-pub-card {

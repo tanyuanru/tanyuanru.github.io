@@ -40,7 +40,9 @@
   {% if author.sidebar_dept %}
   <p class="author__sidebar-line author__sidebar-dept">{{ author.sidebar_dept }}</p>
   {% endif %}
-  {% if author.sidebar_institution %}
+  {% if author.sidebar_institution_line1 and author.sidebar_institution_line2 %}
+  <p class="author__sidebar-line author__sidebar-institution">{{ author.sidebar_institution_line1 }}<br>{{ author.sidebar_institution_line2 }}</p>
+  {% elsif author.sidebar_institution %}
   <p class="author__sidebar-line author__sidebar-institution">{{ author.sidebar_institution }}</p>
   {% endif %}
   {% if author.pronouns %}<p class="author__pronouns">{{ author.pronouns }}</p>{% endif %}
