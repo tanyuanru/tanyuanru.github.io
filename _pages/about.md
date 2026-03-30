@@ -33,6 +33,8 @@ redirect_from:
 
 </div>
 
+{::nomarkdown}
 {% include home-news-section.html %}
+{:/nomarkdown}
 
 </div>

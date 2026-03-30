@@ -27,8 +27,11 @@
   {% if author.sidebar_role %}
   <p class="author__sidebar-line author__sidebar-role">{{ author.sidebar_role }}</p>
   {% endif %}
-  {% if author.sidebar_affiliation %}
-  <p class="author__sidebar-line author__sidebar-affil">{{ author.sidebar_affiliation }}</p>
+  {% if author.sidebar_unit %}
+  <p class="author__sidebar-line author__sidebar-unit">{{ author.sidebar_unit }}</p>
+  {% endif %}
+  {% if author.sidebar_campus %}
+  <p class="author__sidebar-line author__sidebar-campus">{{ author.sidebar_campus }}</p>
   {% endif %}
   {% if author.pronouns %}<p class="author__pronouns">{{ author.pronouns }}</p>{% endif %}
   {% if author.bio %}<p class="author__bio">{{ author.bio }}</p>{% endif %}
@@ -74,7 +77,7 @@
         <li><a href="{{ author.pubmed }}"><i class="ai ai-pubmed ai-fw icon-pad-right"></i>PubMed</a></li>
       {% endif %}                        
       {% if author.researchgate %}
-        <li><a href="{{ author.researchgate }}"><i class="fab fa-fw fa-researchgate icon-pad-right" aria-hidden="true"></i>ResearchGate</a></li>
+        <li><a href="{{ author.researchgate }}" target="_blank" rel="noopener noreferrer" aria-label="ResearchGate"><i class="fab fa-fw fa-researchgate" aria-hidden="true"></i></a></li>
       {% endif %}
       {% if author.scopus %}
         <li><a href="{{ author.scopus }}"><i class="ai ai-scopus ai-fw icon-pad-right"></i>Scopus</a></li>
