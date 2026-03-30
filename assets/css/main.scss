@@ -438,7 +438,7 @@ html[data-theme="dark"] {
   padding-bottom: 2.5rem;
   font-family: -apple-system, BlinkMacSystemFont, system-ui, "Segoe UI", Roboto, sans-serif;
   font-size: 15px;
-  font-weight: 200;
+  font-weight: 300;
   line-height: 25px;
   color: #424242;
 }
@@ -503,20 +503,47 @@ html[data-theme="dark"] {
   border: none;
 }
 
-.archive .home-landing.teaching-page h2#teaching-overview + section.teaching-block h3.teaching-subhead--pill {
+.archive .home-landing.teaching-page h2#mentoring-overview + section.teaching-block--card {
+  margin-top: 0.45rem;
+}
+
+.archive .home-landing.teaching-page section.teaching-block--card + section.teaching-block--card {
+  margin-top: 0.4rem;
+}
+
+.archive .home-landing.teaching-page section.teaching-block--card > .teaching-subhead--pill:first-child {
+  margin-top: 0.45rem;
+}
+
+.archive .home-landing.teaching-page h2#teaching-overview + section.teaching-block--card > .teaching-subhead--pill:first-child,
+.archive .home-landing.teaching-page h2#mentoring-overview + section.teaching-block--card > .teaching-subhead--pill:first-child {
   margin-top: 0.55rem;
 }
 
-.archive .home-landing.teaching-page h2#mentoring-overview + h3.teaching-subhead--pill {
-  margin-top: 0.6rem;
+/* Teaching & Mentoring: hover card (match home research highlight rows) */
+.archive .home-landing.teaching-page section.teaching-block.teaching-block--card {
+  padding: 0.7rem 0.85rem;
+  border-radius: 10px;
+  border: 1px solid transparent;
+  background: transparent;
+  transition: background 0.2s ease, box-shadow 0.2s ease, border-color 0.2s ease, transform 0.2s ease;
 }
 
-.archive .home-landing.teaching-page section.teaching-block + section.teaching-block h3.teaching-subhead--pill {
-  margin-top: 1.25rem;
+.archive .home-landing.teaching-page section.teaching-block.teaching-block--card:hover {
+  background: #fafafa;
+  border-color: rgba(0, 0, 0, 0.08);
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.07);
+  transform: translateY(-2px);
 }
 
-.archive .home-landing.teaching-page ul.teaching-mentees-dash + h3.teaching-subhead--pill {
-  margin-top: 1.35rem;
+@media (prefers-reduced-motion: reduce) {
+  .archive .home-landing.teaching-page section.teaching-block.teaching-block--card {
+    transition: none;
+  }
+
+  .archive .home-landing.teaching-page section.teaching-block.teaching-block--card:hover {
+    transform: none;
+  }
 }
 
 .archive .home-landing.teaching-page em {
@@ -530,7 +557,7 @@ html[data-theme="dark"] {
 .archive .home-landing.teaching-page p,
 .archive .home-landing.teaching-page li {
   font-size: 15px;
-  font-weight: 200;
+  font-weight: 300;
   line-height: 25px;
   color: #424242;
 }
@@ -577,7 +604,7 @@ html[data-theme="dark"] {
   font-size: 15px !important;
   line-height: 25px !important;
   color: #424242 !important;
-  font-weight: 200 !important;
+  font-weight: 300 !important;
 }
 
 .archive .home-landing.teaching-page ul.teaching-mentees-dash {
@@ -592,7 +619,7 @@ html[data-theme="dark"] {
   padding-left: 1.05rem !important;
   font-size: 15px !important;
   line-height: 1.5 !important;
-  font-weight: 200 !important;
+  font-weight: 300 !important;
   color: #424242 !important;
 }
 
@@ -620,7 +647,7 @@ html[data-theme="dark"] {
   font-size: 15px !important;
   line-height: 25px !important;
   color: #424242 !important;
-  font-weight: 200 !important;
+  font-weight: 300 !important;
 }
 
 .archive .home-landing.teaching-page .teaching-community--note {
@@ -784,7 +811,7 @@ html[data-theme="dark"] {
   margin: 0.85rem 0 0.45rem;
   font-size: 15px;
   line-height: 25px;
-  font-weight: 200;
+  font-weight: 300;
   color: #424242;
 }
 
@@ -834,7 +861,7 @@ html[data-theme="dark"] {
   gap: 0.55rem;
   margin: 0 0 0.4rem;
   padding: 0;
-  font-weight: 200;
+  font-weight: 300;
 }
 
 .page__content .home-landing .home-news-list li:last-child {
