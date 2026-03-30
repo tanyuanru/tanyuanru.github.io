@@ -194,41 +194,40 @@ h1, h2, h3, h4, h5, h6 {
   letter-spacing: 0.03em !important;
 }
 
-.sidebar .author__sidebar-school {
-  text-align: center !important;
-  margin: 0 0 0.35rem !important;
-  font-size: 0.78rem !important;
-  line-height: 1.35 !important;
-  color: var(--site-body) !important;
-  white-space: nowrap;
+/* Social links: label + icon, stacked vertically and centered under email */
+.sidebar .author__urls.social-icons {
+  display: flex !important;
+  flex-direction: column !important;
+  flex-wrap: nowrap !important;
+  align-items: center !important;
+  justify-content: flex-start !important;
+  gap: 0.35rem !important;
+  list-style: none !important;
+  padding-left: 0 !important;
+  margin: 0.65rem 0 0 !important;
 }
 
-@media screen and (min-width: 64em) {
-  .sidebar .author__urls.social-icons {
-    display: flex !important;
-    flex-wrap: wrap;
-    gap: 0.25rem 0.4rem;
-    align-items: center;
-    justify-content: center;
-    list-style: none !important;
-    padding-left: 0 !important;
-    margin: 0.65rem 0 0 !important;
-  }
+.sidebar .author__urls.social-icons li {
+  margin: 0 !important;
+  padding: 0 !important;
+  width: 100%;
+  max-width: 12.5rem;
+  text-align: center !important;
+}
 
-  .sidebar .author__urls.social-icons li {
-    margin: 0 !important;
-    padding: 0 !important;
-  }
+.sidebar .author__urls.social-icons a {
+  display: inline-flex !important;
+  align-items: center;
+  justify-content: center;
+  gap: 0.35rem;
+  font-size: 0.8125rem !important;
+  line-height: 1.35 !important;
+  font-weight: 500 !important;
+  min-height: auto !important;
+}
 
-  .sidebar .author__urls.social-icons a {
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    min-width: 1.5rem;
-    min-height: 1.5rem;
-    font-size: 1.2rem;
-    line-height: 1;
-  }
+.sidebar .author__urls.social-icons a .icon-pad-right {
+  margin-right: 0 !important;
 }
 
 .sidebar p,
@@ -388,6 +387,51 @@ html[data-theme="dark"] {
 .archive .home-landing a:hover {
   color: var(--site-link-hover, #134a6e) !important;
   border-bottom-color: rgba(19, 74, 110, 0.55);
+}
+
+/* Teaching page: match About Me column (typeface + size) */
+.archive .home-landing.teaching-page h2 {
+  font-size: 1.05rem;
+  font-weight: 600;
+  margin: 1.75rem 0 0.55rem;
+  padding-bottom: 0.35em;
+  border-bottom: 1px solid var(--global-border-color, #ddd);
+  font-family: -apple-system, BlinkMacSystemFont, system-ui, "Segoe UI", Roboto, sans-serif !important;
+  line-height: 1.35;
+  color: #333;
+}
+
+.archive .home-landing.teaching-page h2:first-of-type {
+  margin-top: 0.35rem;
+}
+
+.archive .home-landing.teaching-page p,
+.archive .home-landing.teaching-page li {
+  font-size: 15px;
+  font-weight: 200;
+  line-height: 25px;
+  color: #424242;
+}
+
+.archive .home-landing.teaching-page p {
+  margin-bottom: 0.85rem;
+}
+
+.archive .home-landing.teaching-page strong {
+  font-weight: 600;
+}
+
+.teaching-mentees {
+  margin: 0.15rem 0 0;
+  padding-left: 1.15rem;
+}
+
+.teaching-mentees li {
+  margin-bottom: 0.85rem;
+}
+
+.teaching-mentees li p {
+  margin: 0 !important;
 }
 
 /* Welcoming opener */
