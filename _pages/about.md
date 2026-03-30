@@ -22,7 +22,7 @@ redirect_from:
 <h2>My Research</h2>
 
 <p>
-  I develop methods! Specifically, I develop computational methods for educational research, with a focus on modeling learning processes. Underlying this work is the idea that studying how people learn requires methods that are not only computationally rigorous and visually expressive, but also grounded in theories of learning. That’s why I situate my research at the intersection of <strong>learning sciences</strong>, <strong>statistics</strong>, and <strong>data visualization</strong>. Here are some highlights:
+  <strong>I develop methods!</strong> Specifically, I develop computational methods for educational research, with a focus on modeling learning processes. Underlying this work is the idea that studying how people learn requires methods that are not only computationally rigorous and visually expressive, but also grounded in theories of learning. That’s why I situate my research at the intersection of <strong>learning sciences</strong>, <strong>statistics</strong>, and <strong>data visualization</strong>. Here are some highlights:
 </p>
 
 {% include home-research-highlights.html %}
