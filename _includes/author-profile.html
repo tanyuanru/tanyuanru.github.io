@@ -9,13 +9,11 @@
 <div itemscope itemtype="http://schema.org/Person">
 
   <div class="author__avatar">
-    <div class="author__avatar-inner">
-      <img
-        src="{{ author.avatar | default: '/images/avatar.jpg' | relative_url }}"
-        alt="{{ author.name }}{% if author.name_zh %} {{ author.name_zh }}{% endif %}"
-        class="author__avatar-img"
-      >
-    </div>
+    <img
+      src="{{ author.avatar | default: '/images/avatar.jpg' | relative_url }}"
+      alt="{{ author.name }}{% if author.name_zh %} {{ author.name_zh }}{% endif %}"
+      class="author__avatar-img"
+    >
   </div>
 
 <div class="author__content">
@@ -26,8 +24,11 @@
   {% if author.email %}
   <p class="author__sidebar-line author__sidebar-email">{{ author.email }}</p>
   {% endif %}
-  {% if author.sidebar_byline %}
-  <p class="author__sidebar-line author__sidebar-byline">{{ author.sidebar_byline }}</p>
+  {% if author.sidebar_role %}
+  <p class="author__sidebar-line author__sidebar-role">{{ author.sidebar_role }}</p>
+  {% endif %}
+  {% if author.sidebar_affiliation %}
+  <p class="author__sidebar-line author__sidebar-affil">{{ author.sidebar_affiliation }}</p>
   {% endif %}
   {% if author.pronouns %}<p class="author__pronouns">{{ author.pronouns }}</p>{% endif %}
   {% if author.bio %}<p class="author__bio">{{ author.bio }}</p>{% endif %}

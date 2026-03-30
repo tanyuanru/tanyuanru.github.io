@@ -208,6 +208,24 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 400 !important;
 }
 
+.sidebar .author__sidebar-role {
+  text-align: center !important;
+  margin: 0.15rem 0 0.15rem !important;
+  font-size: 0.8rem !important;
+  line-height: 1.35 !important;
+  color: var(--site-body) !important;
+  font-weight: 500 !important;
+}
+
+.sidebar .author__sidebar-affil {
+  text-align: center !important;
+  margin: 0 0 0.45rem !important;
+  font-size: 0.78rem !important;
+  line-height: 1.35 !important;
+  color: var(--site-body-muted) !important;
+  font-weight: 400 !important;
+}
+
 /* Social links: icon-only, centered row */
 .sidebar .author__urls.social-icons {
   display: flex !important;
@@ -309,41 +327,23 @@ html[data-theme="dark"] {
   border: none;
 }
 
-/* Sidebar avatar: full photo in a slightly wider neutral frame (no stretch) */
+/* Sidebar avatar: portrait crop; object-position trims a bit off the top */
 .sidebar .author__avatar {
   display: block !important;
   width: 100% !important;
   margin-top: 0;
 }
 
-.sidebar .author__avatar-inner {
-  width: 200px;
-  max-width: 100%;
-  margin: 0 auto 0.75rem;
-  padding: 12px 14px;
-  box-sizing: border-box;
-  background: linear-gradient(180deg, #f5f5f5 0%, #ebebeb 100%);
-  border-radius: 10px;
-  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.65), 0 2px 8px rgba(0, 0, 0, 0.06);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  transition: box-shadow 0.2s ease;
-}
-
-.sidebar .author__avatar-inner:hover {
-  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.65), 0 4px 12px rgba(0, 0, 0, 0.08);
-}
-
 .sidebar .author__avatar img.author__avatar-img {
-  width: 100% !important;
-  max-width: 176px;
-  height: auto !important;
-  object-fit: contain !important;
+  width: 168px !important;
+  max-width: 100%;
+  height: 210px !important;
+  object-fit: cover !important;
+  object-position: center 28%;
   border-radius: 8px !important;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
   display: block;
-  margin: 0 !important;
+  margin: 0 auto 0.75rem !important;
   transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
 
@@ -438,6 +438,15 @@ html[data-theme="dark"] {
   color: #333;
 }
 
+/* Top-level section titles (Teaching / Mentoring) vs. h3 subheads */
+.archive .home-landing.teaching-page h2.teaching-page__pillar {
+  font-size: 1.22rem;
+  font-weight: 700;
+  letter-spacing: -0.02em;
+  color: #141414;
+  padding-bottom: 0.42em;
+}
+
 .archive .home-landing.teaching-page h2:first-of-type {
   margin-top: 0.35rem;
 }
@@ -447,14 +456,14 @@ html[data-theme="dark"] {
 }
 
 .archive .home-landing.teaching-page h3.teaching-subhead {
-  font-size: 0.98rem;
-  font-weight: 600;
+  font-size: 0.94rem;
+  font-weight: 500;
   margin: 1.05rem 0 0.4rem;
   padding: 0;
   border: none;
   font-family: -apple-system, BlinkMacSystemFont, system-ui, "Segoe UI", Roboto, sans-serif !important;
   line-height: 1.35;
-  color: #2c2c2c;
+  color: #3a3a3a;
 }
 
 .archive .home-landing.teaching-page h2#teaching-overview + section.teaching-block h3.teaching-subhead {
@@ -728,18 +737,18 @@ html[data-theme="dark"] {
   margin-top: 1.65rem;
 }
 
-/* News: match home column body text */
+/* News: compact list, same typeface as home column */
 .page__content .home-landing .home-news-list {
-  margin: 0.35rem 0 0;
+  margin: 0.25rem 0 0;
   padding: 0;
   list-style: none;
   font-size: 15px;
-  line-height: 25px;
+  line-height: 1.38;
   color: #424242;
 }
 
 .page__content .home-landing .home-news-list li {
-  margin: 0 0 0.45rem;
+  margin: 0 0 0.28rem;
   padding: 0;
   font-weight: 200;
 }
@@ -760,7 +769,7 @@ html[data-theme="dark"] {
 }
 
 .page__content .home-landing .home-news-archive {
-  margin-top: 0.7rem;
+  margin-top: 0.55rem;
 }
 
 .page__content .home-landing .home-news-archive__summary {
@@ -800,9 +809,21 @@ html[data-theme="dark"] {
 }
 
 .page__content .home-landing .home-news-archive .home-news-list--archive {
-  margin-top: 0.45rem;
-  padding-top: 0.5rem;
+  margin-top: 0.35rem;
+  padding-top: 0.4rem;
   border-top: 1px solid var(--global-border-color, #e5e5e5);
+}
+
+.archive .home-landing.teaching-page .mentee-entry {
+  margin: 0 0 0.5rem !important;
+  font-size: 15px !important;
+  line-height: 1.5 !important;
+  color: #424242 !important;
+  font-weight: 200 !important;
+}
+
+.archive .home-landing.teaching-page .mentee-entry:last-of-type {
+  margin-bottom: 0.35rem !important;
 }
 
 .page__content .home-landing .home-pub-card {
