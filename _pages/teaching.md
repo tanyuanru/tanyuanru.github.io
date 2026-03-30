@@ -31,12 +31,15 @@ author_profile: true
 <h3 id="mentoring-research-heading" class="teaching-subhead">Research mentoring</h3>
 <p>Mentorship in our lab is rooted in cognitive apprenticeship. That’s how I’ve been mentored, and it’s how I now work with undergraduate research interns. Watching students grow through that process is one of my favorite parts of this work. Here are the Data Analytics interns I’ve worked with at the <a href="https://www.epistemicanalytics.org/staff/" target="_blank" rel="noopener noreferrer">Epistemic Analytics Lab</a>:</p>
 
-<p class="mentee-entry">Joy Hong (2025). UW–Madison undergraduate major in statistics and computer science.</p>
-<p class="mentee-entry">Yahan Chen (2024–2025). UW–Madison undergraduate major in statistics and data science. Now M.S. in Bioinformatics, University of Washington.</p>
-<p class="mentee-entry">Krirk Nirunwiroj (2023–2024). UW–Madison undergraduate major in computer science, data science, and mathematics. Now M.S. in Computer Science, Johns Hopkins University.</p>
-<p class="mentee-entry">Binrui Yang (2022–2023). UW–Madison undergraduate major in mathematics and statistics. Now Data Scientist, Travelers.</p>
+<ul class="teaching-mentees-dash">
+  <li>2025. Joy Hong. UW–Madison undergraduate major in statistics and computer science.</li>
+  <li>2024. Yahan Chen. UW–Madison undergraduate major in statistics and data science. Now M.S. in Bioinformatics, University of Washington.</li>
+  <li>2023. Krirk Nirunwiroj. UW–Madison undergraduate major in computer science, data science, and mathematics. Now M.S. in Computer Science, Johns Hopkins University.</li>
+  <li>2022. Binrui Yang. UW–Madison undergraduate major in mathematics and statistics. Now Data Scientist, Travelers.</li>
+</ul>
 
 <h3 id="mentoring-community-heading" class="teaching-subhead">Community mentoring</h3>
-<p class="teaching-community">Outside the lab, I mentor international students in a community capacity. I served on the <a href="https://iss.wisc.edu/staff/tan-yuanru/" target="_blank" rel="noopener noreferrer">International Students Advisory Board</a> at UW–Madison and worked as an International Peer Mentor, as small ways of paying forward the support I received when I first arrived in the U.S. If you’re reading this and you’re an international student in need of support, no matter which school you attend, feel free to reach out. I’m happy to help, and if I can’t, I’ll do my best to find someone who can. You are not alone.</p>
+<p class="teaching-community">Outside the lab, I mentor international students in a community capacity. I served on the <a href="https://iss.wisc.edu/staff/tan-yuanru/" target="_blank" rel="noopener noreferrer">International Students Advisory Board</a> at UW–Madison and worked as an International Peer Mentor, as small ways of paying forward the support I received when I first arrived in the U.S.</p>
+<p class="teaching-community teaching-community--note">If you’re reading this and you’re an international student in need of support, no matter which school you attend, feel free to reach out. I’m happy to help, and if I can’t, I’ll do my best to find someone who can. You are not alone. 🩵</p>
 
 </div>

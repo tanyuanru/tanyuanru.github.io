@@ -14,7 +14,9 @@
 {% assign news_dp = item.date | split: "/" %}
 {% assign news_item_year = news_dp[1] | plus: 0 %}
 {% if news_item_year >= 2026 %}
-<li><span class="home-news-date">{{ item.date }}</span><span class="home-news-text">{{ item.text | markdownify | remove: '<p>' | remove: '</p>' }}</span></li>
+{% capture news_item_html %}{{ item.text | markdownify | remove: '<p>' | remove: '</p>' }}{% endcapture %}
+{% assign news_item_html = news_item_html | replace: '<a ', '<a target="_blank" rel="noopener noreferrer" ' %}
+<li><span class="home-news-date">{{ item.date }}</span><span class="home-news-text">{{ news_item_html }}</span></li>
 {% endif %}
 {% endfor %}
 </ul>
@@ -26,7 +28,9 @@
 {% assign news_dp = item.date | split: "/" %}
 {% assign news_item_year = news_dp[1] | plus: 0 %}
 {% if news_item_year < 2026 %}
-<li><span class="home-news-date">{{ item.date }}</span><span class="home-news-text">{{ item.text | markdownify | remove: '<p>' | remove: '</p>' }}</span></li>
+{% capture news_item_html %}{{ item.text | markdownify | remove: '<p>' | remove: '</p>' }}{% endcapture %}
+{% assign news_item_html = news_item_html | replace: '<a ', '<a target="_blank" rel="noopener noreferrer" ' %}
+<li><span class="home-news-date">{{ item.date }}</span><span class="home-news-text">{{ news_item_html }}</span></li>
 {% endif %}
 {% endfor %}
 </ul>
