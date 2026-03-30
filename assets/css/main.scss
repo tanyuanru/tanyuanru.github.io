@@ -172,13 +172,17 @@ h1, h2, h3, h4, h5, h6 {
   text-align: center !important;
 }
 
+.sidebar .author__name-zh--first {
+  margin: 0.2rem 0 0.4rem !important;
+}
+
 .sidebar .author__name-row {
   display: flex !important;
   align-items: center !important;
   justify-content: center !important;
   flex-wrap: wrap !important;
   gap: 0.4rem !important;
-  margin: 0 0 0.15rem !important;
+  margin: 0 0 0.5rem !important;
 }
 
 .sidebar .author__name-row .author__name {
@@ -218,7 +222,6 @@ h1, h2, h3, h4, h5, h6 {
 
 .sidebar .author__name-zh {
   text-align: center !important;
-  margin: 0.25rem 0 0.6rem !important;
   font-size: 1rem !important;
   font-weight: 500 !important;
   color: var(--site-navy) !important;
@@ -290,6 +293,11 @@ h1, h2, h3, h4, h5, h6 {
   height: 1.15em !important;
   line-height: 1 !important;
   font-size: 1.05rem !important;
+}
+
+/* LinkedIn brand glyph often sits low in the em box; nudge up to match Scholar / ORCID / RG / GitHub */
+.sidebar .author__urls.social-icons a i.fab.fa-linkedin {
+  transform: translateY(-0.1em) !important;
 }
 
 .sidebar p,
