@@ -16,7 +16,7 @@ redirect_from:
 <div class="about-body">
 
 <p class="home-intro">
-  <strong>Hi</strong> 👋 I’m Yuanru Tan (“Yoo-en-roo”, close to Mandarin pinyin <em>Yuǎnrú</em>), <strong>Ph.D. candidate in the Learning Sciences</strong> program at the University of Wisconsin–Madison, advised by Professor <a href="https://edpsych.education.wisc.edu/fac-staff/williamson-shaffer-david/" target="_blank" rel="noopener noreferrer">David Williamson Shaffer</a> in the <a href="https://www.epistemicanalytics.org/" target="_blank" rel="noopener noreferrer">Epistemic Analytics Lab</a>, part of the <a href="https://www.crct.center/" target="_blank" rel="noopener noreferrer">Center for Research on Complex Thinking</a>.
+  <strong>Hi</strong> 👋 I’m Yuanru Tan, <strong>Ph.D. candidate in the Learning Sciences</strong> program at the University of Wisconsin–Madison, advised by Professor <a href="https://edpsych.education.wisc.edu/fac-staff/williamson-shaffer-david/" target="_blank" rel="noopener noreferrer">David Williamson Shaffer</a> in the <a href="https://www.epistemicanalytics.org/" target="_blank" rel="noopener noreferrer">Epistemic Analytics Lab</a>, part of the <a href="https://www.crct.center/" target="_blank" rel="noopener noreferrer">Center for Research on Complex Thinking</a>.
 </p>
 
 <p class="home-intro">

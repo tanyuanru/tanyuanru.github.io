@@ -172,10 +172,48 @@ h1, h2, h3, h4, h5, h6 {
   text-align: center !important;
 }
 
+.sidebar .author__name-row {
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  flex-wrap: wrap !important;
+  gap: 0.4rem !important;
+  margin: 0 0 0.15rem !important;
+}
+
+.sidebar .author__name-row .author__name {
+  margin: 0 !important;
+}
+
 .sidebar .author__name {
   text-align: center !important;
   color: var(--site-navy) !important;
   font-family: 'IBM Plex Serif', Georgia, serif !important;
+}
+
+/* NameDrop / pronunciation: compact speaker control (opens audio page in new tab) */
+.sidebar .author__pronounce-btn {
+  display: inline-flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  flex-shrink: 0 !important;
+  width: 1.85rem !important;
+  height: 1.85rem !important;
+  border-radius: 50% !important;
+  border: 1px solid rgba(0, 0, 0, 0.12) !important;
+  background: rgba(0, 0, 0, 0.04) !important;
+  color: var(--site-navy) !important;
+  font-size: 0.82rem !important;
+  text-decoration: none !important;
+  border-bottom: none !important;
+  box-sizing: border-box !important;
+  transition: background 0.15s ease, color 0.15s ease, transform 0.15s ease !important;
+}
+
+.sidebar .author__pronounce-btn:hover {
+  background: rgba(0, 0, 0, 0.08) !important;
+  color: var(--site-navy-mid, #2a5a7a) !important;
+  transform: scale(1.05) !important;
 }
 
 .sidebar .author__name-zh {
@@ -231,14 +269,14 @@ h1, h2, h3, h4, h5, h6 {
   margin-bottom: 0.45rem !important;
 }
 
-/* Social links: icon-only, centered row */
+/* Social links: icon-only, tight single row */
 .sidebar .author__urls.social-icons {
   display: flex !important;
   flex-direction: row !important;
-  flex-wrap: wrap !important;
+  flex-wrap: nowrap !important;
   align-items: center !important;
   justify-content: center !important;
-  gap: 0.45rem 0.55rem !important;
+  gap: 0.12rem !important;
   list-style: none !important;
   padding-left: 0 !important;
   margin: 0.65rem 0 0 !important;
@@ -255,9 +293,9 @@ h1, h2, h3, h4, h5, h6 {
   display: inline-flex !important;
   align-items: center !important;
   justify-content: center !important;
-  width: 2.125rem !important;
-  height: 2.125rem !important;
-  font-size: 1.15rem !important;
+  width: 1.95rem !important;
+  height: 1.95rem !important;
+  font-size: 1.05rem !important;
   line-height: 1 !important;
   box-sizing: border-box !important;
 }
@@ -267,10 +305,10 @@ h1, h2, h3, h4, h5, h6 {
   display: inline-flex !important;
   align-items: center !important;
   justify-content: center !important;
-  width: 1.2em !important;
-  height: 1.2em !important;
+  width: 1.15em !important;
+  height: 1.15em !important;
   line-height: 1 !important;
-  font-size: 1.15rem !important;
+  font-size: 1.05rem !important;
 }
 
 .sidebar p,
