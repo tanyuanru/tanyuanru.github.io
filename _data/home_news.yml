@@ -1,5 +1,5 @@
 # Home page News (newest first). Markdown links in `text`.
-# archived: true → shown inside “Earlier news (2020 and before)” fold.
+# Dates MM/YYYY: year >= 2026 shows in main list; earlier years are under “Earlier news”.
 items:
   - date: "04/2026"
     text: "Funding awarded to present my dissertation work at [LAK’26 Doctoral Consortium](https://www.solaresearch.org/events/lak/lak26/)."
@@ -46,17 +46,12 @@ items:
   - date: "03/2021"
     text: "Co-authored paper published at [TechTrends](https://link.springer.com/article/10.1007/s11528-021-00592-x)."
   - date: "01/2020"
-    archived: true
     text: "Co-authored [book chapter](https://edtechbooks.org/ux/integrating_lxd_and_uxd) published."
   - date: "12/2019"
-    archived: true
     text: "Co-authored paper published at [Online Learning](https://olj.onlinelearningconsortium.org/index.php/olj/article/view/2084)."
   - date: "07/2018"
-    archived: true
     text: "Co-authored paper published at [ISLS’18](https://repository.isls.org/handle/1/654)."
   - date: "04/2018"
-    archived: true
     text: "Co-authored paper published at [CHI’18](https://dl.acm.org/doi/abs/10.1145/3170427.3188650)."
   - date: "04/2018"
-    archived: true
     text: "Won Best Paper Award (as second author) at AERA ’18 Online Learning SIG."

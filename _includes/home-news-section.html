@@ -1,23 +1,31 @@
 {% if page.show_news != false and site.data.home_news.items and site.data.home_news.items.size > 0 %}
-{% assign news_archived_count = 0 %}
+{% assign news_early_count = 0 %}
 {% for item in site.data.home_news.items %}
-{% if item.archived %}{% assign news_archived_count = news_archived_count | plus: 1 %}{% endif %}
+{% assign news_dp = item.date | split: "/" %}
+{% assign news_item_year = news_dp[1] | plus: 0 %}
+{% if news_item_year < 2026 %}
+{% assign news_early_count = news_early_count | plus: 1 %}
+{% endif %}
 {% endfor %}
 <section class="home-section" aria-labelledby="home-news-heading" markdown="0">
 <h2 id="home-news-heading">News</h2>
 <ul class="home-news-list">
 {% for item in site.data.home_news.items %}
-{% unless item.archived %}
+{% assign news_dp = item.date | split: "/" %}
+{% assign news_item_year = news_dp[1] | plus: 0 %}
+{% if news_item_year >= 2026 %}
 <li><span class="home-news-date">{{ item.date }}</span> {{ item.text | markdownify | remove: '<p>' | remove: '</p>' }}</li>
-{% endunless %}
+{% endif %}
 {% endfor %}
 </ul>
-{% if news_archived_count > 0 %}
+{% if news_early_count > 0 %}
 <details class="home-news-archive" markdown="0">
-<summary class="home-news-archive__summary">Earlier news (2020 and before)</summary>
+<summary class="home-news-archive__summary">Earlier news</summary>
 <ul class="home-news-list home-news-list--archive">
 {% for item in site.data.home_news.items %}
-{% if item.archived %}
+{% assign news_dp = item.date | split: "/" %}
+{% assign news_item_year = news_dp[1] | plus: 0 %}
+{% if news_item_year < 2026 %}
 <li><span class="home-news-date">{{ item.date }}</span> {{ item.text | markdownify | remove: '<p>' | remove: '</p>' }}</li>
 {% endif %}
 {% endfor %}
