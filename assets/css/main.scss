@@ -237,6 +237,10 @@ h1, h2, h3, h4, h5, h6 {
   letter-spacing: 0.03em !important;
 }
 
+.sidebar .author__email-emoji {
+  margin-right: 0.25rem !important;
+}
+
 .sidebar .author__sidebar-byline {
   text-align: center !important;
   margin: 0 0 0.45rem !important;
@@ -244,30 +248,6 @@ h1, h2, h3, h4, h5, h6 {
   line-height: 1.35 !important;
   color: var(--site-body-muted) !important;
   font-weight: 400 !important;
-}
-
-.sidebar .author__sidebar-role {
-  text-align: center !important;
-  margin: 0.15rem 0 0.1rem !important;
-  font-size: 0.8rem !important;
-  line-height: 1.35 !important;
-  color: var(--site-body) !important;
-  font-weight: 400 !important;
-}
-
-.sidebar .author__sidebar-unit,
-.sidebar .author__sidebar-dept,
-.sidebar .author__sidebar-institution {
-  text-align: center !important;
-  margin: 0.05rem 0 !important;
-  font-size: 0.78rem !important;
-  line-height: 1.35 !important;
-  color: var(--site-body-muted) !important;
-  font-weight: 400 !important;
-}
-
-.sidebar .author__sidebar-institution {
-  margin-bottom: 0.45rem !important;
 }
 
 /* Social links: icon-only, tight single row */
@@ -498,27 +478,41 @@ html[data-theme="dark"] {
   margin-top: 2.35rem;
 }
 
-.archive .home-landing.teaching-page h3.teaching-subhead {
-  font-size: 0.94rem;
-  font-weight: 500;
-  margin: 1.05rem 0 0.4rem;
-  padding: 0;
-  border: none;
+/* Teaching & Mentoring: pill labels (match News date badge palette) */
+.archive .home-landing.teaching-page h3.teaching-subhead.teaching-subhead--pill {
+  display: inline-block;
+  margin: 1.05rem 0 0.45rem;
+  padding: 0.28em 0.75em 0.26em;
+  font-size: 0.78rem;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  text-transform: none;
+  line-height: 1.25;
   font-family: -apple-system, BlinkMacSystemFont, system-ui, "Segoe UI", Roboto, sans-serif !important;
-  line-height: 1.35;
-  color: #3a3a3a;
+  color: #154a6a;
+  background: #e4f0f7;
+  border-radius: 7px;
+  border: none;
 }
 
-.archive .home-landing.teaching-page h2#teaching-overview + section.teaching-block h3.teaching-subhead {
+.archive .home-landing.teaching-page h2#teaching-overview + section.teaching-block h3.teaching-subhead--pill {
   margin-top: 0.55rem;
 }
 
-.archive .home-landing.teaching-page h2#mentoring-overview + h3.teaching-subhead {
+.archive .home-landing.teaching-page h2#mentoring-overview + h3.teaching-subhead--pill {
   margin-top: 0.6rem;
 }
 
-.archive .home-landing.teaching-page section.teaching-block + section.teaching-block h3.teaching-subhead {
+.archive .home-landing.teaching-page section.teaching-block + section.teaching-block h3.teaching-subhead--pill {
   margin-top: 1.25rem;
+}
+
+.archive .home-landing.teaching-page ul.teaching-mentees-dash + h3.teaching-subhead--pill {
+  margin-top: 1.35rem;
+}
+
+.archive .home-landing.teaching-page em {
+  font-style: italic;
 }
 
 .archive .home-landing.teaching-page section.teaching-block p:last-child {
