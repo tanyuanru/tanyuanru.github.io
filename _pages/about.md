@@ -32,16 +32,11 @@ redirect_from:
 {% if page.show_news != false and site.data.home_news.items and site.data.home_news.items.size > 0 %}
 <section class="home-section" aria-labelledby="home-news-heading">
   <h2 id="home-news-heading">News</h2>
-  <table class="home-news-table">
-    <tbody>
-      {% for item in site.data.home_news.items %}
-      <tr>
-        <th scope="row">{{ item.date }}</th>
-        <td>{{ item.text | markdownify | remove: '<p>' | remove: '</p>' }}</td>
-      </tr>
-      {% endfor %}
-    </tbody>
-  </table>
+  <ul class="home-news-list">
+    {% for item in site.data.home_news.items %}
+    <li><span class="home-news-date">{{ item.date }}</span> {{ item.text | markdownify | remove: '<p>' | remove: '</p>' }}</li>
+    {% endfor %}
+  </ul>
 </section>
 {% endif %}
 
