@@ -42,9 +42,9 @@
   --site-navy-mid: #2a3f63;
   --site-body: #2c2c2c;
   --site-body-muted: #5c5c5c;
-  /* Clear, readable link blue (stronger contrast on white than teal-leaning #1a5f8a) */
-  --site-link: #1d4ed8;
-  --site-link-hover: #1e3a8a;
+  /* Warm umber links — echoes portrait (skin, sand, olive bokeh) without cold blue */
+  --site-link: #6e5140;
+  --site-link-hover: #4a372c;
   --site-bg: #ffffff;
 }
 
@@ -82,7 +82,7 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 
-/* Running text links (readable blue; not body-colored) */
+/* Running text links (warm umber; not body-colored) */
 .page__content a:not(.home-btn):not(.btn):not(.btn--primary),
 .archive .archive__item-title a,
 .archive a:not(.btn) {
@@ -446,16 +446,16 @@ html[data-theme="dark"] {
 
 .page__content .home-landing a,
 .archive .home-landing a {
-  color: var(--site-link, #1d4ed8);
+  color: var(--site-link, #6e5140);
   text-decoration: none !important;
-  border-bottom: 1px solid rgba(29, 78, 216, 0.38);
+  border-bottom: 1px solid rgba(110, 81, 64, 0.38);
   font-weight: 400;
 }
 
 .page__content .home-landing a:hover,
 .archive .home-landing a:hover {
-  color: var(--site-link-hover, #1e3a8a) !important;
-  border-bottom-color: rgba(30, 58, 138, 0.5);
+  color: var(--site-link-hover, #4a372c) !important;
+  border-bottom-color: rgba(74, 55, 44, 0.5);
 }
 
 /* Teaching page: match About Me column (typeface + size) */
@@ -844,10 +844,10 @@ html[data-theme="dark"] {
   margin-top: 1.65rem;
 }
 
-/* News: date badges + body (light blue pills, harmonized with link navy) */
+/* News: date badges + body (warm sand pills, same family as links) */
 .page__content .home-landing .home-news-list {
-  --news-badge-bg: #e4f0f7;
-  --news-badge-text: #1e40af;
+  --news-badge-bg: #f2ebe4;
+  --news-badge-text: #5c4537;
   margin: 0.25rem 0 0;
   padding: 0;
   list-style: none;
@@ -901,7 +901,7 @@ html[data-theme="dark"] {
   cursor: pointer;
   font-size: 14px;
   font-weight: 500;
-  color: var(--site-link, #1d4ed8);
+  color: var(--site-link, #6e5140);
   list-style: none;
   padding: 0.35rem 0;
 }
