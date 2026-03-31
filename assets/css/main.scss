@@ -42,12 +42,12 @@
   --site-navy-mid: #2a3f63;
   --site-body: #2c2c2c;
   --site-body-muted: #5c5c5c;
-  /* Soft slate-blue links for a calm, readable accent */
-  --site-link: #468fbc;
-  --site-link-hover: #2f6c91;
-  /* Shared with News date pills + publication author highlight */
-  --news-badge-bg: #e8f2f9;
-  --news-badge-text: #2f6c91;
+  /* Warm muted olive-gold links */
+  --site-link: #b7b179;
+  --site-link-hover: #8f8750;
+  /* Tuned with link family: News date pills + publication author highlight */
+  --news-badge-bg: #f2efe3;
+  --news-badge-text: #6b6340;
   --site-bg: #ffffff;
 }
 
@@ -449,16 +449,16 @@ html[data-theme="dark"] {
 
 .page__content .home-landing a,
 .archive .home-landing a {
-  color: var(--site-link, #468fbc);
+  color: var(--site-link, #b7b179);
   text-decoration: none !important;
-  border-bottom: 1px solid rgba(70, 143, 188, 0.38);
+  border-bottom: 1px solid rgba(183, 177, 121, 0.45);
   font-weight: 400;
 }
 
 .page__content .home-landing a:hover,
 .archive .home-landing a:hover {
-  color: var(--site-link-hover, #2f6c91) !important;
-  border-bottom-color: rgba(47, 108, 145, 0.5);
+  color: var(--site-link-hover, #8f8750) !important;
+  border-bottom-color: rgba(143, 135, 80, 0.55);
 }
 
 /* Teaching page: match About Me column (typeface + size) */
@@ -986,7 +986,7 @@ html[data-theme="dark"] {
   cursor: pointer;
   font-size: 14px;
   font-weight: 500;
-  color: var(--site-link, #468fbc);
+  color: var(--site-link, #b7b179);
   list-style: none;
   padding: 0.35rem 0;
 }
