@@ -447,6 +447,69 @@ html[data-theme="dark"] {
   color: #424242;
 }
 
+/* Home only: wider band so main text + News column fit */
+.page__content .home-landing.home-landing--split,
+.archive .home-landing.home-landing--split {
+  max-width: min(94vw, 74rem);
+}
+
+.page__content .home-landing.home-landing--split .home-main-with-news {
+  width: 100%;
+}
+
+@media screen and (min-width: 1100px) {
+  .page__content .home-landing.home-landing--split .home-main-with-news {
+    display: flex;
+    align-items: flex-start;
+    gap: 2rem;
+  }
+
+  .page__content .home-landing.home-landing--split .about-body {
+    flex: 1 1 0;
+    min-width: 0;
+    max-width: 44rem;
+  }
+
+  .page__content .home-landing.home-landing--split .home-news-column {
+    flex: 0 0 17.5rem;
+    width: 17.5rem;
+    max-width: 32%;
+    position: sticky;
+    top: 5.5rem;
+    align-self: flex-start;
+  }
+
+  .page__content .home-landing.home-landing--split .home-news-column .home-section {
+    margin-top: 0;
+  }
+
+  .page__content .home-landing.home-landing--split .home-news-column .home-section > h2 {
+    margin-top: 0.35rem;
+    font-size: 1rem;
+    letter-spacing: -0.01em;
+  }
+}
+
+@media screen and (max-width: 1099px) {
+  .page__content .home-landing.home-landing--split .home-main-with-news {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .page__content .home-landing.home-landing--split .home-news-column {
+    order: 2;
+    margin-top: 1.85rem;
+    width: 100%;
+    max-width: 44rem;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .page__content .home-landing.home-landing--split .about-body {
+    order: 1;
+  }
+}
+
 .page__content .home-landing a,
 .archive .home-landing a {
   color: var(--site-link, #2b7dbf);
@@ -786,6 +849,17 @@ html[data-theme="dark"] {
   object-fit: contain;
 }
 
+.research-highlight-thumb--wide {
+  flex: 0 0 6.25rem;
+  width: 6.25rem;
+  min-height: 3.5rem;
+}
+
+.research-highlight-thumb--wide img {
+  max-height: 5.25rem;
+  border-radius: 6px;
+}
+
 .research-highlight-text {
   flex: 1 1 auto;
   margin: 0 !important;
@@ -901,6 +975,11 @@ html[data-theme="dark"] {
   line-height: 25px;
   font-weight: 400;
   color: #424242;
+}
+
+.page__content .home-landing .research-sublead--after-highlights,
+.archive .home-landing .research-sublead--after-highlights {
+  margin-top: 1.2rem;
 }
 
 
