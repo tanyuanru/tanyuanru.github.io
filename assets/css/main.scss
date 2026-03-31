@@ -447,6 +447,14 @@ html[data-theme="dark"] {
   color: #424242;
 }
 
+/* Minimal Mistakes Susy grid: .page uses suffix(2 of 12) = empty band inside #main on the right.
+   About split layout: reclaim that gutter so News can sit at the true right edge of the main band. */
+@include breakpoint($large) {
+  .page:has(.home-landing.home-landing--split) {
+    @include suffix(0 of 12);
+  }
+}
+
 /* Home only: full content width + News pinned to the far right */
 .page__content .home-landing.home-landing--split,
 .archive .home-landing.home-landing--split {
