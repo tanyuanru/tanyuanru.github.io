@@ -807,6 +807,54 @@ html[data-theme="dark"] {
   font-weight: 500 !important;
 }
 
+/* Research / publications page: three-line citation blocks */
+.page__content .research-page .pub-list,
+.archive .research-page .pub-list {
+  margin: 0.15rem 0 0;
+}
+
+.page__content .research-page .pub-item,
+.archive .research-page .pub-item {
+  margin-bottom: 1.25rem;
+}
+
+.page__content .research-page .pub-item:last-child,
+.archive .research-page .pub-item:last-child {
+  margin-bottom: 0;
+}
+
+.page__content .research-page .pub-title,
+.archive .research-page .pub-title {
+  font-family: -apple-system, BlinkMacSystemFont, system-ui, "Segoe UI", Roboto, sans-serif !important;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 1.42;
+  color: var(--site-navy, #1a2d4a);
+  margin: 0 0 0.35rem;
+}
+
+.page__content .research-page .pub-authors,
+.archive .research-page .pub-authors {
+  font-size: 15px;
+  line-height: 1.5;
+  color: #424242;
+  margin: 0 0 0.25rem;
+}
+
+.page__content .research-page .pub-venue,
+.archive .research-page .pub-venue {
+  font-size: 15px;
+  line-height: 1.5;
+  color: #555;
+  margin: 0;
+}
+
+.page__content .research-page .pub-author-self,
+.archive .research-page .pub-author-self {
+  color: var(--site-link);
+  font-weight: 500;
+}
+
 .page__content .home-landing .research-sublead,
 .archive .home-landing .research-sublead {
   margin: 0.85rem 0 0.45rem;
@@ -844,10 +892,10 @@ html[data-theme="dark"] {
   margin-top: 1.65rem;
 }
 
-/* News: date badges + body (warm sand pills, same family as links) */
+/* News: date badges (tinted to match link blue) */
 .page__content .home-landing .home-news-list {
-  --news-badge-bg: #f2ebe4;
-  --news-badge-text: #5c4537;
+  --news-badge-bg: #e8f2f9;
+  --news-badge-text: #2f6c91;
   margin: 0.25rem 0 0;
   padding: 0;
   list-style: none;
