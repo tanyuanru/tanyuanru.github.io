@@ -111,28 +111,39 @@ h1, h2, h3, h4, h5, h6 {
   color: var(--site-navy-mid) !important;
 }
 
-/* Masthead: slightly smaller nav text (default greedy-nav layout preserved) */
-#site-nav.greedy-nav .visible-links a {
+/* Masthead: same size + weight for every tab; current tab emphasized separately */
+#site-nav.greedy-nav .visible-links > li {
+  font-weight: 500 !important;
   font-size: 0.9rem !important;
 }
 
-/* Active tab = bold only for current page (theme bolds first li + --lg by default) */
+#site-nav.greedy-nav .visible-links > li > a {
+  font-size: 0.9rem !important;
+  font-weight: inherit !important;
+}
+
 #site-nav.greedy-nav .visible-links > li:first-child {
   font-weight: 500 !important;
 }
 
-#site-nav.greedy-nav .visible-links > li.masthead__menu-item--current,
-#site-nav.greedy-nav .visible-links > li.masthead__menu-item--current a {
-  font-weight: 700 !important;
-}
-
 .masthead__menu-item.masthead__menu-item--lg {
   font-weight: 500 !important;
+  font-size: 0.9rem !important;
 }
 
-.masthead__menu-item.masthead__menu-item--lg.masthead__menu-item--current,
-.masthead__menu-item.masthead__menu-item--lg.masthead__menu-item--current a {
+#site-nav.greedy-nav .visible-links > li.masthead__menu-item--current {
   font-weight: 700 !important;
+}
+
+#site-nav.greedy-nav .visible-links > li.masthead__menu-item--current > a {
+  font-weight: 700 !important;
+  text-decoration: underline !important;
+  text-underline-offset: 0.22em;
+  text-decoration-thickness: 2px;
+  text-decoration-color: rgba(26, 45, 74, 0.45);
+  background-color: rgba(26, 45, 74, 0.07);
+  border-radius: 6px;
+  padding: 0.28em 0.55em 0.32em;
 }
 
 /* Masthead: navy site title + nav */
@@ -488,20 +499,21 @@ html[data-theme="dark"] {
 }
 
 @media screen and (min-width: 1100px) {
-  /* Intro row 1 / Research + News row 2 so News aligns with "My Research" */
+  /* Intro spans full band; row 2 = My Research (left) + News (right, extra gap) */
   .page__content .home-landing.home-landing--split .home-main-with-news {
     display: grid;
     grid-template-columns: minmax(0, 1fr) 17.5rem;
-    column-gap: 2.85rem;
+    column-gap: clamp(3.75rem, 6vw, 6rem);
     row-gap: 1.1rem;
     align-items: start;
   }
 
   .page__content .home-landing.home-landing--split .about-body--intro {
-    grid-column: 1;
+    grid-column: 1 / -1;
     grid-row: 1;
     min-width: 0;
-    max-width: 44rem;
+    max-width: none;
+    width: 100%;
   }
 
   .page__content .home-landing.home-landing--split .about-body--research {
