@@ -106,4 +106,24 @@
       {% endif %}
     </ul>
   </div>
+
+  {% assign _sidebar_news_home = false %}
+  {% assign _nav_path = page.url | replace: '/index.html', '/' %}
+  {% if site.baseurl and site.baseurl != '' %}
+    {% assign _b = site.baseurl | append: '' %}
+    {% if _nav_path.size >= _b.size and _nav_path contains _b %}
+      {% assign _nav_path = _nav_path | remove_first: _b %}
+    {% endif %}
+    {% if _nav_path == '' %}
+      {% assign _nav_path = '/' %}
+    {% endif %}
+  {% endif %}
+  {% if _nav_path == '/' %}
+    {% assign _sidebar_news_home = true %}
+  {% endif %}
+  {% if page.show_news and _sidebar_news_home %}
+  <div class="sidebar-home-news" aria-label="News">
+    {% include home-news-section.html %}
+  </div>
+  {% endif %}
 </div>
