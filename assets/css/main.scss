@@ -168,6 +168,25 @@ h1, h2, h3, h4, h5, h6 {
   padding-right: 1.5rem !important;
 }
 
+/* Fixed sidebar: allow scrolling to the real bottom (padding + dynamic viewport) */
+@media screen and (min-width: 1024px) {
+  #main > .sidebar.sticky,
+  .sidebar.sticky {
+    box-sizing: border-box !important;
+    height: 100vh !important;
+    height: 100dvh !important;
+    max-height: 100vh !important;
+    max-height: 100dvh !important;
+    overflow-y: auto !important;
+    overflow-x: hidden !important;
+    -webkit-overflow-scrolling: touch;
+    overscroll-behavior-y: contain;
+    /* Space below News / expanded Earlier News so the end isn’t clipped by the viewport */
+    padding-bottom: max(3rem, env(safe-area-inset-bottom, 0px)) !important;
+    scrollbar-gutter: stable;
+  }
+}
+
 /* Extra gap between sidebar and main column (iPad / narrow desktop) */
 @media screen and (min-width: 64em) {
   #main > .sidebar.sticky {
@@ -390,28 +409,38 @@ html[data-theme="dark"] {
   border: none;
 }
 
-/* Sidebar avatar: full photo (no shoulder crop), soft al-folio–style treatment */
+/* Sidebar avatar: slightly shorter frame; crop from top, anchor at bottom (shoulders stay) */
 .sidebar .author__avatar {
   display: block !important;
   width: 100% !important;
+  max-width: 200px !important;
+  height: 168px !important;
+  margin: 0 auto 0.75rem !important;
   margin-top: 0;
+  overflow: hidden !important;
+  border-radius: 10px !important;
+  border: 1px solid rgba(0, 0, 0, 0.06) !important;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.07) !important;
+  transition: box-shadow 0.2s ease !important;
+  flex-shrink: 0;
+}
+
+.sidebar .author__avatar:hover {
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.1) !important;
 }
 
 .sidebar .author__avatar img.author__avatar-img {
   width: 100% !important;
-  max-width: 200px !important;
-  height: auto !important;
-  object-fit: contain !important;
-  border-radius: 10px !important;
-  border: 1px solid rgba(0, 0, 0, 0.06) !important;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.07) !important;
-  display: block;
-  margin: 0 auto 0.75rem !important;
-  transition: box-shadow 0.2s ease !important;
-}
-
-.sidebar .author__avatar img.author__avatar-img:hover {
-  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.1) !important;
+  height: 100% !important;
+  max-width: none !important;
+  max-height: none !important;
+  object-fit: cover !important;
+  object-position: center bottom !important;
+  border-radius: 0 !important;
+  border: none !important;
+  box-shadow: none !important;
+  display: block !important;
+  margin: 0 !important;
 }
 
 /* Research / publications: card-style project blocks */
