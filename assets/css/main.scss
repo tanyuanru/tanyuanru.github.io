@@ -42,12 +42,14 @@
   --site-navy-mid: #2a3f63;
   --site-body: #2c2c2c;
   --site-body-muted: #5c5c5c;
-  /* Vivid sky blue links — cleaner + more saturated than earlier #468fbc, still academic */
-  --site-link: #2b7dbf;
-  --site-link-hover: #1d5a8f;
-  /* News date pills + publication author highlight (same blue family) */
-  --news-badge-bg: #e7f2fb;
-  --news-badge-text: #1d5a8f;
+  /* Blue-green links + accents */
+  --site-link: #1f8578;
+  --site-link-hover: #156b5f;
+  --site-link-underline: rgba(31, 133, 120, 0.42);
+  --site-link-underline-hover: rgba(21, 107, 95, 0.55);
+  /* News date pills + publication author highlight */
+  --news-badge-bg: #e3f4f1;
+  --news-badge-text: #156b5f;
   --site-bg: #ffffff;
 }
 
@@ -414,7 +416,7 @@ html[data-theme="dark"] {
   display: block !important;
   width: 100% !important;
   max-width: 200px !important;
-  height: 168px !important;
+  height: 198px !important;
   margin: 0 auto 0.75rem !important;
   margin-top: 0;
   overflow: hidden !important;
@@ -435,7 +437,7 @@ html[data-theme="dark"] {
   max-width: none !important;
   max-height: none !important;
   object-fit: cover !important;
-  object-position: center bottom !important;
+  object-position: center 92% !important;
   border-radius: 0 !important;
   border: none !important;
   box-shadow: none !important;
@@ -563,17 +565,17 @@ html[data-theme="dark"] {
 .page__content .home-landing a,
 .archive .home-landing a,
 .sidebar .sidebar-home-news a {
-  color: var(--site-link, #2b7dbf);
+  color: var(--site-link);
   text-decoration: none !important;
-  border-bottom: 1px solid rgba(43, 125, 191, 0.42);
+  border-bottom: 1px solid var(--site-link-underline);
   font-weight: 400;
 }
 
 .page__content .home-landing a:hover,
 .archive .home-landing a:hover,
 .sidebar .sidebar-home-news a:hover {
-  color: var(--site-link-hover, #1d5a8f) !important;
-  border-bottom-color: rgba(29, 90, 143, 0.52);
+  color: var(--site-link-hover) !important;
+  border-bottom-color: var(--site-link-underline-hover);
 }
 
 /* Teaching page: match About Me column (typeface + size) */
@@ -808,27 +810,28 @@ html[data-theme="dark"] {
   font-family: inherit;
   padding: 0.45rem 1rem;
   border-radius: 4px;
-  border: 1px solid rgba(26, 45, 74, 0.35);
+  border: 1px solid var(--site-link-underline);
   background: #fff;
-  color: var(--site-navy) !important;
+  color: var(--site-link) !important;
   text-decoration: none !important;
   transition: border-color 0.15s ease, background 0.15s ease, color 0.15s ease;
 }
 
 .home-btn:hover {
-  border-color: var(--site-navy-mid);
-  background: rgba(26, 45, 74, 0.04);
+  border-color: var(--site-link-hover);
+  background: rgba(31, 133, 120, 0.07);
+  color: var(--site-link-hover) !important;
 }
 
 .home-btn--primary {
-  background: var(--site-navy);
+  background: var(--site-link);
   color: #fff !important;
-  border-color: var(--site-navy);
+  border-color: var(--site-link);
 }
 
 .home-btn--primary:hover {
-  background: var(--site-navy-mid);
-  border-color: var(--site-navy-mid);
+  background: var(--site-link-hover);
+  border-color: var(--site-link-hover);
   color: #fff !important;
 }
 
@@ -1134,7 +1137,7 @@ html[data-theme="dark"] {
   cursor: pointer;
   font-size: 14px;
   font-weight: 500;
-  color: var(--site-link, #2b7dbf);
+  color: var(--site-link);
   list-style: none;
   padding: 0.35rem 0;
 }
