@@ -42,8 +42,9 @@
   --site-navy-mid: #2a3f63;
   --site-body: #2c2c2c;
   --site-body-muted: #5c5c5c;
-  --site-link: #1a5f8a;
-  --site-link-hover: #134a6e;
+  /* Clear, readable link blue (stronger contrast on white than teal-leaning #1a5f8a) */
+  --site-link: #1d4ed8;
+  --site-link-hover: #1e3a8a;
   --site-bg: #ffffff;
 }
 
@@ -438,23 +439,23 @@ html[data-theme="dark"] {
   padding-bottom: 2.5rem;
   font-family: -apple-system, BlinkMacSystemFont, system-ui, "Segoe UI", Roboto, sans-serif;
   font-size: 15px;
-  font-weight: 300;
+  font-weight: 400;
   line-height: 25px;
   color: #424242;
 }
 
 .page__content .home-landing a,
 .archive .home-landing a {
-  color: var(--site-link, #1a5f8a);
+  color: var(--site-link, #1d4ed8);
   text-decoration: none !important;
-  border-bottom: 1px solid rgba(26, 95, 138, 0.35);
+  border-bottom: 1px solid rgba(29, 78, 216, 0.38);
   font-weight: 400;
 }
 
 .page__content .home-landing a:hover,
 .archive .home-landing a:hover {
-  color: var(--site-link-hover, #134a6e) !important;
-  border-bottom-color: rgba(19, 74, 110, 0.55);
+  color: var(--site-link-hover, #1e3a8a) !important;
+  border-bottom-color: rgba(30, 58, 138, 0.5);
 }
 
 /* Teaching page: match About Me column (typeface + size) */
@@ -557,7 +558,7 @@ html[data-theme="dark"] {
 .archive .home-landing.teaching-page p,
 .archive .home-landing.teaching-page li {
   font-size: 15px;
-  font-weight: 300;
+  font-weight: 400;
   line-height: 25px;
   color: #424242;
 }
@@ -604,7 +605,7 @@ html[data-theme="dark"] {
   font-size: 15px !important;
   line-height: 25px !important;
   color: #424242 !important;
-  font-weight: 300 !important;
+  font-weight: 400 !important;
 }
 
 .archive .home-landing.teaching-page ul.teaching-mentees-dash {
@@ -619,7 +620,7 @@ html[data-theme="dark"] {
   padding-left: 1.05rem !important;
   font-size: 15px !important;
   line-height: 1.5 !important;
-  font-weight: 300 !important;
+  font-weight: 400 !important;
   color: #424242 !important;
 }
 
@@ -647,7 +648,7 @@ html[data-theme="dark"] {
   font-size: 15px !important;
   line-height: 25px !important;
   color: #424242 !important;
-  font-weight: 300 !important;
+  font-weight: 400 !important;
 }
 
 .archive .home-landing.teaching-page .teaching-community--note {
@@ -811,7 +812,7 @@ html[data-theme="dark"] {
   margin: 0.85rem 0 0.45rem;
   font-size: 15px;
   line-height: 25px;
-  font-weight: 300;
+  font-weight: 400;
   color: #424242;
 }
 
@@ -846,7 +847,7 @@ html[data-theme="dark"] {
 /* News: date badges + body (light blue pills, harmonized with link navy) */
 .page__content .home-landing .home-news-list {
   --news-badge-bg: #e4f0f7;
-  --news-badge-text: #154a6a;
+  --news-badge-text: #1e40af;
   margin: 0.25rem 0 0;
   padding: 0;
   list-style: none;
@@ -861,7 +862,7 @@ html[data-theme="dark"] {
   gap: 0.55rem;
   margin: 0 0 0.4rem;
   padding: 0;
-  font-weight: 300;
+  font-weight: 400;
 }
 
 .page__content .home-landing .home-news-list li:last-child {
@@ -900,7 +901,7 @@ html[data-theme="dark"] {
   cursor: pointer;
   font-size: 14px;
   font-weight: 500;
-  color: var(--site-link, #1a5f8a);
+  color: var(--site-link, #1d4ed8);
   list-style: none;
   padding: 0.35rem 0;
 }
