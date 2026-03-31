@@ -45,6 +45,9 @@
   /* Soft slate-blue links for a calm, readable accent */
   --site-link: #468fbc;
   --site-link-hover: #2f6c91;
+  /* Shared with News date pills + publication author highlight */
+  --news-badge-bg: #e8f2f9;
+  --news-badge-text: #2f6c91;
   --site-bg: #ffffff;
 }
 
@@ -807,10 +810,20 @@ html[data-theme="dark"] {
   font-weight: 500 !important;
 }
 
+/* Research / publications page: intro blurb */
+.page__content .research-page .pub-page-intro,
+.archive .research-page .pub-page-intro {
+  margin: 0 0 1.15rem;
+  font-size: 15px;
+  line-height: 25px;
+  font-weight: 400;
+  color: #424242;
+}
+
 /* Research / publications page: three-line citation blocks */
 .page__content .research-page .pub-list,
 .archive .research-page .pub-list {
-  margin: 0.15rem 0 0;
+  margin: 0;
 }
 
 .page__content .research-page .pub-item,
@@ -849,10 +862,20 @@ html[data-theme="dark"] {
   margin: 0;
 }
 
+/* Same pill treatment as .home-news-date */
 .page__content .research-page .pub-author-self,
 .archive .research-page .pub-author-self {
-  color: var(--site-link);
+  display: inline-block;
+  padding: 0.22em 0.55em 0.2em;
+  font-size: 0.78em;
   font-weight: 500;
+  line-height: 1.25;
+  letter-spacing: 0.01em;
+  color: var(--news-badge-text);
+  background: var(--news-badge-bg);
+  border-radius: 7px;
+  white-space: nowrap;
+  vertical-align: 0.08em;
 }
 
 .page__content .home-landing .research-sublead,
@@ -892,10 +915,8 @@ html[data-theme="dark"] {
   margin-top: 1.65rem;
 }
 
-/* News: date badges (tinted to match link blue) */
+/* News: date badges (uses :root --news-badge-*) */
 .page__content .home-landing .home-news-list {
-  --news-badge-bg: #e8f2f9;
-  --news-badge-text: #2f6c91;
   margin: 0.25rem 0 0;
   padding: 0;
   list-style: none;
