@@ -846,6 +846,22 @@ html[data-theme="dark"] {
   margin: 0 0 0.35rem;
 }
 
+.page__content .research-page .pub-award,
+.archive .research-page .pub-award {
+  display: inline-block;
+  margin-right: 0.35rem;
+  padding: 0.08em 0.45em;
+  border-radius: 999px;
+  background: #fff4db;
+  color: #8a5a00;
+  font-size: 0.78em;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+  line-height: 1.2;
+  vertical-align: 0.08em;
+  font-family: -apple-system, BlinkMacSystemFont, system-ui, "Segoe UI", Roboto, sans-serif !important;
+}
+
 .page__content .research-page .pub-authors,
 .archive .research-page .pub-authors {
   font-size: 15px;
