@@ -15,7 +15,7 @@ redirect_from:
 
 <div class="home-main-with-news">
 
-<div class="about-body">
+<div class="about-body about-body--intro">
 
 <p class="home-intro">
   Hi 👋 I'm a Ph.D. candidate in the Learning Sciences program in the Department of Educational Psychology at the University of Wisconsin–Madison, advised by Professor <a href="https://edpsych.education.wisc.edu/fac-staff/williamson-shaffer-david/" target="_blank" rel="noopener noreferrer">David Williamson Shaffer</a> in the <a href="https://www.epistemicanalytics.org/" target="_blank" rel="noopener noreferrer">Epistemic Analytics Lab</a>, part of the <a href="https://www.crct.center/" target="_blank" rel="noopener noreferrer">Center for Research on Complex Thinking</a>. I do research at the intersection of learning sciences, statistics, and data visualization.
@@ -28,6 +28,10 @@ redirect_from:
 <p class="home-intro">
   I hold an M.A. in Educational Studies from the University of Michigan–Ann Arbor (advised by Professor <a href="https://marsal.umich.edu/directory/faculty-staff/christopher-quintana" target="_blank" rel="noopener noreferrer">Chris Quintana</a>) and a B.S. in Information Management Systems from Tianjin University of Technology in China.
 </p>
+
+</div>
+
+<div class="about-body about-body--research">
 
 <h2>My Research</h2>
 
