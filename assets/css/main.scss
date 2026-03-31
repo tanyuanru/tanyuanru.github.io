@@ -42,9 +42,9 @@
   --site-navy-mid: #2a3f63;
   --site-body: #2c2c2c;
   --site-body-muted: #5c5c5c;
-  /* Warm umber links — echoes portrait (skin, sand, olive bokeh) without cold blue */
-  --site-link: #6e5140;
-  --site-link-hover: #4a372c;
+  /* Soft slate-blue links for a calm, readable accent */
+  --site-link: #468fbc;
+  --site-link-hover: #2f6c91;
   --site-bg: #ffffff;
 }
 
@@ -82,7 +82,7 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 
-/* Running text links (warm umber; not body-colored) */
+/* Running text links (soft slate-blue; not body-colored) */
 .page__content a:not(.home-btn):not(.btn):not(.btn--primary),
 .archive .archive__item-title a,
 .archive a:not(.btn) {
@@ -446,16 +446,16 @@ html[data-theme="dark"] {
 
 .page__content .home-landing a,
 .archive .home-landing a {
-  color: var(--site-link, #6e5140);
+  color: var(--site-link, #468fbc);
   text-decoration: none !important;
-  border-bottom: 1px solid rgba(110, 81, 64, 0.38);
+  border-bottom: 1px solid rgba(70, 143, 188, 0.38);
   font-weight: 400;
 }
 
 .page__content .home-landing a:hover,
 .archive .home-landing a:hover {
-  color: var(--site-link-hover, #4a372c) !important;
-  border-bottom-color: rgba(74, 55, 44, 0.5);
+  color: var(--site-link-hover, #2f6c91) !important;
+  border-bottom-color: rgba(47, 108, 145, 0.5);
 }
 
 /* Teaching page: match About Me column (typeface + size) */
@@ -901,7 +901,7 @@ html[data-theme="dark"] {
   cursor: pointer;
   font-size: 14px;
   font-weight: 500;
-  color: var(--site-link, #6e5140);
+  color: var(--site-link, #468fbc);
   list-style: none;
   padding: 0.35rem 0;
 }
