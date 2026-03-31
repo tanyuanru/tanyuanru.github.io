@@ -116,6 +116,25 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 0.9rem !important;
 }
 
+/* Active tab = bold only for current page (theme bolds first li + --lg by default) */
+#site-nav.greedy-nav .visible-links > li:first-child {
+  font-weight: 500 !important;
+}
+
+#site-nav.greedy-nav .visible-links > li.masthead__menu-item--current,
+#site-nav.greedy-nav .visible-links > li.masthead__menu-item--current a {
+  font-weight: 700 !important;
+}
+
+.masthead__menu-item.masthead__menu-item--lg {
+  font-weight: 500 !important;
+}
+
+.masthead__menu-item.masthead__menu-item--lg.masthead__menu-item--current,
+.masthead__menu-item.masthead__menu-item--lg.masthead__menu-item--current a {
+  font-weight: 700 !important;
+}
+
 /* Masthead: navy site title + nav */
 .masthead__inner-wrap a {
   color: var(--site-navy) !important;
@@ -469,27 +488,39 @@ html[data-theme="dark"] {
 }
 
 @media screen and (min-width: 1100px) {
+  /* Intro row 1 / Research + News row 2 so News aligns with "My Research" */
   .page__content .home-landing.home-landing--split .home-main-with-news {
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
-    gap: 1.5rem;
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) 17.5rem;
+    column-gap: 2.85rem;
+    row-gap: 1.1rem;
+    align-items: start;
   }
 
-  .page__content .home-landing.home-landing--split .about-body {
-    flex: 0 1 auto;
+  .page__content .home-landing.home-landing--split .about-body--intro {
+    grid-column: 1;
+    grid-row: 1;
+    min-width: 0;
+    max-width: 44rem;
+  }
+
+  .page__content .home-landing.home-landing--split .about-body--research {
+    grid-column: 1;
+    grid-row: 2;
     min-width: 0;
     max-width: 44rem;
   }
 
   .page__content .home-landing.home-landing--split .home-news-column {
-    flex: 0 0 17.5rem;
+    grid-column: 2;
+    grid-row: 2;
     width: 17.5rem;
     max-width: min(17.5rem, 28vw);
-    margin-left: auto;
+    justify-self: end;
+    margin-left: 0;
     position: sticky;
     top: 5.5rem;
-    align-self: flex-start;
+    align-self: start;
   }
 
   .page__content .home-landing.home-landing--split .home-news-column .home-section {
@@ -497,7 +528,7 @@ html[data-theme="dark"] {
   }
 
   .page__content .home-landing.home-landing--split .home-news-column .home-section > h2 {
-    margin-top: 0.35rem;
+    margin-top: 0;
     font-size: 1rem;
     letter-spacing: -0.01em;
   }
@@ -510,7 +541,7 @@ html[data-theme="dark"] {
   }
 
   .page__content .home-landing.home-landing--split .home-news-column {
-    order: 2;
+    order: 3;
     margin-top: 1.85rem;
     width: 100%;
     max-width: 44rem;
@@ -518,8 +549,12 @@ html[data-theme="dark"] {
     margin-right: auto;
   }
 
-  .page__content .home-landing.home-landing--split .about-body {
+  .page__content .home-landing.home-landing--split .about-body--intro {
     order: 1;
+  }
+
+  .page__content .home-landing.home-landing--split .about-body--research {
+    order: 2;
   }
 }
 
@@ -809,6 +844,13 @@ html[data-theme="dark"] {
   margin-top: 2.15rem;
 }
 
+/* Split layout: intro is separate; first h2 is already under row gap */
+@media screen and (min-width: 1100px) {
+  .page__content .home-landing.home-landing--split .about-body--research > h2:first-of-type {
+    margin-top: 0;
+  }
+}
+
 .page__content .home-landing .about-body > p {
   line-height: 25px;
   margin-bottom: 0.65rem;
@@ -819,11 +861,11 @@ html[data-theme="dark"] {
   font-weight: 600;
 }
 
-/* Research highlight rows: thumbnail + text */
+/* Research highlight rows: thumbnail + text (fixed thumb column so titles line up) */
 .research-highlight-row {
   display: flex;
-  align-items: stretch;
-  gap: 0.85rem;
+  align-items: flex-start;
+  gap: 0.95rem;
   margin-bottom: 0.65rem;
 }
 
@@ -845,31 +887,34 @@ html[data-theme="dark"] {
 }
 
 .research-highlight-thumb {
-  flex: 0 0 4.75rem;
-  width: 4.75rem;
+  flex: 0 0 5.75rem;
+  width: 5.75rem;
+  min-width: 5.75rem;
   min-height: 3rem;
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   justify-content: center;
+  padding-top: 0.12rem;
 }
 
 .research-highlight-thumb img {
   display: block;
   max-width: 100%;
-  max-height: 100%;
+  max-height: 4.5rem;
   width: auto;
   height: auto;
   object-fit: contain;
 }
 
 .research-highlight-thumb--wide {
-  flex: 0 0 6.25rem;
-  width: 6.25rem;
-  min-height: 3.5rem;
+  flex: 0 0 5.75rem;
+  width: 5.75rem;
+  min-width: 5.75rem;
+  min-height: 3rem;
 }
 
 .research-highlight-thumb--wide img {
-  max-height: 5.25rem;
+  max-height: 4.75rem;
   border-radius: 6px;
 }
 
