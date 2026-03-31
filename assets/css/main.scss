@@ -42,14 +42,14 @@
   --site-navy-mid: #2a3f63;
   --site-body: #2c2c2c;
   --site-body-muted: #5c5c5c;
-  /* Blue-green links + accents */
-  --site-link: #1f8578;
-  --site-link-hover: #156b5f;
-  --site-link-underline: rgba(31, 133, 120, 0.42);
-  --site-link-underline-hover: rgba(21, 107, 95, 0.55);
+  /* Link accent */
+  --site-link: #46b1e1;
+  --site-link-hover: #2e8ec4;
+  --site-link-underline: rgba(70, 177, 225, 0.45);
+  --site-link-underline-hover: rgba(46, 142, 196, 0.58);
   /* News date pills + publication author highlight */
-  --news-badge-bg: #e3f4f1;
-  --news-badge-text: #156b5f;
+  --news-badge-bg: #e8f4fc;
+  --news-badge-text: #2a6f9e;
   --site-bg: #ffffff;
 }
 
@@ -416,7 +416,7 @@ html[data-theme="dark"] {
   display: block !important;
   width: 100% !important;
   max-width: 200px !important;
-  height: 198px !important;
+  height: 232px !important;
   margin: 0 auto 0.75rem !important;
   margin-top: 0;
   overflow: hidden !important;
@@ -437,7 +437,7 @@ html[data-theme="dark"] {
   max-width: none !important;
   max-height: none !important;
   object-fit: cover !important;
-  object-position: center 92% !important;
+  object-position: center 88% !important;
   border-radius: 0 !important;
   border: none !important;
   box-shadow: none !important;
@@ -819,7 +819,7 @@ html[data-theme="dark"] {
 
 .home-btn:hover {
   border-color: var(--site-link-hover);
-  background: rgba(31, 133, 120, 0.07);
+  background: rgba(70, 177, 225, 0.1);
   color: var(--site-link-hover) !important;
 }
 
