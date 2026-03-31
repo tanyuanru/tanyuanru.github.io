@@ -137,10 +137,7 @@ h1, h2, h3, h4, h5, h6 {
 
 #site-nav.greedy-nav .visible-links > li.masthead__menu-item--current > a {
   font-weight: 700 !important;
-  text-decoration: underline !important;
-  text-underline-offset: 0.22em;
-  text-decoration-thickness: 2px;
-  text-decoration-color: rgba(26, 45, 74, 0.45);
+  text-decoration: none !important;
   background-color: rgba(26, 45, 74, 0.07);
   border-radius: 6px;
   padding: 0.28em 0.55em 0.32em;
@@ -496,53 +493,31 @@ html[data-theme="dark"] {
 
 .page__content .home-landing.home-landing--split .home-main-with-news {
   width: 100%;
+  max-width: 42rem;
+  margin-left: clamp(1.35rem, 3vw, 2.75rem);
+  margin-right: auto;
 }
 
 @media screen and (min-width: 1100px) {
-  /* Intro spans full band; row 2 = My Research (left) + News (right, extra gap) */
+  /* News lives in sidebar; intro + research share one column width, nudged right */
   .page__content .home-landing.home-landing--split .home-main-with-news {
-    display: grid;
-    grid-template-columns: minmax(0, 1fr) 17.5rem;
-    column-gap: clamp(3.75rem, 6vw, 6rem);
-    row-gap: 1.1rem;
-    align-items: start;
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+    max-width: 42rem;
+    margin-left: clamp(1.5rem, 3.5vw, 3rem);
+    margin-right: auto;
   }
 
-  .page__content .home-landing.home-landing--split .about-body--intro {
-    grid-column: 1 / -1;
-    grid-row: 1;
+  .page__content .home-landing.home-landing--split .about-body--intro,
+  .page__content .home-landing.home-landing--split .about-body--research {
     min-width: 0;
-    max-width: none;
+    max-width: 42rem;
     width: 100%;
   }
 
   .page__content .home-landing.home-landing--split .about-body--research {
-    grid-column: 1;
-    grid-row: 2;
-    min-width: 0;
-    max-width: 44rem;
-  }
-
-  .page__content .home-landing.home-landing--split .home-news-column {
-    grid-column: 2;
-    grid-row: 2;
-    width: 17.5rem;
-    max-width: min(17.5rem, 28vw);
-    justify-self: end;
-    margin-left: 0;
-    position: sticky;
-    top: 5.5rem;
-    align-self: start;
-  }
-
-  .page__content .home-landing.home-landing--split .home-news-column .home-section {
     margin-top: 0;
-  }
-
-  .page__content .home-landing.home-landing--split .home-news-column .home-section > h2 {
-    margin-top: 0;
-    font-size: 1rem;
-    letter-spacing: -0.01em;
   }
 }
 
@@ -550,28 +525,15 @@ html[data-theme="dark"] {
   .page__content .home-landing.home-landing--split .home-main-with-news {
     display: flex;
     flex-direction: column;
-  }
-
-  .page__content .home-landing.home-landing--split .home-news-column {
-    order: 3;
-    margin-top: 1.85rem;
-    width: 100%;
     max-width: 44rem;
     margin-left: auto;
     margin-right: auto;
   }
-
-  .page__content .home-landing.home-landing--split .about-body--intro {
-    order: 1;
-  }
-
-  .page__content .home-landing.home-landing--split .about-body--research {
-    order: 2;
-  }
 }
 
 .page__content .home-landing a,
-.archive .home-landing a {
+.archive .home-landing a,
+.sidebar .sidebar-home-news a {
   color: var(--site-link, #2b7dbf);
   text-decoration: none !important;
   border-bottom: 1px solid rgba(43, 125, 191, 0.42);
@@ -579,7 +541,8 @@ html[data-theme="dark"] {
 }
 
 .page__content .home-landing a:hover,
-.archive .home-landing a:hover {
+.archive .home-landing a:hover,
+.sidebar .sidebar-home-news a:hover {
   color: var(--site-link-hover, #1d5a8f) !important;
   border-bottom-color: rgba(29, 90, 143, 0.52);
 }
@@ -856,13 +819,6 @@ html[data-theme="dark"] {
   margin-top: 2.15rem;
 }
 
-/* Split layout: intro is separate; first h2 is already under row gap */
-@media screen and (min-width: 1100px) {
-  .page__content .home-landing.home-landing--split .about-body--research > h2:first-of-type {
-    margin-top: 0;
-  }
-}
-
 .page__content .home-landing .about-body > p {
   line-height: 25px;
   margin-bottom: 0.65rem;
@@ -1086,8 +1042,9 @@ html[data-theme="dark"] {
   margin-top: 1.65rem;
 }
 
-/* News: date badges (uses :root --news-badge-*) */
-.page__content .home-landing .home-news-list {
+/* News: date badges (uses :root --news-badge-*) — main column + sidebar home */
+.page__content .home-landing .home-news-list,
+.sidebar .sidebar-home-news .home-news-list {
   margin: 0.25rem 0 0;
   padding: 0;
   list-style: none;
@@ -1096,7 +1053,8 @@ html[data-theme="dark"] {
   color: #424242;
 }
 
-.page__content .home-landing .home-news-list li {
+.page__content .home-landing .home-news-list li,
+.sidebar .sidebar-home-news .home-news-list li {
   display: flex;
   align-items: flex-start;
   gap: 0.55rem;
@@ -1105,11 +1063,13 @@ html[data-theme="dark"] {
   font-weight: 400;
 }
 
-.page__content .home-landing .home-news-list li:last-child {
+.page__content .home-landing .home-news-list li:last-child,
+.sidebar .sidebar-home-news .home-news-list li:last-child {
   margin-bottom: 0;
 }
 
-.page__content .home-landing .home-news-list .home-news-date {
+.page__content .home-landing .home-news-list .home-news-date,
+.sidebar .sidebar-home-news .home-news-list .home-news-date {
   flex-shrink: 0;
   display: inline-block;
   margin: 0.12rem 0 0;
@@ -1124,20 +1084,24 @@ html[data-theme="dark"] {
   white-space: nowrap;
 }
 
-.page__content .home-landing .home-news-list .home-news-text {
+.page__content .home-landing .home-news-list .home-news-text,
+.sidebar .sidebar-home-news .home-news-list .home-news-text {
   flex: 1 1 auto;
   min-width: 0;
 }
 
-.page__content .home-landing .home-news-list a {
+.page__content .home-landing .home-news-list a,
+.sidebar .sidebar-home-news .home-news-list a {
   font-weight: 400;
 }
 
-.page__content .home-landing .home-news-archive {
+.page__content .home-landing .home-news-archive,
+.sidebar .sidebar-home-news .home-news-archive {
   margin-top: 0.55rem;
 }
 
-.page__content .home-landing .home-news-archive__summary {
+.page__content .home-landing .home-news-archive__summary,
+.sidebar .sidebar-home-news .home-news-archive__summary {
   cursor: pointer;
   font-size: 14px;
   font-weight: 500;
@@ -1146,16 +1110,19 @@ html[data-theme="dark"] {
   padding: 0.35rem 0;
 }
 
-.page__content .home-landing .home-news-archive__summary::-webkit-details-marker {
+.page__content .home-landing .home-news-archive__summary::-webkit-details-marker,
+.sidebar .sidebar-home-news .home-news-archive__summary::-webkit-details-marker {
   display: none;
 }
 
-.page__content .home-landing .home-news-archive__summary::marker {
+.page__content .home-landing .home-news-archive__summary::marker,
+.sidebar .sidebar-home-news .home-news-archive__summary::marker {
   content: "";
   font-size: 0;
 }
 
-.page__content .home-landing .home-news-archive__summary::before {
+.page__content .home-landing .home-news-archive__summary::before,
+.sidebar .sidebar-home-news .home-news-archive__summary::before {
   content: "";
   display: inline-block;
   width: 0;
@@ -1169,13 +1136,44 @@ html[data-theme="dark"] {
   vertical-align: middle;
 }
 
-.page__content .home-landing .home-news-archive[open] .home-news-archive__summary::before {
+.page__content .home-landing .home-news-archive[open] .home-news-archive__summary::before,
+.sidebar .sidebar-home-news .home-news-archive[open] .home-news-archive__summary::before {
   transform: rotate(90deg) translate(0.08em, 0.02em);
 }
 
-.page__content .home-landing .home-news-archive .home-news-list--archive {
+.page__content .home-landing .home-news-archive .home-news-list--archive,
+.sidebar .sidebar-home-news .home-news-archive .home-news-list--archive {
   margin-top: 0.35rem;
   padding-top: 0.15rem;
+}
+
+/* News under sidebar social icons: divider + compact type for narrow column */
+.sidebar .sidebar-home-news {
+  margin-top: 1.2rem;
+  padding-top: 1rem;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+  max-width: 100%;
+}
+
+.sidebar .sidebar-home-news .home-section {
+  margin-top: 0 !important;
+}
+
+.sidebar .sidebar-home-news .home-section > h2 {
+  font-size: 0.95rem;
+  font-weight: 600;
+  margin: 0 0 0.4rem;
+  padding-bottom: 0.3em;
+  border-bottom: 1px solid var(--global-border-color, #ddd);
+  font-family: -apple-system, BlinkMacSystemFont, system-ui, "Segoe UI", Roboto, sans-serif !important;
+  line-height: 1.35;
+  color: #333;
+  letter-spacing: -0.01em;
+}
+
+.sidebar .sidebar-home-news .home-news-list,
+.sidebar .sidebar-home-news .home-news-archive__summary {
+  font-size: 0.8125rem;
 }
 
 .page__content .home-landing .home-pub-card {

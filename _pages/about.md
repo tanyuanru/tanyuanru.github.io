@@ -43,12 +43,6 @@ redirect_from:
 
 </div>
 
-<div class="home-news-column">
-{::nomarkdown}
-{% include home-news-section.html %}
-{:/nomarkdown}
-</div>
-
 </div>
 
 </div>
