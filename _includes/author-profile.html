@@ -31,15 +31,15 @@
   </div>
 
 <div class="author__content">
-  {% if author.name_zh %}
-  <p class="author__name-zh author__name-zh--first" lang="zh">{{ author.name_zh }}</p>
-  {% endif %}
   <div class="author__name-row">
-    <h3 class="author__name">{{ author.name }}</h3>
     {% if author.pronunciation_url %}
     <a href="{{ author.pronunciation_url }}" class="author__pronounce-btn" target="_blank" rel="noopener noreferrer" aria-label="Hear how to pronounce my name (opens NameDrop in a new tab)" title="Hear pronunciation">
       <i class="fas fa-volume-up" aria-hidden="true"></i>
     </a>
+    {% endif %}
+    <h3 class="author__name">{{ author.name }}</h3>
+    {% if author.name_zh %}
+    <span class="author__name-zh" lang="zh">{{ author.name_zh }}</span>
     {% endif %}
   </div>
   {% if author.email %}

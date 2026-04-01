@@ -156,7 +156,7 @@ h1, h2, h3, h4, h5, h6 {
 #site-nav.greedy-nav .visible-links > li.masthead__menu-item--current > a {
   font-weight: 700 !important;
   text-decoration: none !important;
-  background-color: rgba(26, 45, 74, 0.07);
+  background-color: var(--site-link-soft-bg);
   border-radius: 6px;
   padding: 0.28em 0.55em 0.32em;
 }
@@ -246,27 +246,28 @@ h1, h2, h3, h4, h5, h6 {
   text-align: center !important;
 }
 
-.sidebar .author__name-zh--first {
-  margin: 0.2rem 0 0.4rem !important;
-}
-
 .sidebar .author__name-row {
   display: flex !important;
+  flex-direction: row !important;
   align-items: center !important;
   justify-content: center !important;
   flex-wrap: wrap !important;
-  gap: 0.4rem !important;
-  margin: 0 0 0.5rem !important;
+  gap: 0.35rem 0.5rem !important;
+  margin: 0.15rem 0 0.5rem !important;
 }
 
 .sidebar .author__name-row .author__name {
   margin: 0 !important;
 }
 
+/* Sidebar name: sans-serif to match body / nav (h3 is serif globally) */
 .sidebar .author__name {
   text-align: center !important;
   color: var(--site-navy) !important;
-  font-family: 'IBM Plex Serif', Georgia, serif !important;
+  font-family: 'IBM Plex Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif !important;
+  font-size: 1.05rem !important;
+  font-weight: 600 !important;
+  line-height: 1.25 !important;
 }
 
 /* NameDrop / pronunciation: compact speaker control (opens audio page in new tab) */
@@ -289,17 +290,20 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .sidebar .author__pronounce-btn:hover {
-  background: rgba(0, 0, 0, 0.08) !important;
-  color: var(--site-navy-mid, #2a5a7a) !important;
+  background: var(--site-link-soft-bg) !important;
+  border-color: rgba(0, 127, 255, 0.28) !important;
+  color: var(--site-link-hover) !important;
   transform: scale(1.05) !important;
 }
 
 .sidebar .author__name-zh {
   text-align: center !important;
-  font-size: 1rem !important;
+  font-size: 1.02rem !important;
   font-weight: 500 !important;
   color: var(--site-navy) !important;
-  line-height: 1.35 !important;
+  line-height: 1.25 !important;
+  font-family: 'IBM Plex Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', sans-serif !important;
+  white-space: nowrap !important;
 }
 
 .sidebar .author__sidebar-line {
