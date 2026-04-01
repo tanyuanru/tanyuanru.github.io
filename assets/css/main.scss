@@ -42,19 +42,17 @@
   --site-navy-mid: #2a3f63;
   --site-body: #2c2c2c;
   --site-body-muted: #5c5c5c;
-  /* Link accent (slate blue, slightly dark for readability) */
-  --site-link: #5f6f8f;
-  --site-link-hover: #4a5770;
-  --site-link-underline: rgba(95, 111, 143, 0.5);
-  --site-link-underline-hover: rgba(74, 87, 112, 0.62);
+  /* Link accent (muted purple) */
+  --site-link: #9172ba;
+  --site-link-hover: #7357a0;
+  --site-link-underline: rgba(145, 114, 186, 0.48);
+  --site-link-underline-hover: rgba(115, 87, 160, 0.58);
   /* News date pills + publication author highlight */
-  --news-badge-bg: #dde3ef;
-  --news-badge-text: #3d4d6b;
-  /* Teaching cards / pills (tied to link family) */
-  --teaching-pill-bg: #dde3ef;
-  --teaching-pill-text: #2f3d56;
-  --teaching-card-bg: rgba(95, 111, 143, 0.07);
-  --teaching-card-bg-hover: rgba(95, 111, 143, 0.12);
+  --news-badge-bg: #efe8f7;
+  --news-badge-text: #5c4680;
+  /* Teaching: pill labels only (section body stays plain) */
+  --teaching-pill-bg: #ebe2f4;
+  --teaching-pill-text: #4a3868;
   /* News list (sidebar + any in-page list) */
   --home-news-font-size: 0.75rem;
   --home-news-line-height: 1.38;
@@ -664,19 +662,19 @@ html[data-theme="dark"] {
   margin-top: 0.55rem;
 }
 
-/* Teaching & Mentoring: hover card (match home research highlight rows) */
+/* Teaching & Mentoring: no fill on section body — only pill labels use background */
 .archive .home-landing.teaching-page section.teaching-block.teaching-block--card {
   padding: 0.7rem 0.85rem;
   border-radius: 10px;
-  border: 1px solid rgba(95, 111, 143, 0.12);
-  background: var(--teaching-card-bg);
+  border: 1px solid transparent;
+  background: transparent;
   transition: background 0.2s ease, box-shadow 0.2s ease, border-color 0.2s ease, transform 0.2s ease;
 }
 
 .archive .home-landing.teaching-page section.teaching-block.teaching-block--card:hover {
-  background: var(--teaching-card-bg-hover);
-  border-color: rgba(95, 111, 143, 0.2);
-  box-shadow: 0 4px 16px rgba(95, 111, 143, 0.12);
+  background: #fafafa;
+  border-color: rgba(0, 0, 0, 0.08);
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.07);
   transform: translateY(-2px);
 }
 
@@ -842,7 +840,7 @@ html[data-theme="dark"] {
 
 .home-btn:hover {
   border-color: var(--site-link-hover);
-  background: rgba(95, 111, 143, 0.12);
+  background: rgba(145, 114, 186, 0.12);
   color: var(--site-link-hover) !important;
 }
 
@@ -961,10 +959,10 @@ html[data-theme="dark"] {
   font-weight: 400;
 }
 
-/* Below Simulations card; align with text column (thumb + gap, same as .research-highlight-row) */
+/* Below Simulations card; inset matches text block (thumb + gap + small nudge for optical align) */
 .research-more-link--after-simulations {
   margin: 0.65rem 0 0 !important;
-  margin-left: calc(5.75rem + 0.95rem) !important;
+  margin-left: calc(5.75rem + 0.95rem + 0.55rem) !important;
   text-align: left !important;
 }
 
