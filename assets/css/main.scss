@@ -42,17 +42,17 @@
   --site-navy-mid: #2a3f63;
   --site-body: #2c2c2c;
   --site-body-muted: #5c5c5c;
-  /* Link accent (muted purple) */
-  --site-link: #9172ba;
-  --site-link-hover: #7357a0;
-  --site-link-underline: rgba(145, 114, 186, 0.48);
-  --site-link-underline-hover: rgba(115, 87, 160, 0.58);
+  /* Link accent (soft coral) */
+  --site-link: #e8a2a2;
+  --site-link-hover: #d07878;
+  --site-link-underline: rgba(232, 162, 162, 0.55);
+  --site-link-underline-hover: rgba(208, 120, 120, 0.65);
   /* News date pills + publication author highlight */
-  --news-badge-bg: #efe8f7;
-  --news-badge-text: #5c4680;
+  --news-badge-bg: #fcecec;
+  --news-badge-text: #a85a5a;
   /* Teaching: pill labels only (section body stays plain) */
-  --teaching-pill-bg: #ebe2f4;
-  --teaching-pill-text: #4a3868;
+  --teaching-pill-bg: #fce8e8;
+  --teaching-pill-text: #8f4a4a;
   /* News list (sidebar + any in-page list) */
   --home-news-font-size: 0.75rem;
   --home-news-line-height: 1.38;
@@ -436,7 +436,7 @@ html[data-theme="dark"] {
 .sidebar .author__avatar {
   display: block !important;
   width: 100% !important;
-  max-width: 240px !important;
+  max-width: 208px !important;
   height: auto !important;
   margin: 0 auto 0.75rem !important;
   margin-top: 0;
@@ -840,7 +840,7 @@ html[data-theme="dark"] {
 
 .home-btn:hover {
   border-color: var(--site-link-hover);
-  background: rgba(145, 114, 186, 0.12);
+  background: rgba(232, 162, 162, 0.18);
   color: var(--site-link-hover) !important;
 }
 
