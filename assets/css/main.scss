@@ -34,7 +34,7 @@
 
 /* ===== Custom styles by Yuanru Tan ===== */
 
-@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,400;0,450;0,500;0,600;1,400&family=IBM+Plex+Serif:ital,wght@0,500;0,600;0,700;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,300;0,400;0,450;0,500;0,600;1,400&family=IBM+Plex+Serif:ital,wght@0,500;0,600;0,700;1,400&display=swap');
 
 /* Calm academic palette + centered column (inspired by clean MM academic sites) */
 :root {
@@ -129,9 +129,9 @@ h1, h2, h3, h4, h5, h6 {
   color: var(--site-navy-mid) !important;
 }
 
-/* Masthead: same size + weight for every tab; current tab emphasized separately */
+/* Masthead: same size + lighter weight; current tab slightly stronger */
 #site-nav.greedy-nav .visible-links > li {
-  font-weight: 500 !important;
+  font-weight: 400 !important;
   font-size: 0.9rem !important;
 }
 
@@ -141,20 +141,20 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #site-nav.greedy-nav .visible-links > li:first-child {
-  font-weight: 500 !important;
+  font-weight: 400 !important;
 }
 
 .masthead__menu-item.masthead__menu-item--lg {
-  font-weight: 500 !important;
+  font-weight: 400 !important;
   font-size: 0.9rem !important;
 }
 
 #site-nav.greedy-nav .visible-links > li.masthead__menu-item--current {
-  font-weight: 700 !important;
+  font-weight: 500 !important;
 }
 
 #site-nav.greedy-nav .visible-links > li.masthead__menu-item--current > a {
-  font-weight: 700 !important;
+  font-weight: 500 !important;
   text-decoration: none !important;
   background-color: var(--site-link-soft-bg);
   border-radius: 6px;
@@ -299,8 +299,8 @@ h1, h2, h3, h4, h5, h6 {
 .sidebar .author__name-zh {
   text-align: center !important;
   font-size: 1.02rem !important;
-  font-weight: 500 !important;
-  color: var(--site-navy) !important;
+  font-weight: 300 !important;
+  color: var(--site-body-muted) !important;
   line-height: 1.25 !important;
   font-family: 'IBM Plex Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', sans-serif !important;
   white-space: nowrap !important;
@@ -942,6 +942,18 @@ html[data-theme="dark"] {
 .research-highlight-thumb--wide img {
   max-height: 4.75rem;
   border-radius: 6px;
+}
+
+/* ETM: horizontal logo — give thumb a bit more width */
+.research-highlight-thumb--etm {
+  flex: 0 0 7rem;
+  width: 7rem;
+  min-width: 7rem;
+}
+
+.research-highlight-thumb--etm img {
+  max-height: 2.85rem;
+  max-width: 100%;
 }
 
 .research-highlight-text {
