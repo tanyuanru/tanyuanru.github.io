@@ -4,8 +4,6 @@ title: ""
 show_news: true
 show_latest_posts: false
 author_profile: true
-# Temporary: side-by-side hyperlink color options (set false to hide)
-show_link_palette: true
 redirect_from: 
   - /about/
   - /about.html
@@ -44,10 +42,6 @@ redirect_from:
 {% include home-research-highlights.html %}
 
 </div>
-
-{% if page.show_link_palette %}
-{% include link-color-palette.html %}
-{% endif %}
 
 </div>
 
