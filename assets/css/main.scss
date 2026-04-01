@@ -944,16 +944,21 @@ html[data-theme="dark"] {
   border-radius: 6px;
 }
 
-/* ETM: horizontal logo — give thumb a bit more width */
+/* ETM: horizontal logo — match ONA visual height (~4.5rem); wider column so aspect ratio isn’t starved */
 .research-highlight-thumb--etm {
-  flex: 0 0 7rem;
-  width: 7rem;
-  min-width: 7rem;
+  flex: 0 0 10.75rem;
+  width: 10.75rem;
+  min-width: 10.75rem;
+  min-height: 4.5rem;
+  align-items: center;
 }
 
 .research-highlight-thumb--etm img {
-  max-height: 2.85rem;
+  max-height: 4.5rem;
   max-width: 100%;
+  width: auto;
+  height: auto;
+  object-fit: contain;
 }
 
 .research-highlight-text {
