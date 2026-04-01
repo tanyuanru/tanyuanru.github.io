@@ -60,6 +60,8 @@
   --home-news-summary-font-size: 0.8125rem;
   --home-news-heading-font-size: 0.875rem;
   --site-bg: #ffffff;
+  /* Research cards: one thumb width so ONA / ETM / … body text lines up */
+  --research-highlight-thumb-width: 10.75rem;
 }
 
 html {
@@ -913,12 +915,12 @@ html[data-theme="dark"] {
 }
 
 .research-highlight-thumb {
-  flex: 0 0 5.75rem;
-  width: 5.75rem;
-  min-width: 5.75rem;
-  min-height: 3rem;
+  flex: 0 0 var(--research-highlight-thumb-width);
+  width: var(--research-highlight-thumb-width);
+  min-width: var(--research-highlight-thumb-width);
+  min-height: 4.5rem;
   display: flex;
-  align-items: flex-start;
+  align-items: center;
   justify-content: center;
   padding-top: 0.12rem;
 }
@@ -933,10 +935,10 @@ html[data-theme="dark"] {
 }
 
 .research-highlight-thumb--wide {
-  flex: 0 0 5.75rem;
-  width: 5.75rem;
-  min-width: 5.75rem;
-  min-height: 3rem;
+  flex: 0 0 var(--research-highlight-thumb-width);
+  width: var(--research-highlight-thumb-width);
+  min-width: var(--research-highlight-thumb-width);
+  min-height: 4.5rem;
 }
 
 .research-highlight-thumb--wide img {
@@ -944,21 +946,12 @@ html[data-theme="dark"] {
   border-radius: 6px;
 }
 
-/* ETM: horizontal logo — match ONA visual height (~4.5rem); wider column so aspect ratio isn’t starved */
-.research-highlight-thumb--etm {
-  flex: 0 0 10.75rem;
-  width: 10.75rem;
-  min-width: 10.75rem;
-  min-height: 4.5rem;
-  align-items: center;
-}
-
-.research-highlight-thumb--etm img {
-  max-height: 4.5rem;
-  max-width: 100%;
-  width: auto;
-  height: auto;
-  object-fit: contain;
+/* ONA / ETM / … — same thumb column + explicit left text (home column is otherwise centered) */
+.page__content .home-landing .research-highlight-text,
+.page__content .home-landing .research-highlight-main,
+.archive .home-landing .research-highlight-text,
+.archive .home-landing .research-highlight-main {
+  text-align: left;
 }
 
 .research-highlight-text {
@@ -967,11 +960,13 @@ html[data-theme="dark"] {
   min-width: 0;
   line-height: 25px;
   color: #424242;
+  text-align: left;
 }
 
 .research-highlight-main {
   flex: 1 1 auto;
   min-width: 0;
+  text-align: left;
 }
 
 .research-more-link {
@@ -984,7 +979,7 @@ html[data-theme="dark"] {
 /* Below Simulations card; inset matches text block (thumb + gap + small nudge for optical align) */
 .research-more-link--after-simulations {
   margin: 0.65rem 0 0 !important;
-  margin-left: calc(5.75rem + 0.95rem + 0.55rem) !important;
+  margin-left: calc(var(--research-highlight-thumb-width) + 0.95rem + 0.55rem) !important;
   text-align: left !important;
 }
 
