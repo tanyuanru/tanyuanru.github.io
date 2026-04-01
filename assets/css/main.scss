@@ -60,8 +60,8 @@
   --home-news-summary-font-size: 0.8125rem;
   --home-news-heading-font-size: 0.875rem;
   --site-bg: #ffffff;
-  /* Research cards: one thumb width so ONA / ETM / … body text lines up */
-  --research-highlight-thumb-width: 10.75rem;
+  /* Research cards: fixed thumb column (original ~5.75rem; keeps paragraph edges aligned) */
+  --research-highlight-thumb-width: 5.75rem;
 }
 
 html {
@@ -918,9 +918,9 @@ html[data-theme="dark"] {
   flex: 0 0 var(--research-highlight-thumb-width);
   width: var(--research-highlight-thumb-width);
   min-width: var(--research-highlight-thumb-width);
-  min-height: 4.5rem;
+  min-height: 3rem;
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   justify-content: center;
   padding-top: 0.12rem;
 }
@@ -938,7 +938,7 @@ html[data-theme="dark"] {
   flex: 0 0 var(--research-highlight-thumb-width);
   width: var(--research-highlight-thumb-width);
   min-width: var(--research-highlight-thumb-width);
-  min-height: 4.5rem;
+  min-height: 3rem;
 }
 
 .research-highlight-thumb--wide img {
