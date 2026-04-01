@@ -48,12 +48,12 @@
   --site-link-underline: rgba(0, 127, 255, 0.55);
   --site-link-underline-hover: rgba(0, 102, 204, 0.65);
   --site-link-soft-bg: rgba(0, 127, 255, 0.18);
-  /* News date pills + publication author highlight */
-  --news-badge-bg: #e8f4ff;
-  --news-badge-text: #005a99;
-  /* Teaching: pill labels only (section body stays plain) */
-  --teaching-pill-bg: #e5f2ff;
-  --teaching-pill-text: #004d8c;
+  /* News date pills + publication author highlight (sky blue, same hue as --site-link) */
+  --news-badge-bg: #d0eaff;
+  --news-badge-text: #0066cc;
+  /* Teaching pill labels — match news badges */
+  --teaching-pill-bg: var(--news-badge-bg);
+  --teaching-pill-text: var(--news-badge-text);
   /* News list (sidebar + any in-page list) */
   --home-news-font-size: 0.75rem;
   --home-news-line-height: 1.38;
