@@ -13,13 +13,13 @@ author_profile: true
 
 <section class="teaching-block teaching-block--card" aria-labelledby="teaching-undergrad-heading">
   <h3 id="teaching-undergrad-heading" class="teaching-subhead teaching-subhead--pill">Undergraduate Teaching</h3>
-  <p>I lectured EDPSYCH 301: <strong><em>How People Learn</em></strong>, a ~110-student undergraduate lecture course at the University of Wisconsin–Madison, for three semesters (Spring 2025, Fall 2025, Spring 2026). In this course, we explore foundational cognitive and sociocultural learning theories and their applications in educational psychology.</p>
+  <p>I lectured EDPSYCH 301: <strong>How People Learn</strong>, a ~110-student undergraduate lecture course at the University of Wisconsin–Madison, for three semesters (Spring 2025, Fall 2025, Spring 2026). In this course, we explore foundational cognitive and sociocultural learning theories and their applications in educational psychology.</p>
   <p>As a community, we maintain a <a href="https://docs.google.com/spreadsheets/d/1kuxEOxmBrjQ17s2QKsQpeB_zjSFWkTfxCUxl_NLQfwo/edit?gid=0#gid=0" target="_blank" rel="noopener noreferrer">shared resource spreadsheet</a> where students contribute study tools, playlists, favorite campus spots, and quotes that kept them going. This is a simple way to remind each other that learning is deeply human. With students’ permission, we keep it growing each semester. You’re welcome to take a look; something in there might brighten your day.</p>
 </section>
 
 <section class="teaching-block teaching-block--card" aria-labelledby="teaching-graduate-heading">
   <h3 id="teaching-graduate-heading" class="teaching-subhead teaching-subhead--pill">Graduate Teaching</h3>
-  <p>I served as a teaching assistant for three courses in the <a href="https://learninganalytics.education.wisc.edu/" target="_blank" rel="noopener noreferrer">Master of Science in Learning Analytics</a> at the University of Wisconsin–Madison: EDPSYCH 575 <strong><em>Instructional Design for Learning Analytics</em></strong>, EDPSYCH 615 <strong><em>Conversations and Visualizations</em></strong>, and EDPSYCH 695 <strong><em>Capstone in Learning Analytics</em></strong>. This online master’s program helps students develop data analysis skills and bring those insights to life through visualization. Having taught all three courses twice, I supported students from design thinking through hands-on work with tools like Tableau and R, and through capstone projects where they worked with real data from real clients.</p>
+  <p>I served as a teaching assistant for three courses in the <a href="https://learninganalytics.education.wisc.edu/" target="_blank" rel="noopener noreferrer">Master of Science in Learning Analytics</a> at the University of Wisconsin–Madison: EDPSYCH 575 <strong>Instructional Design for Learning Analytics</strong>, EDPSYCH 615 <strong>Conversations and Visualizations</strong>, and EDPSYCH 695 <strong>Capstone in Learning Analytics</strong>. This online master’s program helps students develop data analysis skills and bring those insights to life through visualization. Having taught all three courses twice, I supported students from design thinking through hands-on work with tools like Tableau and R, and through capstone projects where they worked with real data from real clients.</p>
 </section>
 
 <section class="teaching-block teaching-block--card" aria-labelledby="teaching-professional-heading">
@@ -42,7 +42,7 @@ author_profile: true
 
 <section class="teaching-block teaching-block--card" aria-labelledby="mentoring-community-heading">
   <h3 id="mentoring-community-heading" class="teaching-subhead teaching-subhead--pill">Community Mentoring</h3>
-  <p class="teaching-community">Outside the lab, I mentor international students in a community capacity. I served on the <a href="https://iss.wisc.edu/staff/tan-yuanru/" target="_blank" rel="noopener noreferrer">International Students Advisory Board</a> at UW–Madison and worked as an International Peer Mentor, as small ways of paying forward the support I received along the way.</p>
+  <p class="teaching-community">Outside the lab, I mentor international students in a community capacity. I served on the International Students Advisory Board at UW–Madison and worked as an International Peer Mentor, as small ways of paying forward the support I received along the way.</p>
   <p class="teaching-community teaching-community--note">If you’re reading this and you’re an international student in need of support, no matter which school you attend, feel free to reach out. I’m happy to help, and if I can’t, I’ll do my best to find someone who can. 🩵</p>
 </section>
 
