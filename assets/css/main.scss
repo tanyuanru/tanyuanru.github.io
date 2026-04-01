@@ -42,14 +42,14 @@
   --site-navy-mid: #2a3f63;
   --site-body: #2c2c2c;
   --site-body-muted: #5c5c5c;
-  /* Link accent (terracotta / warm coral) */
-  --site-link: #b95c4e;
-  --site-link-hover: #943e32;
-  --site-link-underline: rgba(185, 92, 78, 0.45);
-  --site-link-underline-hover: rgba(148, 62, 50, 0.58);
+  /* Link accent (muted slate blue) */
+  --site-link: #7e8eb5;
+  --site-link-hover: #5d6d90;
+  --site-link-underline: rgba(126, 142, 181, 0.48);
+  --site-link-underline-hover: rgba(93, 109, 144, 0.58);
   /* News date pills + publication author highlight */
-  --news-badge-bg: #fceee9;
-  --news-badge-text: #8d4537;
+  --news-badge-bg: #eceff7;
+  --news-badge-text: #556289;
   /* News list (sidebar + any in-page list) */
   --home-news-font-size: 0.75rem;
   --home-news-line-height: 1.38;
@@ -210,6 +210,12 @@ h1, h2, h3, h4, h5, h6 {
 
   #main > .archive {
     padding-left: clamp(0.75rem, 1.5vw, 1.25rem) !important;
+  }
+
+  /* Match Teaching / Research: same inset after sidebar on About (single layout uses article.page) */
+  #main > article.page:has(.home-landing.home-landing--split) {
+    padding-left: clamp(0.75rem, 1.5vw, 1.25rem) !important;
+    box-sizing: border-box;
   }
 }
 
@@ -537,18 +543,18 @@ html[data-theme="dark"] {
 .page__content .home-landing.home-landing--split .home-main-with-news {
   width: 100%;
   max-width: 42rem;
-  margin-left: clamp(1.35rem, 3vw, 2.75rem);
+  margin-left: 0;
   margin-right: auto;
 }
 
 @media screen and (min-width: 1100px) {
-  /* News lives in sidebar; intro + research share one column width, nudged right */
+  /* News lives in sidebar; gap from sidebar matches archive pages via article.page padding */
   .page__content .home-landing.home-landing--split .home-main-with-news {
     display: flex;
     flex-direction: column;
     gap: 0;
     max-width: 42rem;
-    margin-left: clamp(1.5rem, 3.5vw, 3rem);
+    margin-left: 0;
     margin-right: auto;
   }
 
@@ -831,7 +837,7 @@ html[data-theme="dark"] {
 
 .home-btn:hover {
   border-color: var(--site-link-hover);
-  background: rgba(185, 92, 78, 0.1);
+  background: rgba(126, 142, 181, 0.12);
   color: var(--site-link-hover) !important;
 }
 
@@ -948,6 +954,11 @@ html[data-theme="dark"] {
   font-size: 15px;
   line-height: 25px;
   font-weight: 400;
+}
+
+/* “More research” sits below the Simulations card, not inside hover lift */
+.research-more-link--after-simulations {
+  margin: 0.65rem 0 0 !important;
 }
 
 .research-more-link a {
