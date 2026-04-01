@@ -42,18 +42,18 @@
   --site-navy-mid: #2a3f63;
   --site-body: #2c2c2c;
   --site-body-muted: #5c5c5c;
-  /* Link accent (olive) */
-  --site-link: #708238;
-  --site-link-hover: #5a682d;
-  --site-link-underline: rgba(112, 130, 56, 0.55);
-  --site-link-underline-hover: rgba(90, 104, 45, 0.65);
-  --site-link-soft-bg: rgba(112, 130, 56, 0.18);
+  /* Link accent (azure blue) */
+  --site-link: #007fff;
+  --site-link-hover: #0066cc;
+  --site-link-underline: rgba(0, 127, 255, 0.55);
+  --site-link-underline-hover: rgba(0, 102, 204, 0.65);
+  --site-link-soft-bg: rgba(0, 127, 255, 0.18);
   /* News date pills + publication author highlight */
-  --news-badge-bg: #f0f3e8;
-  --news-badge-text: #55662c;
+  --news-badge-bg: #e8f4ff;
+  --news-badge-text: #005a99;
   /* Teaching: pill labels only (section body stays plain) */
-  --teaching-pill-bg: #eef1e4;
-  --teaching-pill-text: #4d5a28;
+  --teaching-pill-bg: #e5f2ff;
+  --teaching-pill-text: #004d8c;
   /* News list (sidebar + any in-page list) */
   --home-news-font-size: 0.75rem;
   --home-news-line-height: 1.38;
